@@ -1,26 +1,128 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Data Science on Phil in the Blank</title>
-    <link>//localhost:1313/categories/data-science/</link>
-    <description>Recent content in Data Science on Phil in the Blank</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 19 Dec 2020 00:00:00 +0000</lastBuildDate>
-      <atom:link href="//localhost:1313/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Spotify Top 100 Songs Analysis</title>
-      <link>//localhost:1313/projects/spotify-top100/</link>
-      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/spotify-top100/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been an avid Spotify user since my younger high-school gaming days (hipster flex), but Spotify only recently started releasing yearly music reviews that summarize the music you&amp;rsquo;ve listened to throughout that year. After seeing mine for 2020, I wondered how much my music taste had changed over time, especially given the 2020 coronavirus pandemic. Thankfully there&amp;rsquo;s a R package called &lt;code&gt;spotifyr&lt;/code&gt; that provides intuitive wrapper functions that allows one to analyze practically the entirety of Spotify music data! What follows is a quick, informal dive into this. (For getting setup, I suggest checking out the Github repo &lt;a href=&#34;https://github.com/charlie86/spotifyr&#34;&gt;here&lt;/a&gt; and this tutorial &lt;a href=&#34;https://msmith7161.github.io/what-is-speechiness/&#34;&gt;here&lt;/a&gt;.)&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-data-and-song-features&#34;&gt;The Data and Song Features&lt;/h1&gt;&#xA;&lt;p&gt;To answer my question, I&amp;rsquo;m using my &amp;ldquo;Top 100 songs of the Year&amp;rdquo; from 2016-2020 (500 songs), looking specifically at nine features associated with each song (pretty neat that Spotify does this!). I knew I&amp;rsquo;d been listening to more instrumental, acoustic music since I started learning to play guitar, so I was curious about what the data showed. The features, from their &lt;a href=&#34;https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/&#34;&gt;API&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;acousticness&lt;/strong&gt;: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;danceability&lt;/strong&gt;: How suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;energy&lt;/strong&gt;: A measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;instrumentalness&lt;/strong&gt;: Predicts whether a track contains no vocals. “Ooh” and “aah” sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly “vocal”. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;liveness&lt;/strong&gt;: Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;loudness&lt;/strong&gt;: The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;speechiness&lt;/strong&gt;: Detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;tempo&lt;/strong&gt;: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;valence&lt;/strong&gt;: A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;uh-oh&#34;&gt;Uh Oh&lt;/h1&gt;&#xA;&lt;p&gt;Wellp, looking at the different facets, looks like acousticness and instrumentalness has increased, just as suspected. But valence (positive emotion) has decreased, hitting a low in 2020! Whether or not I was actually sadder on average each day of 2020 is another story&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/projects/pressure-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a closer look via some bar plots. The general trend is that everything has decreased for each feature except acousticness and instrumentalness. Loudness has decreased though, which maybe just means I&amp;rsquo;m getting older&amp;hellip; or more sensitive to loud music. But it makes sense if you think about the increase in acousticness.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/projects/barplot-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And numbers. Voilà, une table.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Features&lt;/th&gt;&#xA;          &lt;th&gt;2016&lt;/th&gt;&#xA;          &lt;th&gt;2017&lt;/th&gt;&#xA;          &lt;th&gt;2018&lt;/th&gt;&#xA;          &lt;th&gt;2019&lt;/th&gt;&#xA;          &lt;th&gt;2020&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;acousticness&lt;/td&gt;&#xA;          &lt;td&gt;0.24&lt;/td&gt;&#xA;          &lt;td&gt;0.28&lt;/td&gt;&#xA;          &lt;td&gt;0.39&lt;/td&gt;&#xA;          &lt;td&gt;0.48&lt;/td&gt;&#xA;          &lt;td&gt;0.56&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;danceability&lt;/td&gt;&#xA;          &lt;td&gt;0.59&lt;/td&gt;&#xA;          &lt;td&gt;0.62&lt;/td&gt;&#xA;          &lt;td&gt;0.56&lt;/td&gt;&#xA;          &lt;td&gt;0.53&lt;/td&gt;&#xA;          &lt;td&gt;0.49&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;energy&lt;/td&gt;&#xA;          &lt;td&gt;0.63&lt;/td&gt;&#xA;          &lt;td&gt;0.62&lt;/td&gt;&#xA;          &lt;td&gt;0.52&lt;/td&gt;&#xA;          &lt;td&gt;0.49&lt;/td&gt;&#xA;          &lt;td&gt;0.42&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;instrumentalness&lt;/td&gt;&#xA;          &lt;td&gt;0.12&lt;/td&gt;&#xA;          &lt;td&gt;0.11&lt;/td&gt;&#xA;          &lt;td&gt;0.18&lt;/td&gt;&#xA;          &lt;td&gt;0.24&lt;/td&gt;&#xA;          &lt;td&gt;0.52&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;liveness&lt;/td&gt;&#xA;          &lt;td&gt;0.18&lt;/td&gt;&#xA;          &lt;td&gt;0.15&lt;/td&gt;&#xA;          &lt;td&gt;0.17&lt;/td&gt;&#xA;          &lt;td&gt;0.15&lt;/td&gt;&#xA;          &lt;td&gt;0.14&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;loudness&lt;/td&gt;&#xA;          &lt;td&gt;-7.41&lt;/td&gt;&#xA;          &lt;td&gt;-8.07&lt;/td&gt;&#xA;          &lt;td&gt;-10.11&lt;/td&gt;&#xA;          &lt;td&gt;-11.85&lt;/td&gt;&#xA;          &lt;td&gt;-13.37&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;speechiness&lt;/td&gt;&#xA;          &lt;td&gt;0.09&lt;/td&gt;&#xA;          &lt;td&gt;0.07&lt;/td&gt;&#xA;          &lt;td&gt;0.06&lt;/td&gt;&#xA;          &lt;td&gt;0.04&lt;/td&gt;&#xA;          &lt;td&gt;0.04&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;tempo&lt;/td&gt;&#xA;          &lt;td&gt;122.08&lt;/td&gt;&#xA;          &lt;td&gt;123.69&lt;/td&gt;&#xA;          &lt;td&gt;121.12&lt;/td&gt;&#xA;          &lt;td&gt;121.26&lt;/td&gt;&#xA;          &lt;td&gt;116.32&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;valence&lt;/td&gt;&#xA;          &lt;td&gt;0.45&lt;/td&gt;&#xA;          &lt;td&gt;0.48&lt;/td&gt;&#xA;          &lt;td&gt;0.41&lt;/td&gt;&#xA;          &lt;td&gt;0.42&lt;/td&gt;&#xA;          &lt;td&gt;0.31&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h1 id=&#34;inconclusive-conclusions&#34;&gt;Inconclusive Conclusions&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;d say from personal experience that this trend toward increased acousticness and instrumentalness is a general feature of widened musical taste. I imagine it&amp;rsquo;s also associated with more bouts of work and study sessions, especially in 2020 given I started graduate school. But I also discovered more music of an acoustic, instrumental nature (Olafur Arnalds, City of the Sun, Max Richter) which I played HEAVILY on repeat while slacklining and rollerblading, two new hobbies I picked up over the summer. My love of fingerpicking on guitar probably has an influence on that too.&lt;/p&gt;&#xA;&lt;p&gt;As for the valence, well, let&amp;rsquo;s find out next year if that changes. I don&amp;rsquo;t actually feel like my subjective experience of days are all too different from the previous years, although some days are definitely lonelier. In moments like those I often turn to music. What the data doesn&amp;rsquo;t capture is the upswing in mood I feel from that form of connection. And don&amp;rsquo;t worry, I&amp;rsquo;m still dancing in my kitchen.&lt;/p&gt;&#xA;</description>
-    </item>
-    <item>
-      <title>Data Science I Final Project: TV Tropes</title>
-      <link>//localhost:1313/projects/tv-tropes/</link>
-      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/tv-tropes/</guid>
-      <description>&lt;p&gt;This is a project I worked on with another graduate student in Data Science I. We open-sourced the code here: &lt;a href=&#34;https://github.com/jwzimmer/tv-tropes&#34;&gt;TV Tropes Data Science I Project&lt;/a&gt;. The project involved web scraping a large chunk of webpages from TV Tropes,  network analysis, and data science!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/projects/top_100nodes_6communities.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Science on Phil in the Blank</title><link>/categories/data-science/</link><description>Recent content in Data Science on Phil in the Blank</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 19 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml"/><item><title>Spotify Top 100 Songs Analysis</title><link>/projects/spotify-top100/</link><pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate><guid>/projects/spotify-top100/</guid><description>&lt;p>I&amp;rsquo;ve been an avid Spotify user since my younger high-school gaming days (hipster flex), but Spotify only recently started releasing yearly music reviews that summarize the music you&amp;rsquo;ve listened to throughout that year. After seeing mine for 2020, I wondered how much my music taste had changed over time, especially given the 2020 coronavirus pandemic. Thankfully there&amp;rsquo;s a R package called &lt;code>spotifyr&lt;/code> that provides intuitive wrapper functions that allows one to analyze practically the entirety of Spotify music data! What follows is a quick, informal dive into this. (For getting setup, I suggest checking out the Github repo &lt;a href="https://github.com/charlie86/spotifyr">here&lt;/a> and this tutorial &lt;a href="https://msmith7161.github.io/what-is-speechiness/">here&lt;/a>.)&lt;/p>
+&lt;h1 id="the-data-and-song-features">The Data and Song Features&lt;/h1>
+&lt;p>To answer my question, I&amp;rsquo;m using my &amp;ldquo;Top 100 songs of the Year&amp;rdquo; from 2016-2020 (500 songs), looking specifically at nine features associated with each song (pretty neat that Spotify does this!). I knew I&amp;rsquo;d been listening to more instrumental, acoustic music since I started learning to play guitar, so I was curious about what the data showed. The features, from their &lt;a href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/">API&lt;/a>:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>acousticness&lt;/strong>: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>danceability&lt;/strong>: How suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>energy&lt;/strong>: A measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>instrumentalness&lt;/strong>: Predicts whether a track contains no vocals. “Ooh” and “aah” sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly “vocal”. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>liveness&lt;/strong>: Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>loudness&lt;/strong>: The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>speechiness&lt;/strong>: Detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>tempo&lt;/strong>: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>valence&lt;/strong>: A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="uh-oh">Uh Oh&lt;/h1>
+&lt;p>Wellp, looking at the different facets, looks like acousticness and instrumentalness has increased, just as suspected. But valence (positive emotion) has decreased, hitting a low in 2020! Whether or not I was actually sadder on average each day of 2020 is another story&amp;hellip;&lt;/p>
+&lt;p>&lt;img src="/images/projects/pressure-1.png" alt="">&lt;/p>
+&lt;p>Here&amp;rsquo;s a closer look via some bar plots. The general trend is that everything has decreased for each feature except acousticness and instrumentalness. Loudness has decreased though, which maybe just means I&amp;rsquo;m getting older&amp;hellip; or more sensitive to loud music. But it makes sense if you think about the increase in acousticness.&lt;/p>
+&lt;p>&lt;img src="/images/projects/barplot-1.png" alt="">&lt;/p>
+&lt;p>And numbers. Voilà, une table.&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Features&lt;/th>
+ &lt;th>2016&lt;/th>
+ &lt;th>2017&lt;/th>
+ &lt;th>2018&lt;/th>
+ &lt;th>2019&lt;/th>
+ &lt;th>2020&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>acousticness&lt;/td>
+ &lt;td>0.24&lt;/td>
+ &lt;td>0.28&lt;/td>
+ &lt;td>0.39&lt;/td>
+ &lt;td>0.48&lt;/td>
+ &lt;td>0.56&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>danceability&lt;/td>
+ &lt;td>0.59&lt;/td>
+ &lt;td>0.62&lt;/td>
+ &lt;td>0.56&lt;/td>
+ &lt;td>0.53&lt;/td>
+ &lt;td>0.49&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>energy&lt;/td>
+ &lt;td>0.63&lt;/td>
+ &lt;td>0.62&lt;/td>
+ &lt;td>0.52&lt;/td>
+ &lt;td>0.49&lt;/td>
+ &lt;td>0.42&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>instrumentalness&lt;/td>
+ &lt;td>0.12&lt;/td>
+ &lt;td>0.11&lt;/td>
+ &lt;td>0.18&lt;/td>
+ &lt;td>0.24&lt;/td>
+ &lt;td>0.52&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>liveness&lt;/td>
+ &lt;td>0.18&lt;/td>
+ &lt;td>0.15&lt;/td>
+ &lt;td>0.17&lt;/td>
+ &lt;td>0.15&lt;/td>
+ &lt;td>0.14&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>loudness&lt;/td>
+ &lt;td>-7.41&lt;/td>
+ &lt;td>-8.07&lt;/td>
+ &lt;td>-10.11&lt;/td>
+ &lt;td>-11.85&lt;/td>
+ &lt;td>-13.37&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>speechiness&lt;/td>
+ &lt;td>0.09&lt;/td>
+ &lt;td>0.07&lt;/td>
+ &lt;td>0.06&lt;/td>
+ &lt;td>0.04&lt;/td>
+ &lt;td>0.04&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>tempo&lt;/td>
+ &lt;td>122.08&lt;/td>
+ &lt;td>123.69&lt;/td>
+ &lt;td>121.12&lt;/td>
+ &lt;td>121.26&lt;/td>
+ &lt;td>116.32&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>valence&lt;/td>
+ &lt;td>0.45&lt;/td>
+ &lt;td>0.48&lt;/td>
+ &lt;td>0.41&lt;/td>
+ &lt;td>0.42&lt;/td>
+ &lt;td>0.31&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h1 id="inconclusive-conclusions">Inconclusive Conclusions&lt;/h1>
+&lt;p>I&amp;rsquo;d say from personal experience that this trend toward increased acousticness and instrumentalness is a general feature of widened musical taste. I imagine it&amp;rsquo;s also associated with more bouts of work and study sessions, especially in 2020 given I started graduate school. But I also discovered more music of an acoustic, instrumental nature (Olafur Arnalds, City of the Sun, Max Richter) which I played HEAVILY on repeat while slacklining and rollerblading, two new hobbies I picked up over the summer. My love of fingerpicking on guitar probably has an influence on that too.&lt;/p>
+&lt;p>As for the valence, well, let&amp;rsquo;s find out next year if that changes. I don&amp;rsquo;t actually feel like my subjective experience of days are all too different from the previous years, although some days are definitely lonelier. In moments like those I often turn to music. What the data doesn&amp;rsquo;t capture is the upswing in mood I feel from that form of connection. And don&amp;rsquo;t worry, I&amp;rsquo;m still dancing in my kitchen.&lt;/p></description></item><item><title>Data Science I Final Project: TV Tropes</title><link>/projects/tv-tropes/</link><pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate><guid>/projects/tv-tropes/</guid><description>&lt;p>This is a project I worked on with another graduate student in Data Science I. We open-sourced the code here: &lt;a href="https://github.com/jwzimmer/tv-tropes">TV Tropes Data Science I Project&lt;/a>. The project involved web scraping a large chunk of webpages from TV Tropes, network analysis, and data science!&lt;/p>
+&lt;p>&lt;img src="/images/projects/top_100nodes_6communities.png" alt="">&lt;/p></description></item></channel></rss>
