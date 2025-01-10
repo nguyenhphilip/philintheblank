@@ -30,6 +30,60 @@
             position: fixed;
         }
 
+        .site-title {
+            font-size: 1.1rem;
+            line-height: 1;
+            margin: 0 0 1rem 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        .site-title a {
+            color: #78797b;
+            text-decoration: none;
+        }
+
+        .site-title a:hover {
+            text-decoration: underline;
+        }
+
+        .layout__page {
+        width: 100%;   
+        max-width: 650px;   
+        margin: 0;   
+        float: none;
+        padding: 0;
+        }
+
+        .main {
+            width: 100%;   
+        }
+
+        @media screen and (max-width: 768px) {
+            .layout__page {
+                width: 100%;
+            }
+        }
+        .main-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .main-nav li {
+            margin-bottom: 0.25rem;
+        }
+
+        .main-nav a {
+            color: #4271ae;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .main-nav a:hover {
+            text-decoration: underline;
+        }
+
         .content {
             margin-left: 250px;
             max-width: 650px;
@@ -46,11 +100,78 @@
             .layout__page {
                 max-width: 90%;
             }
+            
+            .sidebar {
+                position: relative;
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+            
+            .page-container {
+                flex-direction: column;
+            }
+        }
+
+        .main-nav li {
+            margin-bottom: 0.25rem;
+            position: relative;
+        }
+
+        .nav-arrow {
+            display: inline-block;
+            margin-right: 0.5rem;  
+            font-size: 0.8rem;
+            line-height: 1;
+            color: #78797b;
+        }
+
+         
+        .nav-arrow {
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .active .nav-arrow {
+            opacity: 1;
         }
     </style>
 </head>
 <body>
     <div class="page-container">
+        <div class="sidebar">
+            <h2 class="site-title"><a href="/">Phil in the Blank</a></h2>
+            <nav class="main-nav">
+                <ul>
+                    
+                    
+                    <li class="">
+                        <a href="/posts/">Blog</a> <span class="nav-arrow">←</span>
+                    </li>
+                    
+                    <li class="active">
+                        <a href="/poems/">Poems</a> <span class="nav-arrow">←</span>
+                    </li>
+                    
+                    <li class="">
+                        <a href="/projects/">Projects</a> <span class="nav-arrow">←</span>
+                    </li>
+                    
+                    <li class="">
+                        <a href="/microposts/">Micro</a> <span class="nav-arrow">←</span>
+                    </li>
+                    
+                    <li class="">
+                        <a href="/gallery/">Gallery</a> <span class="nav-arrow">←</span>
+                    </li>
+                    
+                    <li class="">
+                        <a href="/about/">About</a> <span class="nav-arrow">←</span>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+
         <div class="layout__page">
             <main class="main layout__main">
                 
@@ -86,11 +207,6 @@ everything else.</p>
 </div>
 
 <style>
-    .post {
-        margin: 0;
-        padding: 0;
-    }
-    
     .post-content {
         line-height: 1.5;
         font-size: 0.95rem;

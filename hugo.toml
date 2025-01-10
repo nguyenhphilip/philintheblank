@@ -1,4 +1,4 @@
-baseURL = "https://philintheblank.me/"
+baseURL = "/"
 title = "Phil in the Blank"
 theme = "zen"
 languageCode = "en-us"
