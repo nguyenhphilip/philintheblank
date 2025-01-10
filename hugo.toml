@@ -1,0 +1,69 @@
+baseURL = "/"
+title = "Phil in the Blank"
+theme = "zen"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+# Add these new parameters
+[params]
+    mainSections = ["posts"]
+    mobileMenu = true
+    dateformat = "2 January 2006"
+    feedlinks = true
+    imageMaxWidth = 1024
+    submitted = true
+    copyright = "Your Name"
+    poweredby = false
+    jquery = true
+    logo = false
+    
+    # New parameter to include custom CSS
+    customCSS = ["css/global.css"]
+    
+    # Mobile menu settings
+    [params.mobile]
+        breakpoint = "md"
+
+[pagination]
+    pagerSize = 10
+
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        name = "Blog"
+        url = "/posts/"
+        weight = 10
+    [[menu.main]]
+        identifier = "poems"
+        name = "Poems"
+        url = "/poems/"
+        weight = 20
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects/"
+        weight = 30
+    [[menu.main]]
+        identifier = "microposts"
+        name = "Micro"
+        url = "/microposts/"
+        weight = 40
+    [[menu.main]]
+        identifier = "gallery"
+        name = "Gallery"
+        url = "/gallery/"
+        weight = 50
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 60
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+section = ["HTML", "RSS", "JSON"]

@@ -1,0 +1,26 @@
+---
+title: "Birdsong"
+subtitle: "A morning walk"
+date: 2023-07-13
+categories:
+  - "delights"
+title-block-banner: false
+---
+
+![[Elizabeth Anderegg | Macaulay Library](https://macaulaylibrary.org/photo/56452801?__hstc=75100365.355dbb44869644f7dd0eb688f26c5e3c.1689094307718.1689192734128.1689268306108.11&__hssc=75100365.5.1689268306108&__hsfp=2330113259&_gl=1*30xxth*_ga*MTM1MDU5Nzk5MS4xNjg5MDk0MzA3*_ga_QR4NVXZ8BM*MTY4OTI2ODMwNS4xMy4xLjE2ODkyNjg4NjUuNS4wLjA.&_ga=2.175911332.783568166.1689094307-1350597991.1689094307)](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc281577-e6e9-450a-a7e0-8abdb83c0702_720x540.jpeg)
+
+Every morning, I wake to a chorus of birdsong. Sometimes it is accompanied by rain, but mostly there is the sputtering of other early birds. They’re hairy bipeds without the ability to fly, though they do have the ingenuity for it. Today their cars and yet-oiled minds are starting and revving, preparing to drive off to only God knows where in the green mountain state. None of the shops here are open earlier than seven am, so I picture them driving to the head of a hiking trail, Camel’s Hump maybe. It’s possible too that they may be the poor souls who have to prepare the coffee and pastries I will leisure over later while lingering on last night’s fuzzy dreams and their associated meanings.
+
+There is only the rain and birdsong this morning. I reach for my phone, but an unfamiliar trill seizes my mind: “Da-da-da da-da-da da… da-da-da da-da-da da.” Seven quick notes in three parts per breath ringing in a medium-to-high register, likely from an efficient, small-breasted body. I run through my embarrassingly short and unspecific list of identifiers: Blue Jay, Northern Cardinal, House Sparrow, Robin? The bird app—no not Twitter—[Merlin](https://merlin.allaboutbirds.org/) confirms that she’s something else. She’s a [Carolina Wren](https://www.allaboutbirds.org/guide/Carolina_Wren/sounds), meaning that she is actually a He since the wren can sing. He is singing, I know, because there is a structure and cadence to it. There is also my attraction to his voice, not merely a noticing or narrowing of attention. How something so little can seize the entirety of my awareness remains a delightful mystery. I get up and go to find him.
+
+Why do birds sing? When I sing, I expend energy that might be better spent elsewhere, especially because I am not attracting potential mates with my voice any time soon. (Though it may ward off possible aggressors.) Improvement is a possibility, though practice and effort is required. The same is true for songbirds. They must learn how to sing just like us. This begins in a critical learning period, where, as nestlings, they are highly attuned to the sounds and songs of their environment, especially those of their parents. They are listening closely as the inner pathways of their language develop. Mechanistically, this is enabled by the syrinx, the feathered equivalent of our vocal box. Once ejected from the nest, they practice replicating the songs and calls of their early days on their own.
+
+They have been awake for awhile now. They are always the first to rise and meet the sun with calls and melodies that color and punctuate the morning air. Scientists don’t know why they tend to sing more at dawn than any other time of day, but I like to believe that they’re grateful for the gift of another sunrise. We should be more like them. It’s possible, certainly, just like it’s possible to become a better singer. Everyone is still asleep though. Even the dogs have yet to yield a yawn, though occasionally I find the eyes of lazed cats through the dark veil of a cross-hatched windowpane.
+
+The Carolina Wren has a repertoire of song and call variations that betray his small, brown, teapot-shaped frame. They can be found up and down the eastern coast of the US, singing at nearly all hours of the day, sometimes in duets, defying scientific generalization. I can’t find the one that I’ve set out to find—unsurprising, since they are notoriously difficult to spot visually—but it seems that he has found me. In the woods and the wilds, this is always the case. There is so much here that we cannot see and perceive. And yet it is all aware of us. Every breath and footstep we take reverberates across this vast web of unknowns. We are made part and parcel in its presence, and thus more whole. Only in stillness does the world reveal itself to us.
+
+I am most content while in rhythm and motion, but the wooded soothsayers have arrested me in lullaby. A mosquito finds my ear; I brush it off and wait. I cannot sit around and read all day, like I usually do. I cannot consider and struggle with the calculus of abstractions at all hours of the clock. I must be outside and walk, too. In the woods, by bodies of water, drenched in sunlight, draped by darkness, my thoughts become something else, less domineering in the frame of existence, no longer my own. The sun is up and the wren continues to elude my gaze, but I am still, waiting.
+
+---
+
+_[All About Birds](https://www.allaboutbirds.org/guide/Carolina_Wren/sounds) is an awesome resource for learning about (and listening to!) numerous species of birds. Check it out!_

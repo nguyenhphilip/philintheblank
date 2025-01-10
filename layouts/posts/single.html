@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="post">
+    <h2 style="margin: 0; padding: 0; line-height: 1; font-size: 1.4rem; font-weight: normal; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">{{ .Title }}</h2>
+    <div class="post-date" style="margin-top: 0.5rem; margin-bottom: 2rem; color: #666; font-size: 0.85rem;">{{ .Date.Format "January 02, 2006" }}</div>
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+</div>
+
+<style>
+    .post {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .post-content {
+        line-height: 1.5;
+        font-size: 0.95rem;
+    }
+
+    .post-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 0.5rem auto; /* Changed from '0.5rem 0' to '0.5rem auto' */
+        display: block; /* Added to enable margin auto centering */
+    }
+
+    .post-content blockquote {
+        margin: 1.5rem 0;
+        padding: 0.5rem 0 0.5rem 1.5rem;
+        border-left: 4px solid #e5e5e5;
+        color: #555;
+    }
+
+    .post-content blockquote p {
+        margin: 0;
+    }
+</style>
+{{ end }}

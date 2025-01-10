@@ -1,0 +1,20 @@
+---
+title: "One month in NYC"
+date: 2024-06-28
+title-block-banner: false
+---
+My first two weeks I stayed with a friend in Harlem. It felt longer than that, as is commonly experienced when in the midst of transition, but I didn’t do much aside from read and work, walk around the area surrounding Lenox Ave, and run in Central Park. Mostly I just observed my thoughts and reactions to things. It felt like waiting for a flip to switch to finally start living like a New Yorker. Yeah, I know, I know—waiting is probably the least New Yorker thing to do. But that’s how it went for a little while. I wasn’t in my own place yet, and my wallet was recovering from its recent financial hemorrhaging, meaning that I had to lean on time and the comfort of my old routines.
+
+Routines can be surprisingly persistent despite dramatic changes in context. Burlington, VT is nothing like New York City, yet my particular habits and thought patterns remained sticky. My impatience, for one, appeared to be context-independent. In other words, it’s a (lovable) *quality* of mine. I was closer than I thought to becoming a New Yorker, perhaps. But I moved to change and grow god damn it! So why was I still so impatient? Even the novelty of my move couldn’t keep it at bay for long.
+
+After I moved and settled in Greenpoint, my usual neuroses creeped into the fray like the gradual heat of summer. Before I knew it I was sweating in the same old ways, over the same old stuff, again. Loneliness and sadness, my unwavering companions. Fear of insignificance and lack of direction. Anxiety over making new friends. Past relationship patterns masquerading as personality traits. Wherever we go, there we are.
+
+It’s true that the city is full of infinite possibilities. Bars and bookshops in one; restaurants that aren’t afraid to burn the midnight oil; bouldering gyms with climbing walls on their rooftops (okay maybe just [one](https://www.vitalclimbinggym.com/brooklyn)); anarchist birding clubs fighting to revitalize our attention. Excess and brilliance abound: you can have it all if you want it hard enough, so it goes. Who are you here without desire?
+
+What’s also true is that possibility is a bitch. That I was constantly in close proximity to people but not actually connecting with anyone magnified the loneliness I felt on the daily. This made showing up to classes and events I planned on attending more difficult. I feared that people would see how lonely I was, how needy I felt, and not want to interact with me. Vermont came to mind in these moments, but not as much as I thought I would. I knew I needed to be here, partially to witness the familiar ways I was suffering, so that I could learn to better soothe and befriend it all. My meditation practice has certainly helped, and pretty soon I did begin to meet people, many of whom I felt an immediate kinship with.
+
+At a poetry gathering centered on the work of Diane Suess I felt only slightly nervous in voicing my musings. Later in the week I workshopped my relationship to conflict and rejection with a group of like-minded strangers. I also started learning Brazilian jiu-jitsu and even brought along a friend I had recently met at a picnic. Alongside a bunch of rebellious urbanites at a nearby park I spent two hours trailing the songs and trajectories of common birds. All of which is to say: things have been great, challenging in the best ways possible.
+
+Loneliness transforms into solitude when you cease the struggle against it. That’s harder to do in the city, which is constantly reminding you that connection is a mere train ride away. But also, while you’re here, maybe you should keep dancing with that beauty named possibility. She’s worth the company of loneliness, who ultimately wants to dance with you as well. Solitude, too, is in fact a mere seven hour train ride away, should I hear his call. For now, I feel, the city is welcoming me. I’m allowed to stay and say I belong here.
+
+![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8195448b-1f3d-4ba7-bf0a-516800d66caf_4032x3024.heic)

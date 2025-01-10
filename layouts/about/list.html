@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="posts-list">
+    <h2 style="margin: 0; padding: 0; line-height: 1; font-size: 1.4rem; font-weight: normal; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">{{ .Title }}</h2>
+    <div class="about-content" style="margin-top: 2rem;">
+        {{ .Content }}
+    </div>
+</div>
+
+<style>
+    .posts-list {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-content {
+        line-height: 1.5;
+        font-size: 0.95rem;
+    }
+    
+    .about-content p {
+        margin: 0 0 1rem 0;
+        text-align: left;
+    }
+    
+    .about-content a {
+        color: #4271ae;
+        text-decoration: none;
+    }
+    
+    .about-content a:hover {
+        text-decoration: underline;
+    }
+</style>
+{{ end }}

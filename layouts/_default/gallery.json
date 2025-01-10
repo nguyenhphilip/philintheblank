@@ -1,0 +1,22 @@
+{{ $galleryPath := "static/images/gallery" }}
+{{ $images := slice }}
+{{ with os.ReadDir $galleryPath }}
+    {{ range . }}
+        {{ if ne .Name ".gitkeep" }}
+            {{ $ext := path.Ext .Name | lower }}
+            {{ if in (slice ".jpg" ".jpeg" ".png" ".gif" ".webp") $ext }}
+                {{ $filePath := printf "%s/%s" $galleryPath .Name }}
+                {{ $fileInfo := . }}
+                {{ $image := dict 
+                    "url" (printf "/images/gallery/%s" .Name)
+                    "name" (path.Base .Name)
+                    "date" ($fileInfo.ModTime.Format "2006-01-02")
+                }}
+                {{ $images = $images | append $image }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+{
+    "images": {{ $images | jsonify | safeJS }}
+}

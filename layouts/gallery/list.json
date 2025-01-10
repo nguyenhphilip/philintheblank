@@ -1,0 +1,20 @@
+{
+    "images": [
+        {{ $galleryPath := "static/images/gallery" }}
+        {{ $files := readDir $galleryPath }}
+        {{ $validFiles := slice }}
+        {{ range $files }}
+            {{ if and (ne .Name ".gitkeep") (in (slice ".jpg" ".jpeg" ".png" ".gif" ".webp") (path.Ext .Name | lower)) }}
+                {{ $validFiles = $validFiles | append . }}
+            {{ end }}
+        {{ end }}
+        {{ $sortedFiles := sort $validFiles "ModTime" "desc" }}
+        {{ range $index, $file := $sortedFiles }}
+            {
+                "url": "/images/gallery/{{ .Name }}",
+                "name": "{{ path.Base .Name }}",
+                "date": "{{ .ModTime.Format "2006-01-02" }}"
+            }{{ if ne $index (sub (len $sortedFiles) 1) }},{{ end }}
+        {{ end }}
+    ]
+}

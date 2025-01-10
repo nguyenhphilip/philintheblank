@@ -1,0 +1,144 @@
+{{ define "main" }}
+<main class="main layout__main">
+    <h2 style="margin: 0; padding: 0; line-height: 1; font-size: 1.4rem; font-weight: normal; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">{{ .Title }}</h2>
+    <div class="microposts">
+        {{ $allPosts := slice }}
+        {{ range .Pages }}
+            {{ $content := .RawContent }}
+            {{ $posts := split $content "@@@" }}
+            {{ range $posts }}
+                {{ if . }}
+                    {{ $lines := split . "\n" }}
+                    {{ $metadata := dict }}
+                    {{ $content := slice }}
+                    {{ $inContent := false }}
+                    {{ $contentStarted := false }}
+                    
+                    {{ range $lines }}
+                        {{ if hasPrefix (trim . " ") "date:" }}
+                            {{ $date := trim (replace . "date:" "") " " }}
+                            {{ $metadata = merge $metadata (dict "date" $date) }}
+                        {{ else if hasPrefix (trim . " ") "time:" }}
+                            {{ $time := trim (replace . "time:" "") " " }}
+                            {{ $metadata = merge $metadata (dict "time" $time) }}
+                            {{ $inContent = true }}
+                        {{ else if $inContent }}
+                            {{ if $contentStarted }}
+                                {{ $content = $content | append . }}
+                            {{ else if ne (trim . " ") "" }}
+                                {{ $content = $content | append . }}
+                                {{ $contentStarted = true }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    
+                    {{ if and (index $metadata "date") (index $metadata "time") }}
+                        {{ $post := dict "date" (index $metadata "date") "time" (index $metadata "time") "content" (delimit $content "\n") }}
+                        {{ $allPosts = $allPosts | append $post }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
+        {{ range sort $allPosts "date" "desc" }}
+            <article class="micropost">
+                <div class="micropost-content">
+                    {{ .content | markdownify }}
+                </div>
+                <div class="micropost-timestamp">
+                    {{ .date }} | {{ .time }} 
+                </div>
+            </article>
+        {{ end }}
+    </div>
+</main>
+
+<style>
+
+    .microposts-list {
+        margin: 0;
+        padding: 0;
+    }
+    .microposts {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 1rem 0;
+    }
+    
+    .micropost {
+        background: white;
+        border: 1px solid #e1e8ed;
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.0rem;
+        position: relative;
+    }
+    
+    .micropost-content {
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+        font-size: 0.95rem;
+    }
+    
+    .micropost-content p {
+        margin: 0 0 1rem 0;
+    }
+    
+    .micropost-content p:last-child {
+        margin-bottom: 0;
+    }
+    
+    .micropost-content a {
+        color: #1d9bf0;
+        text-decoration: none;
+    }
+    
+    .micropost-content a:hover {
+        text-decoration: underline;
+    }
+    
+    .micropost-timestamp {
+        color: #536471;
+        font-size: 0.8em;
+        text-align: right;
+        position: absolute;
+        bottom: 1rem;
+        right: 1.5rem;
+    }
+
+    /* Additional styles for markdown elements */
+    .micropost-content ul,
+    .micropost-content ol {
+        margin: 1rem 0;
+        padding-left: 2rem;
+    }
+
+    .micropost-content li {
+        margin: 0.5rem 0;
+    }
+
+    .micropost-content code {
+        background: #f6f8fa;
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+        font-family: monospace;
+    }
+
+    .micropost-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 0.5rem auto; /* Changed from '0.5rem 0' to '0.5rem auto' */
+        display: block; /* Added to enable margin auto centering */
+    }
+
+    .micropost-content pre {
+        background: #f6f8fa;
+        padding: 1rem;
+        border-radius: 6px;
+        overflow-x: auto;
+        margin: 1rem 0;
+    }
+
+</style>
+{{ end }}
