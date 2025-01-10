@@ -1,2 +1,162 @@
-<!doctype html><html class=nojs lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Hugo 0.140.2"><title>Prematurity, Mental Health, and Cognition | Phil in the Blank</title>
-<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"></head><body><div class=page-container><div class=sidebar><h2 class=site-title><a href=/>Phil in the Blank</a></h2><nav class=main-nav><ul><li><a href=/posts>Posts</a></li><li><a href=/poems>Poems</a></li><li><a href=/projects>Projects</a></li><li><a href=/microposts>Microposts</a></li><li><a href=/gallery>Gallery</a></li><li><a href=/about>About</a></li></ul></nav></div><main class=content><article class=post><h2 style="margin:0;padding:0;line-height:1;font-size:1.4rem;font-weight:400;font-family:inter,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,fira sans,droid sans,helvetica neue,sans-serif">Prematurity, Mental Health, and Cognition</h2><div class=post-date>July 31, 2019</div><div class=post-content><p>This is a project examining the effect of premature birth on mental health and neurocognition in a large sample of youth from the <a href=abcdstudy.org>ABCD Study</a>.</p><p>Below is an interactive HTML page using R Markdown for the analyses and visualization. The source code is posted <a href=https://github.com/nguyenhphilip/interactive_analysis_prem>here</a> and there is an interactive Rmarkdown page <a href=premat>here</a> as well.</p><p><img src=/images/projects/premat-bruno-img.png alt></p></div></article><style>.post{margin:0;padding:0}.post-date{color:#666;font-size:.85rem;margin:.5rem 0 2rem}.post-content{line-height:1.5;font-size:.95rem}.post-content img{max-width:100%;height:auto;border-radius:8px;margin:.5rem auto;display:block}.post-content blockquote{margin:1.5rem 0;padding:.5rem 0 .5rem 1.5rem;border-left:4px solid #e5e5e5;color:#555}.post-content blockquote p{margin:0}</style></main></div><style>.site-title{font-size:1.35rem;margin:0 0 1rem;line-height:1;font-weight:400}.site-title a{color:#333;text-decoration:none}body{margin:0;padding:0;font-family:inter,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,fira sans,droid sans,helvetica neue,sans-serif;line-height:1.6;color:#333}.page-container{display:flex;max-width:1200px;margin:0 auto;padding:2rem;gap:4rem}.sidebar{width:200px;flex-shrink:0;position:fixed;padding-top:0}.content{margin-left:250px;max-width:650px}.main-nav ul{list-style:none;padding:0;margin:0}.main-nav li{margin-bottom:.25rem}.main-nav a{color:#4271ae;text-decoration:none;font-size:.9rem}.main-nav a:hover{text-decoration:underline}@media screen and (max-width:768px){.page-container{flex-direction:column;padding:1rem}.sidebar{position:relative;width:100%;margin-bottom:2rem;padding-top:1rem}.content{margin-left:0;width:100%;padding-top:1rem}}</style></body></html>
+<!DOCTYPE html>
+<html class="nojs" lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.140.2">
+    <title>Prematurity, Mental Health, and Cognition | Phil in the Blank</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+</head>
+<body>
+    <div class="page-container">
+        <div class="sidebar">
+            <h2 class="site-title"><a href="/">Phil in the Blank</a></h2>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/posts">Posts</a></li>
+                    <li><a href="/poems">Poems</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/microposts">Microposts</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main class="content">
+            
+<article class="post">
+    <h2 style="margin: 0; padding: 0; line-height: 1; font-size: 1.4rem; font-weight: normal; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">Prematurity, Mental Health, and Cognition</h2>
+    <div class="post-date">July 31, 2019</div>
+    <div class="post-content">
+        <p>This is a project examining the effect of premature birth on mental health and neurocognition in a large sample of youth from the <a href="abcdstudy.org">ABCD Study</a>.</p>
+<p>Below is an interactive HTML page using R Markdown for the analyses and visualization. The source code is posted <a href="https://github.com/nguyenhphilip/interactive_analysis_prem">here</a> and there is an interactive Rmarkdown page <a href="premat">here</a> as well.</p>
+<p><img src="/images/projects/premat-bruno-img.png" alt=""></p>
+
+    </div>
+</article>
+
+<style>
+    .post {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .post-date {
+        color: #666;
+        font-size: 0.85rem;
+        margin: 0.5rem 0 2rem 0;
+    }
+    
+    .post-content {
+        line-height: 1.5;
+        font-size: 0.95rem;
+    }
+
+    .post-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 0.5rem auto;
+        display: block;
+    }
+
+    .post-content blockquote {
+        margin: 1.5rem 0;
+        padding: 0.5rem 0 0.5rem 1.5rem;
+        border-left: 4px solid #e5e5e5;
+        color: #555;
+    }
+
+    .post-content blockquote p {
+        margin: 0;
+    }
+</style>
+
+        </main>
+    </div>
+
+    <style>
+        .site-title {
+            font-size: 1.35rem;
+            margin: 0 0 1rem 0;
+            line-height: 1;
+            font-weight: normal;
+        }
+
+        .site-title a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .page-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            gap: 4rem;
+        }
+
+        .sidebar {
+            width: 200px;
+            flex-shrink: 0;
+            position: fixed;
+            padding-top: 0;   
+        }
+
+        .content {
+            margin-left: 250px;
+            max-width: 650px;
+             
+        }
+
+        .main-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .main-nav li {
+            margin-bottom: 0.25rem;
+        }
+
+        .main-nav a {
+            color: #4271ae;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .main-nav a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 768px) {
+            .page-container {
+                flex-direction: column;
+                padding: 1rem;
+            }
+
+            .sidebar {
+                position: relative;
+                width: 100%;
+                margin-bottom: 2rem;
+                padding-top: 1rem;
+            }
+
+            .content {
+                margin-left: 0;
+                width: 100%;
+                padding-top: 1rem;
+            }
+        }
+    </style>
+</body>
+</html>

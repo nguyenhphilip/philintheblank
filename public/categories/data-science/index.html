@@ -1,2 +1,148 @@
-<!doctype html><html class=nojs lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Hugo 0.140.2"><title>Data Science | Phil in the Blank</title>
-<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"></head><body><div class=page-container><div class=sidebar><h2 class=site-title><a href=/>Phil in the Blank</a></h2><nav class=main-nav><ul><li><a href=/posts>Posts</a></li><li><a href=/poems>Poems</a></li><li><a href=/projects>Projects</a></li><li><a href=/microposts>Microposts</a></li><li><a href=/gallery>Gallery</a></li><li><a href=/about>About</a></li></ul></nav></div><main class=content><main class="main layout__main"><header><h1 class=title>Data Science</h1></header><article class="list-view list-view--projects"><header><h2 class="title mt--s mb--xxs"><a href=/projects/spotify-top100/>Spotify Top 100 Songs Analysis</a></h2><div class="submitted meta"><time class=created-date datetime=2020-12-19T00:00:00Z>19 December 2020</time></div></header><p>I&rsquo;ve been an avid Spotify user since my younger high-school gaming days (hipster flex), but Spotify only recently started releasing yearly music reviews that summarize the music you&rsquo;ve listened to throughout that year. After seeing mine for 2020, I wondered how much my music taste had changed over time, especially given the 2020 coronavirus pandemic. Thankfully there&rsquo;s a R package called <code>spotifyr</code> that provides intuitive wrapper functions that allows one to analyze practically the entirety of Spotify music data! What follows is a quick, informal dive into this. (For getting setup, I suggest checking out the Github repo <a href=https://github.com/charlie86/spotifyr>here</a> and this tutorial <a href=https://msmith7161.github.io/what-is-speechiness/>here</a>.)</p></article><article class="list-view list-view--projects"><header><h2 class="title mt--s mb--xxs"><a href=/projects/tv-tropes/>Data Science I Final Project: TV Tropes</a></h2><div class="submitted meta"><time class=created-date datetime=2020-12-11T00:00:00Z>11 December 2020</time></div></header><p>This is a project I worked on with another graduate student in Data Science I. We open-sourced the code here: <a href=https://github.com/jwzimmer/tv-tropes>TV Tropes Data Science I Project</a>. The project involved web scraping a large chunk of webpages from TV Tropes, network analysis, and data science!</p><p><img src=/images/projects/top_100nodes_6communities.png alt></p></article></main></main></div><style>.site-title{font-size:1.35rem;margin:0 0 1rem;line-height:1;font-weight:400}.site-title a{color:#333;text-decoration:none}body{margin:0;padding:0;font-family:inter,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,fira sans,droid sans,helvetica neue,sans-serif;line-height:1.6;color:#333}.page-container{display:flex;max-width:1200px;margin:0 auto;padding:2rem;gap:4rem}.sidebar{width:200px;flex-shrink:0;position:fixed;padding-top:0}.content{margin-left:250px;max-width:650px}.main-nav ul{list-style:none;padding:0;margin:0}.main-nav li{margin-bottom:.25rem}.main-nav a{color:#4271ae;text-decoration:none;font-size:.9rem}.main-nav a:hover{text-decoration:underline}@media screen and (max-width:768px){.page-container{flex-direction:column;padding:1rem}.sidebar{position:relative;width:100%;margin-bottom:2rem;padding-top:1rem}.content{margin-left:0;width:100%;padding-top:1rem}}</style></body></html>
+<!DOCTYPE html>
+<html class="nojs" lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.140.2">
+    <title>Data Science | Phil in the Blank</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+</head>
+<body>
+    <div class="page-container">
+        <div class="sidebar">
+            <h2 class="site-title"><a href="/">Phil in the Blank</a></h2>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/posts">Posts</a></li>
+                    <li><a href="/poems">Poems</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/microposts">Microposts</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main class="content">
+            <main class="main layout__main">
+<header>
+<h1 class="title">Data Science</h1>
+</header>
+
+
+
+<article class="list-view list-view--projects">
+<header>
+<h2 class="title mt--s mb--xxs"><a href="/projects/spotify-top100/">Spotify Top 100 Songs Analysis</a></h2>
+<div class="submitted meta">
+<time class="created-date" datetime="2020-12-19T00:00:00Z">19 December 2020</time>
+
+</div>
+
+</header>
+<p>I&rsquo;ve been an avid Spotify user since my younger high-school gaming days (hipster flex), but Spotify only recently started releasing yearly music reviews that summarize the music you&rsquo;ve listened to throughout that year. After seeing mine for 2020, I wondered how much my music taste had changed over time, especially given the 2020 coronavirus pandemic. Thankfully there&rsquo;s a R package called <code>spotifyr</code> that provides intuitive wrapper functions that allows one to analyze practically the entirety of Spotify music data! What follows is a quick, informal dive into this. (For getting setup, I suggest checking out the Github repo <a href="https://github.com/charlie86/spotifyr">here</a> and this tutorial <a href="https://msmith7161.github.io/what-is-speechiness/">here</a>.)</p>
+</article>
+
+<article class="list-view list-view--projects">
+<header>
+<h2 class="title mt--s mb--xxs"><a href="/projects/tv-tropes/">Data Science I Final Project: TV Tropes</a></h2>
+<div class="submitted meta">
+<time class="created-date" datetime="2020-12-11T00:00:00Z">11 December 2020</time>
+
+</div>
+
+</header>
+<p>This is a project I worked on with another graduate student in Data Science I. We open-sourced the code here: <a href="https://github.com/jwzimmer/tv-tropes">TV Tropes Data Science I Project</a>. The project involved web scraping a large chunk of webpages from TV Tropes,  network analysis, and data science!</p>
+<p><img src="/images/projects/top_100nodes_6communities.png" alt=""></p>
+</article>
+
+
+</main>
+
+        </main>
+    </div>
+
+    <style>
+        .site-title {
+            font-size: 1.35rem;
+            margin: 0 0 1rem 0;
+            line-height: 1;
+            font-weight: normal;
+        }
+
+        .site-title a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .page-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            gap: 4rem;
+        }
+
+        .sidebar {
+            width: 200px;
+            flex-shrink: 0;
+            position: fixed;
+            padding-top: 0;   
+        }
+
+        .content {
+            margin-left: 250px;
+            max-width: 650px;
+             
+        }
+
+        .main-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .main-nav li {
+            margin-bottom: 0.25rem;
+        }
+
+        .main-nav a {
+            color: #4271ae;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .main-nav a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 768px) {
+            .page-container {
+                flex-direction: column;
+                padding: 1rem;
+            }
+
+            .sidebar {
+                position: relative;
+                width: 100%;
+                margin-bottom: 2rem;
+                padding-top: 1rem;
+            }
+
+            .content {
+                margin-left: 0;
+                width: 100%;
+                padding-top: 1rem;
+            }
+        }
+    </style>
+</body>
+</html>
