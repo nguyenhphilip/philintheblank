@@ -30,7 +30,7 @@ defaultContentLanguage = "en"
 [menu]
     [[menu.main]]
         identifier = "posts"
-        name = "Blog"
+        name = "Posts"
         url = "/posts/"
         weight = 10
     [[menu.main]]
