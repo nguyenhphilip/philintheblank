@@ -45,7 +45,7 @@ defaultContentLanguage = "en"
         weight = 30
     [[menu.main]]
         identifier = "microposts"
-        name = "Micro"
+        name = "Microposts"
         url = "/microposts/"
         weight = 40
     [[menu.main]]
