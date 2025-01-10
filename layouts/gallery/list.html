@@ -15,11 +15,11 @@
 </div>
 
 <style>
-    .gallery-page {
-        width: 85%;
+     .gallery-page {
+        width: 100%;
         margin: 0;
         padding: 0;
-    }
+    } 
 
     .gallery-grid {
         margin-top: 2rem;
@@ -127,6 +127,29 @@
     const imagesPerLoad = 12;
     let isLoading = false;
 
+    function openModal(imageSrc) {
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        modal.style.display = 'block';
+        modalImg.src = imageSrc;
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+    }
+
+    function closeModal() {
+        document.getElementById('imageModal').style.display = 'none';
+    }
+
     function loadMoreImages() {
         if (isLoading || currentIndex >= allImages.length) return;
         
@@ -146,14 +169,12 @@
             img.src = imageData.url;
             img.alt = imageData.name;
             img.loading = 'lazy';
-            img.onclick = () => openModal(imageData.url);
+            img.onclick = () => openModal(imageData.url);  // Add this line
 
-            // Add load event listener for fade-in effect
             img.onload = () => {
-                // Small delay for smoother appearance
                 setTimeout(() => {
                     item.classList.add('loaded');
-                }, 50 * (i - currentIndex)); // Stagger the fade-in
+                }, 50 * (i - currentIndex));
             };
             
             item.appendChild(img);
@@ -207,10 +228,6 @@
         console.error('Error loading images:', error);
         document.getElementById('loading').textContent = 'Error loading images: ' + error.message;
     }
-    }
-
-    function closeModal() {
-        document.getElementById('imageModal').style.display = 'none';
     }
 
     // Initialize gallery when page loads

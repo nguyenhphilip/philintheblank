@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networks on Phil in the Blank</title>
-    <link>https://philintheblank.me/categories/networks/</link>
+    <link>http://localhost:1313/categories/networks/</link>
     <description>Recent content in Networks on Phil in the Blank</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Dec 2021 00:00:00 +0000</lastBuildDate>
-      <atom:link href="https://philintheblank.me/categories/networks/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="http://localhost:1313/categories/networks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploring Mental Health Networks</title>
-      <link>https://philintheblank.me/projects/pocs-mh-nets/</link>
+      <link>http://localhost:1313/projects/pocs-mh-nets/</link>
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://philintheblank.me/projects/pocs-mh-nets/</guid>
-      <description>&lt;p&gt;This is a brief project where I look at mental health symptom networks in a large sample of youth from the &lt;a href=&#34;https://abcdstudy.org/&#34;&gt;ABCD Study&lt;/a&gt; for the course &lt;a href=&#34;https://pdodds.w3.uvm.edu/teaching/courses/2021-2022principles-of-complex-systems/&#34;&gt;Principles of Complex Systems&lt;/a&gt;. I was largely inspired by the work being done by &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20375&#34;&gt;Denny Borsboom&lt;/a&gt; and &lt;a href=&#34;http://psychosystems.org/NetworkSchool&#34;&gt;company&lt;/a&gt; using network analysis to study mental health. There is still a lot of work to do, but the report for the class can be found &lt;a href=&#34;https://github.com/nguyenhphilip/pocs-mh-nets/blob/main/CSYS_Mental_Health_Networks.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Check out &lt;a href=&#34;https://psyarxiv.com/f68ej/&#34;&gt;this awesome paper&lt;/a&gt; for more on applying complex systems thinking to psychopathology!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://philintheblank.me/images/projects/mh-net1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
+      <guid>http://localhost:1313/projects/pocs-mh-nets/</guid>
+      <description>&lt;p&gt;This is a brief project where I look at mental health symptom networks in a large sample of youth from the &lt;a href=&#34;https://abcdstudy.org/&#34;&gt;ABCD Study&lt;/a&gt; for the course &lt;a href=&#34;https://pdodds.w3.uvm.edu/teaching/courses/2021-2022principles-of-complex-systems/&#34;&gt;Principles of Complex Systems&lt;/a&gt;. I was largely inspired by the work being done by &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20375&#34;&gt;Denny Borsboom&lt;/a&gt; and &lt;a href=&#34;http://psychosystems.org/NetworkSchool&#34;&gt;company&lt;/a&gt; using network analysis to study mental health. There is still a lot of work to do, but the report for the class can be found &lt;a href=&#34;https://github.com/nguyenhphilip/pocs-mh-nets/blob/main/CSYS_Mental_Health_Networks.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Check out &lt;a href=&#34;https://psyarxiv.com/f68ej/&#34;&gt;this awesome paper&lt;/a&gt; for more on applying complex systems thinking to psychopathology!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/projects/mh-net1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
     </item>
     <item>
       <title>Data Science I Final Project: TV Tropes</title>
-      <link>https://philintheblank.me/projects/tv-tropes/</link>
+      <link>http://localhost:1313/projects/tv-tropes/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://philintheblank.me/projects/tv-tropes/</guid>
-      <description>&lt;p&gt;This is a project I worked on with another graduate student in Data Science I. We open-sourced the code here: &lt;a href=&#34;https://github.com/jwzimmer/tv-tropes&#34;&gt;TV Tropes Data Science I Project&lt;/a&gt;. The project involved web scraping a large chunk of webpages from TV Tropes,  network analysis, and data science!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://philintheblank.me/images/projects/top_100nodes_6communities.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
+      <guid>http://localhost:1313/projects/tv-tropes/</guid>
+      <description>&lt;p&gt;This is a project I worked on with another graduate student in Data Science I. We open-sourced the code here: &lt;a href=&#34;https://github.com/jwzimmer/tv-tropes&#34;&gt;TV Tropes Data Science I Project&lt;/a&gt;. The project involved web scraping a large chunk of webpages from TV Tropes,  network analysis, and data science!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/projects/top_100nodes_6communities.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
     </item>
   </channel>
 </rss>

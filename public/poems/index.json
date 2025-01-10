@@ -3,576 +3,576 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": "Poems on Phil in the Blank",
     "description": "Recent content in Poems on Phil in the Blank",
-    "home_page_url": "https://philintheblank.me/",
-    "feed_url": "https://philintheblank.me/poems/index.json",
+    "home_page_url": "http://localhost:1313/",
+    "feed_url": "http://localhost:1313/poems/index.json",
     "language": "en-us",
     "items": [
         {
             "title": "Instructions for birding",
             "date_published": "2024-07-07T00:00:00Z",
             "date_modified": "2024-07-07T00:00:00Z",
-            "id": "https://philintheblank.me/poems/birding/",
-            "url": "https://philintheblank.me/poems/birding/",
+            "id": "http://localhost:1313/poems/birding/",
+            "url": "http://localhost:1313/poems/birding/",
             "content_html": "\u003cp\u003eIt’s not all that different\nfrom living well. Go slow.\nLeave your labels at home.\nSit in the unknown\nand let the silence speak.\u003c/p\u003e\n\u003cp\u003eWait. Wait a little longer. Wait\nuntil you remember: a thing\ncan travel everywhere, just by holding\nstill.\u003c/p\u003e\n\u003cp\u003eClear that from your mind.\nForget the existence of time.\nYou have all day which is\nto say a lifetime.\u003c/p\u003e\n\u003cp\u003eListen. Look. Look\nagain until you see\nnothing is everything,\neverything in nothing.\u003c/p\u003e\n\u003cp\u003eLet everything find you.\nLet every thing sing its song.\nIn the songs, a sky.\nIn the sky, a word.\u003c/p\u003e\n"
         },
         {
             "title": "Refugee",
             "date_published": "2024-07-05T00:00:00Z",
             "date_modified": "2024-07-05T00:00:00Z",
-            "id": "https://philintheblank.me/poems/24-07-05-refugee/",
-            "url": "https://philintheblank.me/poems/24-07-05-refugee/",
+            "id": "http://localhost:1313/poems/24-07-05-refugee/",
+            "url": "http://localhost:1313/poems/24-07-05-refugee/",
             "content_html": "\u003cp\u003eLike a berry hanging from a vine\nthat’s the first sign, according to\nthe experts. But you didn’t know it\nthen: back in Vietnam fruit grew\non trees and bushes. It didn’t hide\nand rupture like cherries too ripe\ninside your wife’s head.\u003c/p\u003e\n\u003cp\u003eEven war has its starts, its survivors.\nAll you got was a thud and a body\nchoking on itself. That was when\nsister and I became refugees, too.\u003c/p\u003e\n\u003cp\u003eOne day we told you we saw her,\ngoing elsewhere. At last, when you\nlooked, you found her picking fruit\nin familiar fields, welcoming you home.\u003c/p\u003e\n"
         },
         {
             "title": "Family",
             "date_published": "2024-07-01T00:00:00Z",
             "date_modified": "2024-07-01T00:00:00Z",
-            "id": "https://philintheblank.me/poems/family/",
-            "url": "https://philintheblank.me/poems/family/",
+            "id": "http://localhost:1313/poems/family/",
+            "url": "http://localhost:1313/poems/family/",
             "content_html": "\u003cp\u003eOne day you called,\nyour voice full\u003c/p\u003e\n\u003cp\u003eof sadness and the weight\nof a history unknown to me.\u003c/p\u003e\n\u003cp\u003eIn the back of your throat\nit had found a place to live\u003c/p\u003e\n\u003cp\u003elike an allergen too familiar\nwith avoidance. Dad’s phở\u003c/p\u003e\n\u003cp\u003ecould cure anything.\nIt stewed of meat and bone.\u003c/p\u003e\n\u003cp\u003eBut it knew nothing\nof distance and blood.\u003c/p\u003e\n\u003cp\u003eI learned this too late\nchoking on words\u003c/p\u003e\n\u003cp\u003eacross the country, trying\nto support you, years later.\u003c/p\u003e\n\u003cp\u003eIt was your decision:\nYou and mom weren’t talking\u003c/p\u003e\n\u003cp\u003eanymore. I thought of her then,\nalone, in front of the TV at the end\u003c/p\u003e\n\u003cp\u003eof the day, always on,\nweekends too, and Dad,\u003c/p\u003e\n\u003cp\u003ehiding in the garage,\nfixing audio devices.\u003c/p\u003e\n\u003cp\u003eOnce the war was over\nno one knew what to do\u003c/p\u003e\n\u003cp\u003eso we went to war\nwith one another instead.\u003c/p\u003e\n\u003cp\u003eThis time it felt like\nthe right time to fire\u003c/p\u003e\n\u003cp\u003eand listen\u003c/p\u003e\n"
         },
         {
             "title": "The heart aches",
             "date_published": "2023-10-31T00:00:00Z",
             "date_modified": "2023-10-31T00:00:00Z",
-            "id": "https://philintheblank.me/poems/23-11-01-the-heart-aches/",
-            "url": "https://philintheblank.me/poems/23-11-01-the-heart-aches/",
+            "id": "http://localhost:1313/poems/23-11-01-the-heart-aches/",
+            "url": "http://localhost:1313/poems/23-11-01-the-heart-aches/",
             "content_html": "\u003cp\u003eThe heart aches\nfor what the mind wants.\nNot smart enough, nowhere close\nto enlightened, a hungry snail who thinks\nhimself a cat, always searching,\nalways on the verge of something,\nunable to anticipate every variable\nunknown. In the end\nthe heart takes him in,\nwraps him up in her\nboundless forgiveness\nknowing that puzzles\nare the opiate of the restless.\nShe\u0026rsquo;s had the answers\nall along and reminds him\nas he twists and agonizes\nin his sleep until sunrise, when again\nhe rides off toward the light,\ncoat fully unbuttoned, searching\nfor shadows on roads\nthat lead him\nback to the beginning.\u003c/p\u003e\n"
         },
         {
             "title": "After the party",
             "date_published": "2023-10-29T00:00:00Z",
             "date_modified": "2023-10-29T00:00:00Z",
-            "id": "https://philintheblank.me/poems/23-10-29-afterparty/",
-            "url": "https://philintheblank.me/poems/23-10-29-afterparty/",
+            "id": "http://localhost:1313/poems/23-10-29-afterparty/",
+            "url": "http://localhost:1313/poems/23-10-29-afterparty/",
             "content_html": "\u003cp\u003eit’s just the two of us now.\nWhat more is there to say?\nBesides, there are dishes\nto do, chairs and tables\nto dust and rearrange.\nOh but this you say,\nthis is what you’ve been\nwaiting for? You\u0026rsquo;re hopeless.\nDidn’t you see Sherry?\nThose pants! Way too tight,\ngripped her body\nlike a banana peel.\nAnd Tom, oh Tom,\nhis starving eyes,\ngrazing over her like a wolf.\nThey’d be a mess together.\nReally? What a warped notion\nof beauty you have.\nIt’s not that funny\nthat I notice these things.\nAnd look—you missed a spot.\nYes, here. Open your eyes.\nAnd about Sherry\nand Tom—I’d never tell them\nwhat I said, of course.\nIt’s all hypothetical, dear.\nWhen does love enter\nthe picture?\nDon’t get so sentimental.\nIt always finds\na way, dear,\nit always does.\u003c/p\u003e\n"
         },
         {
             "title": "toes",
             "date_published": "2023-10-26T00:00:00Z",
             "date_modified": "2023-10-26T00:00:00Z",
-            "id": "https://philintheblank.me/poems/23-10-26-toes/",
-            "url": "https://philintheblank.me/poems/23-10-26-toes/",
+            "id": "http://localhost:1313/poems/23-10-26-toes/",
+            "url": "http://localhost:1313/poems/23-10-26-toes/",
             "content_html": "\u003cp\u003eA table\na look\na touch.\nA fable\na laugh\na brush.\nTemptation\nhesitation\nyour toes\nand mine.\nTime\nus\na bottle,\nwine.\nTongues\nloosened—\nwhat more\nto say?\nWe vow\nto pray\nanother\nday.\u003c/p\u003e\n"
         },
         {
             "title": "Beautiful",
             "date_published": "2023-10-14T00:00:00Z",
             "date_modified": "2023-10-14T00:00:00Z",
-            "id": "https://philintheblank.me/poems/23-10-14-beautiful/",
-            "url": "https://philintheblank.me/poems/23-10-14-beautiful/",
+            "id": "http://localhost:1313/poems/23-10-14-beautiful/",
+            "url": "http://localhost:1313/poems/23-10-14-beautiful/",
             "content_html": "\u003cp\u003eOh\ndid you see that?\nIt\u0026rsquo;s so\nbeautiful!\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eAnd\u003c/em\u003e\n\u003cem\u003ewhat about this?\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eYes it\u0026rsquo;s so,\nwell I can\u0026rsquo;t find\nthe words for it\nbut yes\nit\u0026rsquo;s so\nbeautiful!\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eWait a little\u003c/em\u003e\n\u003cem\u003elonger.\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eWhat do you mean?\nIt\u0026rsquo;s so beautiful!\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eWe might discover\u003c/em\u003e\n\u003cem\u003esomething more\u003c/em\u003e\n\u003cem\u003eif we hold\u003c/em\u003e\n\u003cem\u003eour tongues.\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eMmm,\nlike this?\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eYes,\u003c/em\u003e\n\u003cem\u003elike this.\u003c/em\u003e\u003c/p\u003e\n"
         },
         {
             "title": "Fly in a café",
             "date_published": "2023-10-13T00:00:00Z",
             "date_modified": "2023-10-13T00:00:00Z",
-            "id": "https://philintheblank.me/poems/23-10-13-fly/",
-            "url": "https://philintheblank.me/poems/23-10-13-fly/",
+            "id": "http://localhost:1313/poems/23-10-13-fly/",
+            "url": "http://localhost:1313/poems/23-10-13-fly/",
             "content_html": "\u003cp\u003eCurious fly\nwith your\nthousand\neyes,\nwhat is it\nthat you see\nin me?   Today\nI am     your flower\nand you are        my bee\nbecause   it seems\nyou can’t get\nenough   of me.\nHave I forgotten\nto wash\nthis     and that\npatch     of skin?\nOr were     you meant\nto   light\nthe night\twithin?\nI want     to crush you\nwith my hand.\nI want       to map you\nwith my       words\nand hopeless plans.\nYou are Plato’s     Ideal\nthat which cannot\nbe   touched.\nPerhaps       then\nbetween you\nand     me\nthis\nis enough.\u003c/p\u003e\n"
         },
         {
             "title": "Questions for the man",
             "date_published": "2023-10-12T00:00:00Z",
             "date_modified": "2023-10-12T00:00:00Z",
-            "id": "https://philintheblank.me/poems/23-10-12-questions-man/",
-            "url": "https://philintheblank.me/poems/23-10-12-questions-man/",
+            "id": "http://localhost:1313/poems/23-10-12-questions-man/",
+            "url": "http://localhost:1313/poems/23-10-12-questions-man/",
             "content_html": "\u003cp\u003eHow\u0026rsquo;s a man supposed to feel when\nhe lives for nothing more than ends?\nHis circumstances pull him one way\nyet something else demands.\u003c/p\u003e\n\u003cp\u003eIs he honoring the call?\nIs he ready to let go and fall\nso that he can be caught\nby forces he\u0026rsquo;s long forgot?\nTo really feel in his bones\nthat he was never in fact alone?\u003c/p\u003e\n\u003cp\u003eHe\u0026rsquo;s got money, he\u0026rsquo;s got time, so why\ndoes he yearn for the sublime?\u003c/p\u003e\n\u003cp\u003eAnd when did it become so important\nto be right?\nWhen did his life turn into\na series of fights\u003c/p\u003e\n\u003cp\u003eagainst the man in the mirror?\nHow did fear\nreplace love?\nWhen did the glove\nbecome life itself?\u003c/p\u003e\n\u003cp\u003eIs it possible to change\nwhile keeping everything\nthe same? To hold what\nis no longer his\nwithout setting himself\naflame?\u003c/p\u003e\n\u003cp\u003eDoes he need his light\nto dwell in the dark?\nCan he put out the flame\nand follow his heart?\u003c/p\u003e\n"
         },
         {
             "title": "5AM",
             "date_published": "2023-08-30T00:00:00Z",
             "date_modified": "2023-08-30T00:00:00Z",
-            "id": "https://philintheblank.me/poems/23-08-30-fiveam/",
-            "url": "https://philintheblank.me/poems/23-08-30-fiveam/",
+            "id": "http://localhost:1313/poems/23-08-30-fiveam/",
+            "url": "http://localhost:1313/poems/23-08-30-fiveam/",
             "content_html": "\u003cp\u003eI woke up at 5am to make my roommate breakfast because it’s her first day of school as a teacher. Afterwards I couldn’t fall back asleep and began instead to listen to the early morning. It’s a pleasant if not unerring space to be in. It’s just you and the slowness of the hour, held by an awareness of the moment, steeping in the water of creation, wherein the mind remains quiet and ripe. Here nothing is asked of you except, perhaps, to listen.\u003c/p\u003e\n\u003cp\u003eThe sound of a cricket and the no-sound\nof absence. No sense not nonsense,\nonly the hushed humming of morning.\nMorning, still with dust in its eyes,\ndarkness, wrapping up its shift.\nThe birds have begun to rehearse\nwhile the dead mourn their last drink.\nThoughts piercing the veil of dreams,\nshadows creeping over the landscape.\nThe movement of water\nthrough pipes and the air unseen.\nMy existence made known\nin the quiet clattering of keys.\nStreams of consciousness\nlouder than the Winooski river.\nA lonely crow echoing\nin the distance.\u003c/p\u003e\n"
         },
         {
             "title": "A poem for Québec",
             "date_published": "2023-08-21T00:00:00Z",
             "date_modified": "2023-08-21T00:00:00Z",
-            "id": "https://philintheblank.me/poems/23-08-21-quebec/",
-            "url": "https://philintheblank.me/poems/23-08-21-quebec/",
+            "id": "http://localhost:1313/poems/23-08-21-quebec/",
+            "url": "http://localhost:1313/poems/23-08-21-quebec/",
             "content_html": "\u003cp\u003eIn stillness Québec flowers.\nLike the first shot of espresso\nor your last kiss of the morning\nand perhaps even after\na perfectly placed line-break,\nits flavor rolls and multiples,\ngrows and expands\nthe way words and sentences\ndo over full-stops and commas,\nthe longer you linger.\nSo linger a little longer.\nCome to the realization\nthat tourists and citizens\nare all the same\nwhen they meet your gaze\nat the windowpane.\nListen to how the children speak\nin footsteps and foreign tongues\nand still find each other.\nNotice how even grief\nis content to waif and flâneur\nalong the cobble-covered streets.\nLater, when you\u0026rsquo;re meeting someone\nfor the first time and their hands\nare already all over you,\nconvincing you that\n\u003cem\u003eYou are a silly American\u003c/em\u003e\n\u003cem\u003eand this is how we will bridge\u003c/em\u003e\n\u003cem\u003ethe distance of language,\u003c/em\u003e\nyou are ready to surrender.\nLater, when you\u0026rsquo;re mouthing\nyour goodbyes at the bus stop,\nyou are ready to depart.\u003c/p\u003e\n"
         },
         {
             "title": "Running",
             "date_published": "2023-08-05T00:00:00Z",
             "date_modified": "2023-08-05T00:00:00Z",
-            "id": "https://philintheblank.me/poems/23-08-05-running/",
-            "url": "https://philintheblank.me/poems/23-08-05-running/",
+            "id": "http://localhost:1313/poems/23-08-05-running/",
+            "url": "http://localhost:1313/poems/23-08-05-running/",
             "content_html": "\u003cp\u003eThey asked for his time,\nnot how he got here.\nLet me wonder then:\u003c/p\u003e\n\u003cp\u003eDid he stumble?\nDid his body crumble\nat all like\na soggy crepe\nheld up by sticks\non his way\nto some\npre-determined\nsomewhere?\u003c/p\u003e\n\u003cp\u003eOr did he bumble\nlike a bee, all grace\n\u0026amp; no trace of\na single step,\nevery toe kissing\nthe asphalt\nas if it were\ndirt?\u003c/p\u003e\n\u003cp\u003eThe numbers reveal\none thing while hiding\neverything else.\u003c/p\u003e\n"
         },
         {
             "title": "Lessons from RRR",
             "date_published": "2023-04-10T00:00:00Z",
             "date_modified": "2023-04-10T00:00:00Z",
-            "id": "https://philintheblank.me/poems/04-10-23-rrr/",
-            "url": "https://philintheblank.me/poems/04-10-23-rrr/",
+            "id": "http://localhost:1313/poems/04-10-23-rrr/",
+            "url": "http://localhost:1313/poems/04-10-23-rrr/",
             "content_html": "\u003cp\u003eSometimes a rhyme is good.\nAvoid all shrouds and sometimes\nrepetition too. Subtract words\nas needed, maybe all of them.\nKeep one ear close to the page\nand listen\u003c/p\u003e\n\u003cp\u003eto the heartbeat\u003c/p\u003e\n\u003cp\u003eof every word, every space,\nevery line; see how lines\ndefine\nand break\nand keep steady the pace\nof a poem. And remember that\nheart is at the center of it all.\u003c/p\u003e\n"
         },
         {
             "title": "Birds",
             "date_published": "2023-04-06T00:00:00Z",
             "date_modified": "2023-04-06T00:00:00Z",
-            "id": "https://philintheblank.me/poems/04-06-23-birds/",
-            "url": "https://philintheblank.me/poems/04-06-23-birds/",
+            "id": "http://localhost:1313/poems/04-06-23-birds/",
+            "url": "http://localhost:1313/poems/04-06-23-birds/",
             "content_html": "\u003cp\u003eOne moment I’m a philosopher, all words\nand fat with truth. The next I’m a poet\nmoonlighting for something new to say.\nI’ve tried on the certainty of equations\nsince they promised me the last word.\nBut I liked the birds instead, every word\nof theirs a spell that guarantees\nthe truth of my existence,\nthat truths are truisms\nonly sometimes true,\nthat Truth itself lies\nwithin and beyond\nwhat can be said\nand has been said\nwith words.\u003c/p\u003e\n"
         },
         {
             "title": "Oranges",
             "date_published": "2023-04-04T00:00:00Z",
             "date_modified": "2023-04-04T00:00:00Z",
-            "id": "https://philintheblank.me/poems/04-04-23-oranges/",
-            "url": "https://philintheblank.me/poems/04-04-23-oranges/",
+            "id": "http://localhost:1313/poems/04-04-23-oranges/",
+            "url": "http://localhost:1313/poems/04-04-23-oranges/",
             "content_html": "\u003cp\u003eWhat\u0026rsquo;s real\nis not\nideal.\u003c/p\u003e\n\u003cp\u003ePeel\nan orange\n\u0026amp; feel\u003c/p\u003e\n\u003cp\u003eits parts,\u003c/p\u003e\n\u003cp\u003ehow easily\nthe whole\nbreaks\u003c/p\u003e\n\u003cp\u003eapart\n\u0026amp; still\nretains\u003c/p\u003e\n\u003cp\u003eits tart,\u003c/p\u003e\n\u003cp\u003eperfection\nan orange\nin every bite.\u003c/p\u003e\n"
         },
         {
             "title": "Boxelder bugs",
             "date_published": "2023-03-11T00:00:00Z",
             "date_modified": "2023-03-11T00:00:00Z",
-            "id": "https://philintheblank.me/poems/03-11-23-boxelder/",
-            "url": "https://philintheblank.me/poems/03-11-23-boxelder/",
+            "id": "http://localhost:1313/poems/03-11-23-boxelder/",
+            "url": "http://localhost:1313/poems/03-11-23-boxelder/",
             "content_html": "\u003cp\u003eLike life, you kept finding your way through my\nwalls despite how many times I squished you\nnudged you onto paper mail to leave you\nout in the harsh winter air, where confused\nyou wondered what happened to the warmth of\na home that once housed your black-red body.\nYou looked at me with curiosity\nthe other day as I was about to\nsweep you away. You crawled along the top\nof my couch, and when I approached you turned\nyour body, antennae, and zigzagged legs\nat me as if you knew what was coming.\nIn a funny way you give my days shape\nconsistency in my daily motions\nmeaning I am not creative in how\nI get rid of you from my empty flat\nalways with guilt and a pinch of remorse\nbecause you are there during lonely nights\nin the vents, hiding in the windowsill,\nalways available like morning light\nto spring me from my longing, to wake me\ninto something just beyond the outline\nof my well-known interiorities.\u003c/p\u003e\n"
         },
         {
             "title": "Spider",
             "date_published": "2022-11-12T00:00:00Z",
             "date_modified": "2022-11-12T00:00:00Z",
-            "id": "https://philintheblank.me/poems/11-12-22-spider/",
-            "url": "https://philintheblank.me/poems/11-12-22-spider/",
+            "id": "http://localhost:1313/poems/11-12-22-spider/",
+            "url": "http://localhost:1313/poems/11-12-22-spider/",
             "content_html": "\u003cp\u003eTwiggy spider\non my yoga mat\nthank you for undoing\nthe past hour\nof self folding\nand holding with your\nunannounced appearance.\nI know\nyou\u0026rsquo;ve been watching\nand have suggestions\nfor how\nI carry my body.\nAfter all I have\na thousand times\nthe neurons and only\na fraction\nof your intention\nand grace.\nYou walk on eight\nstilettos and still\nmen like me\nchase beauty\nand women\nand forget\nyou exist.\nBut we get each other.\nWe\u0026rsquo;re foreign\nto  ourselves\nbut not strangers.\nWe give\nbirth\nand die.\nAnd in\nthe in-between\nwe weave\nand cradle\nworlds\nwith our extremities.\nWe might even\nfor a second\nacknowledge\nthe other\nin passing:\nI a moving\nmountain,\nYou a pebble\nwho has seen\nit all\nfrom your\nsmall corner\nof the world.\u003c/p\u003e\n"
         },
         {
             "title": "Crevasses",
             "date_published": "2022-11-10T00:00:00Z",
             "date_modified": "2022-11-10T00:00:00Z",
-            "id": "https://philintheblank.me/poems/11-10-22-crevasses/",
-            "url": "https://philintheblank.me/poems/11-10-22-crevasses/",
+            "id": "http://localhost:1313/poems/11-10-22-crevasses/",
+            "url": "http://localhost:1313/poems/11-10-22-crevasses/",
             "content_html": "\u003cp\u003eHow beautiful it is\nthat landlocked bodies\nof water will find\ntheir way to the ocean\nthrough crevasses\nno one else can see.\nThat something as light\nas wind can carry\nthe heaviness of traveled waves\nfor miles through miles\nof emptiness and longing\nto distant shorelines\nwhere at last they may find\na witness to their journey.\n\u003cem\u003eRest and stay awhile\u003c/em\u003e, he says,\n\u003cem\u003ethe sand is warm, the sun a friend.\u003c/em\u003e\n\u003cem\u003eTell me the story of how you found\u003c/em\u003e\n\u003cem\u003eyour way through the cracks. Show me\u003c/em\u003e\n\u003cem\u003ehow you pieced yourself together\u003c/em\u003e\n\u003cem\u003eand dared the great escape.\u003c/em\u003e\u003c/p\u003e\n"
         },
         {
             "title": "Live the questions",
             "date_published": "2022-10-03T00:00:00Z",
             "date_modified": "2022-10-03T00:00:00Z",
-            "id": "https://philintheblank.me/poems/10-03-22-questions/",
-            "url": "https://philintheblank.me/poems/10-03-22-questions/",
+            "id": "http://localhost:1313/poems/10-03-22-questions/",
+            "url": "http://localhost:1313/poems/10-03-22-questions/",
             "content_html": "\u003cp\u003eThere goes the body again\ntrying to find answers\nwhere only questions exist.\u003c/p\u003e\n\u003cp\u003eWhere do we go from here?\nWhy does hope feel so heavy?\nWho am I without love and direction?\u003c/p\u003e\n\u003cp\u003eRilke said to live\nthe questions, as if\nby following the curves\u003c/p\u003e\n\u003cp\u003eof their bodies\nyou would be led\nto the full-stop of your life.\u003c/p\u003e\n\u003cp\u003eOf course,\neveryone has their answers\nand I am still here\u003c/p\u003e\n\u003cp\u003ewriting of curves and bodies.\nSuch is life they say.\nDid Rilke live his?\u003c/p\u003e\n"
         },
         {
             "title": "My life's work",
             "date_published": "2022-10-03T00:00:00Z",
             "date_modified": "2022-10-03T00:00:00Z",
-            "id": "https://philintheblank.me/poems/10-03-22-lifes-work/",
-            "url": "https://philintheblank.me/poems/10-03-22-lifes-work/",
+            "id": "http://localhost:1313/poems/10-03-22-lifes-work/",
+            "url": "http://localhost:1313/poems/10-03-22-lifes-work/",
             "content_html": "\u003cp\u003eis to sit in coffee shops\nwith strangers who feel\nlike home, every one of us\na vessel for croissants\nand coffee we don\u0026rsquo;t taste.\nWe sunbathe and drink\nbehind windows\nand wonder why\nwe\u0026rsquo;re still so pale.\nMeanwhile the sun\ncontinues to give\nlife to the land\nand anyone who sees\nthat the exit\nis the entrance,\nthat coffee\nwas meant to be enjoyed\nin colder hands.\u003c/p\u003e\n"
         },
         {
             "title": "My Neighbor El",
             "date_published": "2022-09-23T00:00:00Z",
             "date_modified": "2022-09-23T00:00:00Z",
-            "id": "https://philintheblank.me/poems/09-23-22-neighbor-el/",
-            "url": "https://philintheblank.me/poems/09-23-22-neighbor-el/",
+            "id": "http://localhost:1313/poems/09-23-22-neighbor-el/",
+            "url": "http://localhost:1313/poems/09-23-22-neighbor-el/",
             "content_html": "\u003cp\u003eOn the day you fell\nthe life you lived\nand the future you wanted\ncame down from the clouds\nto taste the cold hard Earth.\nThe strong column of bone\nthat carried your adventurous spirit\nwas crushed,\nnot by the fishing boats\nyou once sailed in the West,\nnot by the numerous hours\nyou spent hunched over\nplanning and printing photos\nin the dark for acclaimed\nmen of New York City,\nbut by mere coincidence,\na misplaced foot perhaps\nin a life that couldn’t keep up with you.\nStill, that didn’t stop you\nfrom peeking over the fence\nand startling me with your big glasses\nand bigger hello one early morning.\nYou bent over and snapped me\nsome sprigs of lavender\nfrom your lovely garden.\nA housewarming gift you said\nfor the new kid on the block.\nThen there were the eggs\nI wanted but couldn’t eat,\nfreshly laid by your dearly loved hens.\nTheir happiness became a familiar sound\nin the quiet dawn that housed our street.\nI heard yours too in the way\nyou talked and tended to them\nas if they were sacred royalty.\n“They only eat organic.”\nYou talked to the wildflowers too.\nYou always asked them\nto come home with you\n(if they wanted to)\nand they responded every time\nwith glee. They knew\nwhat care and joy felt like.\nRising from my own fall,\nafter all these years,\nnow I know it too.\u003c/p\u003e\n"
         },
         {
             "title": "Old Haunts",
             "date_published": "2022-09-20T00:00:00Z",
             "date_modified": "2022-09-20T00:00:00Z",
-            "id": "https://philintheblank.me/poems/09-20-22-haunts/",
-            "url": "https://philintheblank.me/poems/09-20-22-haunts/",
+            "id": "http://localhost:1313/poems/09-20-22-haunts/",
+            "url": "http://localhost:1313/poems/09-20-22-haunts/",
             "content_html": "\u003cp\u003eThere is always the trace of you\nin these places we once called ours.\nI\u0026rsquo;m here again today and\nnow they\u0026rsquo;re only mine and yours.\u003c/p\u003e\n\u003cp\u003eI come from time to time\njust to see if things have changed.\nNot much has\nthough there\u0026rsquo;s a new couch now.\u003c/p\u003e\n\u003cp\u003eAnd there is still\nthat familiar knot\nin the butter of this biscuit\nas savory as our kisses were.\u003c/p\u003e\n\u003cp\u003eMy coffee is still dark\nlike the blades of your eyes,\nyour rooibos tea now\na touch lighter than mine.\u003c/p\u003e\n\u003cp\u003eI\u0026rsquo;m here to find\nwhat only I can see.\nWhat you always saw,\nwhat I simply perceived.\u003c/p\u003e\n\u003cp\u003eI\u0026rsquo;m stronger this time\nbut I still bend like your smile.\nThe new couch is staring at me\nand I\u0026rsquo;m wondering what is right.\u003c/p\u003e\n"
         },
         {
             "title": "With grace",
             "date_published": "2022-08-29T00:00:00Z",
             "date_modified": "2022-08-29T00:00:00Z",
-            "id": "https://philintheblank.me/poems/08-29-22-grace/",
-            "url": "https://philintheblank.me/poems/08-29-22-grace/",
+            "id": "http://localhost:1313/poems/08-29-22-grace/",
+            "url": "http://localhost:1313/poems/08-29-22-grace/",
             "content_html": "\u003cp\u003ecount the possibilities\non your toes this time,\nas if they were suddenly\nreleased from the grip\nof boots too small\nfor feet meant to kiss the earth.\nWalk until your feet need rest\nand rest. Worry for awhile\nand let the sand remind you\nof rocks and change. Then\ngo and find yourself\non the other side of the shore\nwhere love always fits\nin places it once couldn’t.\u003c/p\u003e\n"
         },
         {
             "title": "hunger",
             "date_published": "2022-08-28T00:00:00Z",
             "date_modified": "2022-08-28T00:00:00Z",
-            "id": "https://philintheblank.me/poems/08-28-22-hunger/",
-            "url": "https://philintheblank.me/poems/08-28-22-hunger/",
+            "id": "http://localhost:1313/poems/08-28-22-hunger/",
+            "url": "http://localhost:1313/poems/08-28-22-hunger/",
             "content_html": "\u003cp\u003eYou’re a painting\nYou’re a body of photographs\nframed in a movie reel –\u003c/p\u003e\n\u003cp\u003eYou’re music\nYou’re a guitar that sings\non love-stained strings –\u003c/p\u003e\n\u003cp\u003eYou’re something to behold\na rose never to touch\na smile just for show –\u003c/p\u003e\n\u003cp\u003eDoes the hunger ever end?\neven in romance and pretense\neven in more-than-just–friends –\u003c/p\u003e\n\u003cp\u003eYou’re poetry\nYou’re heaved sonnets to a delicate love song–\nAn Oliver and a Dickinson\u003c/p\u003e\n\u003cp\u003ein a world that wants\nCummings\nand Nerudas –\u003c/p\u003e\n\u003cp\u003eYou are freedom\nYou are madness kissed\nYou are fires to a spark –\u003c/p\u003e\n\u003cp\u003eYou are distance\nYou are desire\nYou are the reason I walk –\u003c/p\u003e\n\u003cp\u003eThere I go\nyearning\nscreaming –\u003c/p\u003e\n\u003cp\u003erunning\u003c/p\u003e\n"
         },
         {
             "title": "How not to let go",
             "date_published": "2022-08-16T00:00:00Z",
             "date_modified": "2022-08-16T00:00:00Z",
-            "id": "https://philintheblank.me/poems/08-16-22-let-go-not/",
-            "url": "https://philintheblank.me/poems/08-16-22-let-go-not/",
+            "id": "http://localhost:1313/poems/08-16-22-let-go-not/",
+            "url": "http://localhost:1313/poems/08-16-22-let-go-not/",
             "content_html": "\u003cp\u003eHold on. Forget\nto have have fun. Rerun\nevery kiss you ever held\nlike tomorrow won\u0026rsquo;t come.\u003c/p\u003e\n\u003cp\u003eWatch the sun paint the sky\nin thankless strokes. Let your mind\nplay roulette with all your hopes.\nTell yourself you have to do this\nalone. Remind yourself\nyou\u0026rsquo;ll never find yourself\nand your way back home.\u003c/p\u003e\n\u003cp\u003eDon\u0026rsquo;t confess what a mess\nyou are. Count your sins\nand every scar. Convince\nyourself you still want\nwhat you don\u0026rsquo;t want\nand let the Myrtle tree out front\nshed her pink dress\nwithout the lonely eyes\nof her only witness.\u003c/p\u003e\n"
         },
         {
             "title": "Vietnamese-American",
             "date_published": "2022-08-14T00:00:00Z",
             "date_modified": "2022-08-14T00:00:00Z",
-            "id": "https://philintheblank.me/poems/08-14-22-vietnamese/",
-            "url": "https://philintheblank.me/poems/08-14-22-vietnamese/",
+            "id": "http://localhost:1313/poems/08-14-22-vietnamese/",
+            "url": "http://localhost:1313/poems/08-14-22-vietnamese/",
             "content_html": "\u003cp\u003eAt the age of two I learned\nof loss and shadows, how both\ncan exist without the light.\nYou always had to be\ntwo steps ahead Dad said\nif you wanted to survive.\nStories that were never mine\nI carried anyways, one part\nthe past I inherited, the rest\na future that had no use for dreams\nand romance. Home\nwas no longer a roof\nbut instead a hunger longing\nfor something more than history.\u003c/p\u003e\n"
         },
         {
             "title": "Petty",
             "date_published": "2022-08-12T00:00:00Z",
             "date_modified": "2022-08-12T00:00:00Z",
-            "id": "https://philintheblank.me/poems/08-12-22-petty/",
-            "url": "https://philintheblank.me/poems/08-12-22-petty/",
+            "id": "http://localhost:1313/poems/08-12-22-petty/",
+            "url": "http://localhost:1313/poems/08-12-22-petty/",
             "content_html": "\u003cp\u003eYou didn’t text me on my birthday.\nI know I know, I walked away\nbut you asked if you could\neven when everything was breaking\nbetween us in that burning room and now\nI’m breaking and thought you would\nsave me, like you always did. But still,\nperhaps, you knew, like you always did,\nwhat my heart needed most, and gave that\nto me instead. You, the better put-together half,\nare still saving me, even after all this time.\u003c/p\u003e\n"
         },
         {
             "title": "Things I'm Not Telling Myself",
             "date_published": "2022-08-11T00:00:00Z",
             "date_modified": "2022-08-11T00:00:00Z",
-            "id": "https://philintheblank.me/poems/08-11-22-things-im-not/",
-            "url": "https://philintheblank.me/poems/08-11-22-things-im-not/",
+            "id": "http://localhost:1313/poems/08-11-22-things-im-not/",
+            "url": "http://localhost:1313/poems/08-11-22-things-im-not/",
             "content_html": "\u003cp\u003eYou miss her. You want to tell her you miss her.\nYou want to say you feel lost and alone,\nthat you feel like you\u0026rsquo;re the world\u0026rsquo;s biggest dunce\nevery morning when you wake up empty-handed\nand every empty-handed minute before nightfall.\nBut she is not what you need right now.\nYou need to confront, with compassion,\nwhatever it is that led you here.\nYou need to let go of the dreams and fantasies\nand to root yourself in reality. You need to be\nand to become the one you need.\nIt’s difficult to let go\nof what you loved, so be patient\u003c/p\u003e\n\u003cp\u003ewith yourself. Trust yourself. Let yourself\nbe carried in the arms of others\nas you pick up the tender pieces\nof your hardened heart. Sadness and grief\nare a part of the healing. You can\nand will change for next time.\nThere will be a next time, another chance,\nanother love. It\u0026rsquo;s hard, but you\u0026rsquo;re intimate\nwith stubbornness and tenacity. You know pain\nand heartbreak. Continue and put words on the page\nthrough your misty eyes and aching knees.\nGive oxygen to a soul that is hungry for warmth\nand fire. Let the tears fall\u003c/p\u003e\n\u003cp\u003ebut don\u0026rsquo;t let them put out the flame.\u003c/p\u003e\n"
         },
         {
             "title": "Oatmeal",
             "date_published": "2022-07-24T00:00:00Z",
             "date_modified": "2022-07-24T00:00:00Z",
-            "id": "https://philintheblank.me/poems/07-24-22-oatmeal/",
-            "url": "https://philintheblank.me/poems/07-24-22-oatmeal/",
+            "id": "http://localhost:1313/poems/07-24-22-oatmeal/",
+            "url": "http://localhost:1313/poems/07-24-22-oatmeal/",
             "content_html": "\u003cp\u003eI’m eating my last bowl of oatmeal,\nlooking outside the window\nof a life that was meant for us.\nIt’s perfectly framed:\u003c/p\u003e\n\u003cp\u003eYou in the sunlit kitchen\nsinging dad rock making ciabatta,\nswaying your small hips to rhythms\nstill foreign to me\u003c/p\u003e\n\u003cp\u003eand I endlessly pondering\nhow to fit\nall of it\nonto evenly spaced lines.\u003c/p\u003e\n\u003cp\u003eLove was delicious to you.\nThe tomatoes you grew\nwelcomed eating and everything\nelse that needed to be tasted.\u003c/p\u003e\n\u003cp\u003eI was there to catch them\nwith my clumsy hands when\nthey at last fell, bringing you down\nwith me to kiss the generous earth.\u003c/p\u003e\n\u003cp\u003eNow I’m waiting and twisting\nmy cold spoon in circles\nuntil one day I hunger\nfor something more than oats.\u003c/p\u003e\n"
         },
         {
             "title": "Chaos",
             "date_published": "2022-07-03T00:00:00Z",
             "date_modified": "2022-07-03T00:00:00Z",
-            "id": "https://philintheblank.me/poems/07-03-22-chaos/",
-            "url": "https://philintheblank.me/poems/07-03-22-chaos/",
+            "id": "http://localhost:1313/poems/07-03-22-chaos/",
+            "url": "http://localhost:1313/poems/07-03-22-chaos/",
             "content_html": "\u003cp\u003eI hold the world\nIn a single equation.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eDon’t forget to express the bifurcations.\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eA flap in the wind\nA sudden change of heart\nI have accounted for\nevery unknown start.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eBut what of love and culture\u003c/em\u003e\n\u003cem\u003eAnd romance too?\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eIt is all certain\nIn the limit of time.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eBut until then\u003c/em\u003e\n\u003cem\u003ewhat do you believe\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003ethat we will do?\u003c/em\u003e\u003c/p\u003e\n"
         },
         {
             "title": "Morning",
             "date_published": "2022-04-29T00:00:00Z",
             "date_modified": "2022-04-29T00:00:00Z",
-            "id": "https://philintheblank.me/poems/morning/",
-            "url": "https://philintheblank.me/poems/morning/",
+            "id": "http://localhost:1313/poems/morning/",
+            "url": "http://localhost:1313/poems/morning/",
             "content_html": "\u003cp\u003eIn the nook of this morning\nthere is the urge for busyness\nand meaning. But the golden\nhas just hopped between\ntwo humans musing\nabout the sun. How difficult,\nshe thinks, to be so thoughtful.\nHer neck cranes downward\ntoward the dirty floorboards\ntakes a whiff\nof what is missing\nand suddenly remembers\nthe shape of dirt.\u003c/p\u003e\n"
         },
         {
             "title": "Hands",
             "date_published": "2021-12-12T00:00:00Z",
             "date_modified": "2021-12-12T00:00:00Z",
-            "id": "https://philintheblank.me/poems/hands/",
-            "url": "https://philintheblank.me/poems/hands/",
+            "id": "http://localhost:1313/poems/hands/",
+            "url": "http://localhost:1313/poems/hands/",
             "content_html": "\u003cp\u003eLook at what all these years\nhave done to your hands.\nThe hands of a man\nborn on two shorelines,\nthe hands of an artist\nand engineer who makes knives\npirouette on stained bamboo boards.\nYou still season the chicken\nwith ginger and sarcasm,\nand your pho reminds us\nthat all love needs\nis bones and water.\nI\u0026rsquo;ve tried writing the steps\ndown, but what recipe\ncould ever contain you?\nWho could hope to recreate\nwhat you have touched?\nGod has made his attempts,\nbut the angel you once held\nwants nothing more\nthan your hands again.\u003c/p\u003e\n"
         },
         {
             "title": "Dad",
             "date_published": "2021-07-29T00:00:00Z",
             "date_modified": "2021-07-29T00:00:00Z",
-            "id": "https://philintheblank.me/poems/papa/",
-            "url": "https://philintheblank.me/poems/papa/",
+            "id": "http://localhost:1313/poems/papa/",
+            "url": "http://localhost:1313/poems/papa/",
             "content_html": "\u003cp\u003eHunched over in your garden\nlike a daylily on the boardwalk watching\nthe world spin faster\nand faster on its slant axis,\nyou still water the plants we bought for you\nthree summers ago, as if\nyou were still showering us\nwith your wordless love,\nwith your thankless devotion,\npraying one day that\nwe will eventually grow\nback in your direction.\u003c/p\u003e\n"
         },
         {
             "title": "Waiting",
             "date_published": "2021-07-18T00:00:00Z",
             "date_modified": "2021-07-18T00:00:00Z",
-            "id": "https://philintheblank.me/poems/waiting/",
-            "url": "https://philintheblank.me/poems/waiting/",
+            "id": "http://localhost:1313/poems/waiting/",
+            "url": "http://localhost:1313/poems/waiting/",
             "content_html": "\u003cp\u003eThe news came over you\nthe way winter\u003c/p\u003e\n\u003cp\u003edoes, like a wave crawling\nup your spine,\u003c/p\u003e\n\u003cp\u003eevery goosebump a sign\nthat the story\u003c/p\u003e\n\u003cp\u003eyou lived by would soon\ncome to its\u003c/p\u003e\n\u003cp\u003eend. The fire warming\nyour heart makes\u003c/p\u003e\n\u003cp\u003eway for the embers\nand ashes,\u003c/p\u003e\n\u003cp\u003efor all that’s left, black\nscars and burn\u003c/p\u003e\n\u003cp\u003emarks, a house without\na roof, memories\u003c/p\u003e\n\u003cp\u003eforever frozen\nin place. You’ll\u003c/p\u003e\n\u003cp\u003eKnow he’s gone when\nthe silence\u003c/p\u003e\n\u003cp\u003esettles like\ndust.\u003c/p\u003e\n"
         },
         {
             "title": "Hope",
             "date_published": "2021-03-30T00:00:00Z",
             "date_modified": "2021-03-30T00:00:00Z",
-            "id": "https://philintheblank.me/poems/hope/",
-            "url": "https://philintheblank.me/poems/hope/",
+            "id": "http://localhost:1313/poems/hope/",
+            "url": "http://localhost:1313/poems/hope/",
             "content_html": "\u003cp\u003eHope killed me today.\u003c/p\u003e\n\u003cp\u003eIt promised me\nI could be anything\nwhen all I wanted\nwas to be me.\u003c/p\u003e\n"
         },
         {
             "title": "Evanescent",
             "date_published": "2020-12-13T00:00:00Z",
             "date_modified": "2020-12-13T00:00:00Z",
-            "id": "https://philintheblank.me/poems/evanescent/",
-            "url": "https://philintheblank.me/poems/evanescent/",
+            "id": "http://localhost:1313/poems/evanescent/",
+            "url": "http://localhost:1313/poems/evanescent/",
             "content_html": "\u003cp\u003eso many years left\nby the measure of things\u003c/p\u003e\n\u003cp\u003ethough memory and circumstance\ndon’t seem to agree with me.\u003c/p\u003e\n\u003cp\u003ethey only see\nthe distance\u003c/p\u003e\n\u003cp\u003ebetween who we were then\nand who we are now.\u003c/p\u003e\n\u003cp\u003ei can’t tell if you’re smiling\nor if that’s the wrinkle\u003c/p\u003e\n\u003cp\u003ein your eye\nreminding me\u003c/p\u003e\n\u003cp\u003eof where we’ve been\nand where we’re still going.\u003c/p\u003e\n\u003cp\u003ethere’s not much\nof that for us anymore,\u003c/p\u003e\n\u003cp\u003ewe’ve had our fair share\nof looking ahead,\u003c/p\u003e\n\u003cp\u003ebut you’re still surprised\nwhen you find my fingers\u003c/p\u003e\n\u003cp\u003ein the thicket of your silver threads,\ngrazing on skin\u003c/p\u003e\n\u003cp\u003enow deliciously peppered\nwith time.\u003c/p\u003e\n"
         },
         {
             "title": "Waiting",
             "date_published": "2020-11-28T00:00:00Z",
             "date_modified": "2020-11-28T00:00:00Z",
-            "id": "https://philintheblank.me/poems/waiting-for/",
-            "url": "https://philintheblank.me/poems/waiting-for/",
+            "id": "http://localhost:1313/poems/waiting-for/",
+            "url": "http://localhost:1313/poems/waiting-for/",
             "content_html": "\u003cp\u003eWill you start the day now?\nTime can only cradle you\nfor so long, your body so\nheavy with duty and obligation.\u003c/p\u003e\n\u003cp\u003eThe questions tugging at your soul\ncan wait; she will be there\nat the end of the day, and if not\nperhaps tomorrow – well at least\nyou have yourself.\u003c/p\u003e\n\u003cp\u003eAnd if not that, well,\ntime will be waiting,\npoised like the sliver of a grin,\nready to swing your life away.\u003c/p\u003e\n"
         },
         {
             "title": "A Prayer",
             "date_published": "2020-11-07T00:00:00Z",
             "date_modified": "2020-11-07T00:00:00Z",
-            "id": "https://philintheblank.me/poems/prayer/",
-            "url": "https://philintheblank.me/poems/prayer/",
+            "id": "http://localhost:1313/poems/prayer/",
+            "url": "http://localhost:1313/poems/prayer/",
             "content_html": "\u003cp\u003eI.\u003c/p\u003e\n\u003cp\u003eIn the riptide\n    of\n    this moment\nmay I act out of  \tgoodwill,\nmay I rediscover\nthe goodness   of others\n    made obfuscate\nby timelines     and party lines\n    and tighten the loosened thread\nthat ties us all\n  together.\u003c/p\u003e\n\u003cp\u003eII.\u003c/p\u003e\n\u003cp\u003eThe gift is knowing\nwhat ails you\u003c/p\u003e\n\u003cp\u003ethe privilege is holding    \tthat truth\nwithout turning   away–\u003c/p\u003e\n\u003cp\u003ewhat I fear most is not that you will hurt me\nbecause in many ways you already have\nbut that I may never understand\t  why\u003c/p\u003e\n\u003cp\u003eIII.\u003c/p\u003e\n\u003cp\u003e    What I fear\nmost is not that  \tmy side is losing\nbut that we\n      are lost.\u003c/p\u003e\n\u003cp\u003eIV.\u003c/p\u003e\n\u003cp\u003eMay I summon  \tthe courage to speak\n    not out of   hate   or righteousness\nnot out of the pain\t  I’ve held for so long\nboth for myself  \tand for others,\u003c/p\u003e\n\u003cp\u003ebut with the soft palpitations of a heart\n    in search of redemption,\n  with the hushed voice of a nation\n    dying for reconciliation.\u003c/p\u003e\n\u003cp\u003eV.\u003c/p\u003e\n\u003cp\u003eMay our differences\nsharpen our similarities.\u003c/p\u003e\n\u003cp\u003eMay I be bold enough\nto witness your suffering\u003c/p\u003e\n\u003cp\u003eand subsequently illuminate\nthe shape of my own.\u003c/p\u003e\n\u003cp\u003eMay we surf the edges with evermore grace\nso that we can rise above the inevitable tide,\u003c/p\u003e\n\u003cp\u003eswim ashore and dance\nto the drumming of a fragile anthem\u003c/p\u003e\n\u003cp\u003ecelebrating\nthe birth of a nation.\u003c/p\u003e\n"
         },
         {
             "title": "Family",
             "date_published": "2020-10-25T00:00:00Z",
             "date_modified": "2020-10-25T00:00:00Z",
-            "id": "https://philintheblank.me/poems/fam/",
-            "url": "https://philintheblank.me/poems/fam/",
+            "id": "http://localhost:1313/poems/fam/",
+            "url": "http://localhost:1313/poems/fam/",
             "content_html": "\u003cp\u003eLove is a loaded gun\nIn certain hands.\nDon’t hesitate now\nGo make your demands.\nMy arms are up yes\nSo claim what you see.\nIn your crosshair my heart\nupon a sleeve.\nI confess I’m a threat\nTo everything you know.\nBut don’t worry I’ll dance\nWith you real slow.\nWhat’s the rush you’re in\nSuch a hurry.\nMy questions lack answers\nBut it’s a lifelong journey.\nShoot if you have to\nAnd say it was for love.\nWhat you would die for\nIs a taste of this blood.\u003c/p\u003e\n"
         },
         {
             "title": "Ingredients",
             "date_published": "2020-10-24T00:00:00Z",
             "date_modified": "2020-10-24T00:00:00Z",
-            "id": "https://philintheblank.me/poems/ingredients/",
-            "url": "https://philintheblank.me/poems/ingredients/",
+            "id": "http://localhost:1313/poems/ingredients/",
+            "url": "http://localhost:1313/poems/ingredients/",
             "content_html": "\u003cp\u003eOne pinch of fun, just enough for two.\nTwo cups of trust – three for the adventurous.\nFour cloves of love – more for good measure.\nFive pounds of respect to ensure a firm foundation.\nSix licks to taste, just in case things turn sour.\nEight hints of promises, so seven can be broken.\nNine gallons of luck, Papa said,\nbecause life always get messy.\nTen drops of honey, to top things off.\u003c/p\u003e\n"
         },
         {
             "title": "Forgive Me Szymborska",
             "date_published": "2020-10-16T00:00:00Z",
             "date_modified": "2020-10-16T00:00:00Z",
-            "id": "https://philintheblank.me/poems/possibilities/",
-            "url": "https://philintheblank.me/poems/possibilities/",
+            "id": "http://localhost:1313/poems/possibilities/",
+            "url": "http://localhost:1313/poems/possibilities/",
             "content_html": "\u003cp\u003eI prefer chocolate.\nI prefer music.\nI prefer facts dancing with feelings.\nI prefer Dandelion to Cherry Wine.\nI prefer trees dressed in autumn.\nI prefer keeping a notebook and pen on hand, just in case.\nI prefer the quiet of silence\nto the silence of absence.\nI prefer the color green.\nI prefer rebels.\nI prefer not to maintain\nthat convenience is always convenient.\nI prefer to wake early.\nI prefer to sleep late when it’s wrong.\nI prefer talking to therapists about something else.\nI prefer used books.\nI prefer the absurdity of kids\nto the absurdity of adults.\nI prefer, where love’s concerned, nonspecific anniversaries\nthat can be celebrated every moment.\nI prefer friends\nwho promise me nothing.\nI prefer bittersweet compassion to everyday kindness.\nI prefer surprises.\nI prefer the earth in hand-me-downs.\nI prefer bordering countries to bordered ones.\nI prefer the hell of questions to the hell of answers.\nI prefer cats.\nI prefer dogs unleashed.\nI prefer the creased line of a Szymborska\nto the headline of a newspaper.\nI prefer the thrill of knowing to the thrill of believing.\nI prefer light eyes, since mine are dark.\nI prefer laughter.\nI prefer joy to happiness.\nI prefer things I’ve forgotten to say\nto things I’ve left unsaid.\nI prefer the time of seasons to the time of stars.\nI prefer to have faith.\nI prefer ideas to movements.\nI prefer keeping in mind even the possibility\nthat existence has its own raison d\u0026rsquo;être.\u003c/p\u003e\n"
         },
         {
             "title": "Pause",
             "date_published": "2020-10-16T00:00:00Z",
             "date_modified": "2020-10-16T00:00:00Z",
-            "id": "https://philintheblank.me/poems/pause/",
-            "url": "https://philintheblank.me/poems/pause/",
+            "id": "http://localhost:1313/poems/pause/",
+            "url": "http://localhost:1313/poems/pause/",
             "content_html": "\u003cp\u003eFind a place to rest now. Sit.\nClose your eyes – yes, things will be fine.\nBreathe. Let go, for a moment,\nof worry. Don\u0026rsquo;t worry: he\u0026rsquo;ll be waiting\nfor you when you open your eyes.\nFor now release. Sink in. Breathe again.\nFeel the cold beneath your feet.\nFeel the hug of the rising sun.\nNotice how something as thin as grass\ncan hold the weight of the world.\nNotice how something as light as air\ncan carry the dramas of civilization.\nWatch your thoughts come and go like clouds.\nLet time slow down. Let space be space.\nAnd breathe again.\nListen to the silence.\nListen to the sound of your beating heart.\nHear the rhythms of existence ebb and flow\nerratically between your life and this life.\nOpen your eyes when you\u0026rsquo;re ready\nand let worry in\nlike an old friend.\u003c/p\u003e\n"
         },
         {
             "title": "Vulnerability",
             "date_published": "2020-10-06T00:00:00Z",
             "date_modified": "2020-10-06T00:00:00Z",
-            "id": "https://philintheblank.me/poems/vulnerability/",
-            "url": "https://philintheblank.me/poems/vulnerability/",
+            "id": "http://localhost:1313/poems/vulnerability/",
+            "url": "http://localhost:1313/poems/vulnerability/",
             "content_html": "\u003cp\u003eYou opened up\nlike a lotus in the night\nand allowed me\nto feel the shy rhythm\nof your untouched\nheartbeat\nwith my callused fingers.\nThey traced the surface\nof your little life\nas you guided me\nover the eight scars\ndotting your body\nlike flower petals\non the surface\nof a boundless lake.\u003c/p\u003e\n"
         },
         {
             "title": "Kintsugi",
             "date_published": "2020-08-25T00:00:00Z",
             "date_modified": "2020-08-25T00:00:00Z",
-            "id": "https://philintheblank.me/poems/kintsugi/",
-            "url": "https://philintheblank.me/poems/kintsugi/",
+            "id": "http://localhost:1313/poems/kintsugi/",
+            "url": "http://localhost:1313/poems/kintsugi/",
             "content_html": "\u003cp\u003e\u003cstrong\u003e\u003cem\u003eI. Summer of COVID-19\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eThis time around\nthe antagonist is a consequence\u003c/p\u003e\n\u003cp\u003eof randomness\nand stupidity;\u003c/p\u003e\n\u003cp\u003eNot the usual trail of mosquito bites\nlining my ankles after a night by the lake–\u003c/p\u003e\n\u003cp\u003eNot the flakey crust of sunburned shoulders\nand sun-spoiled cider roiling in the drunk sand–\u003c/p\u003e\n\u003cp\u003eNot the hurried kiss of a summer love\nmeant to be a memory–\u003c/p\u003e\n\u003cp\u003eNo instead I am accompanied by an unfounded certainty,\na future I cannot yet begin to imagine\u003c/p\u003e\n\u003cp\u003ewithout compromising the numerous stitches\nalready upholding the architecture\u003c/p\u003e\n\u003cp\u003eof a life once mine.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eII. In the Dark\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eOscillating between\u003c/p\u003e\n\u003cp\u003edespair and\nrestlessness;\u003c/p\u003e\n\u003cp\u003enewsfeeds\nand skin–\u003c/p\u003e\n\u003cp\u003epoems and\nmusic;\u003c/p\u003e\n\u003cp\u003epasts and\na reality\u003c/p\u003e\n\u003cp\u003erunning from reach.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eIII. Falling\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eYour face in the bathroom mirror\nagain staring back at someone\nsomething unknowable\nwondering how long\nit takes for regret\nto leave\nthe\nbody\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eIV. How\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eTo move forward?\u003c/p\u003e\n\u003cp\u003eTo get over myself?\u003c/p\u003e\n\u003cp\u003eTo save myself\u003c/p\u003e\n\u003cp\u003ewhen I myself\u003c/p\u003e\n\u003cp\u003elack myself\u003c/p\u003e\n\u003cp\u003ethe smiling\u003c/p\u003e\n\u003cp\u003econfidence\u003c/p\u003e\n\u003cp\u003eof an untouched life?\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e\u003cem\u003eV. Kintsugi\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eBegin with love\nand generous fingertips,\nyours. Lace the roiled sand\nbetween the cracks\nand piece together\nthe moments\none by one.\nHold them still\nas if your life\ndepended on\nit–it does–\nand wait.\nGrowth requires\ntime. Meaning\ndemands patience.\u003c/p\u003e\n"
         },
         {
             "title": "Meeting Again",
             "date_published": "2020-08-23T00:00:00Z",
             "date_modified": "2020-08-23T00:00:00Z",
-            "id": "https://philintheblank.me/poems/for-a-friend/",
-            "url": "https://philintheblank.me/poems/for-a-friend/",
+            "id": "http://localhost:1313/poems/for-a-friend/",
+            "url": "http://localhost:1313/poems/for-a-friend/",
             "content_html": "\u003cp\u003eYou asked if I ever\nwrote a poem about you\nAnd I said never\nNot without another few\nDays of this again:\u003c/p\u003e\n\u003cp\u003eUs by the lake\nUnsure\nof what to make\nof all this time\nbetween us.\u003c/p\u003e\n"
         },
         {
             "title": "27 Years",
             "date_published": "2020-08-08T00:00:00Z",
             "date_modified": "2020-08-08T00:00:00Z",
-            "id": "https://philintheblank.me/poems/27/",
-            "url": "https://philintheblank.me/poems/27/",
+            "id": "http://localhost:1313/poems/27/",
+            "url": "http://localhost:1313/poems/27/",
             "content_html": "\u003cp\u003eolder\nand still no closer\nto heaven. But please,\nleave me–\u003c/p\u003e\n\u003cp\u003eLeave me here where\nmy prayers are answered\nin the rhyme of a Dickinson\nor the riff of a Sultana–\u003c/p\u003e\n\u003cp\u003eLeave me here on the breast\nof the earth where angels\nkiss sinners like me\nover tea and late night memories\non Sunday mornings–\u003c/p\u003e\n\u003cp\u003eLeave me here where the blessing\nof caressing hands is enough\nto bend a celibate to his knees\nover the pulpit of her body\nas they mouth Hallelujah–\u003c/p\u003e\n\u003cp\u003eLeave me here alone\nin the bedroom of midnight\nso I may wake drenched\nin the sweat of stars\nand surrendered dreams–\u003c/p\u003e\n\u003cp\u003eLeave me here where salvation\ncan be found on a coastline\nunder hails of light bursting\nthrough the winged cathedral\nof a redwood canopy–\u003c/p\u003e\n\u003cp\u003eLeave me here where the mind\nis wider than the sky\nand contains so much\nmore\nthan I–\u003c/p\u003e\n\u003cp\u003eLeave me here\nand heaven forbid\nthe day I arrive\nat the holy promenade\nwithout my return ticket–\u003c/p\u003e\n\u003cp\u003eLeave me here\nto dwell in possibility–\u003c/p\u003e\n\u003cp\u003e–in the only promise\nguaranteed.\u003c/p\u003e\n"
         },
         {
             "title": "Calluses",
             "date_published": "2020-07-22T00:00:00Z",
             "date_modified": "2020-07-22T00:00:00Z",
-            "id": "https://philintheblank.me/poems/calluses/",
-            "url": "https://philintheblank.me/poems/calluses/",
+            "id": "http://localhost:1313/poems/calluses/",
+            "url": "http://localhost:1313/poems/calluses/",
             "content_html": "\u003cp\u003eThe things they’ve seen–\nThe places they’ve been–\nThe hands and\nOh! the people they’ve touched\u003c/p\u003e\n\u003cp\u003elet go and let in.\u003c/p\u003e\n\u003cp\u003eMountains of accumulating scars–\nMemories of forgotten days counting stars–\nMistakes years in the making\nforever etched\u003c/p\u003e\n\u003cp\u003ein the pulp of my naked hands.\u003c/p\u003e\n\u003cp\u003eNow forming at my fingertips–\nNow tracing the plum of new lips–\nNow paving mazes of foreign roads\ntoward the cliff of some unknown future,\u003c/p\u003e\n\u003cp\u003emine.\u003c/p\u003e\n\u003cp\u003eCatch me still searching for meaning in grains–\nCatch me still chasing horizons for nothing–\nCatch me still losing myself\nin words and in love\u003c/p\u003e\n\u003cp\u003eover\u003c/p\u003e\n\u003cp\u003eand over\nagain–\u003c/p\u003e\n"
         },
         {
             "title": "My Light",
             "date_published": "2020-06-30T00:00:00Z",
             "date_modified": "2020-06-30T00:00:00Z",
-            "id": "https://philintheblank.me/poems/forever-light/",
-            "url": "https://philintheblank.me/poems/forever-light/",
+            "id": "http://localhost:1313/poems/forever-light/",
+            "url": "http://localhost:1313/poems/forever-light/",
             "content_html": "\u003cp\u003eWhen someone dies\nare they really gone?\u003c/p\u003e\n\u003cp\u003eThe apples in the garden\nmiss your callused touch,\u003c/p\u003e\n\u003cp\u003eand the Earth, it seems,\ncan\u0026rsquo;t weep enough.\u003c/p\u003e\n\u003cp\u003eForever feels\nmore real\u003c/p\u003e\n\u003cp\u003ethan the rain does.\nYou\u0026rsquo;re gone\u003c/p\u003e\n\u003cp\u003ebut the story\nlives on\u003c/p\u003e\n\u003cp\u003ein a bed\nof neurons\u003c/p\u003e\n\u003cp\u003eyou once said,\nelectrical impulses\u003c/p\u003e\n\u003cp\u003ewith enough power\nto light\u003c/p\u003e\n\u003cp\u003eentire universes.\nI wish you were here\u003c/p\u003e\n\u003cp\u003ebut you are there\nwhere stars like you\u003c/p\u003e\n\u003cp\u003eare meant to burn\nlike diamonds studded\u003c/p\u003e\n\u003cp\u003ein the sky,\nyour bright\u003c/p\u003e\n\u003cp\u003epresence\nforever my light.\u003c/p\u003e\n"
         },
         {
             "title": "Frogs",
             "date_published": "2020-06-20T00:00:00Z",
             "date_modified": "2020-06-20T00:00:00Z",
-            "id": "https://philintheblank.me/poems/frogs/",
-            "url": "https://philintheblank.me/poems/frogs/",
+            "id": "http://localhost:1313/poems/frogs/",
+            "url": "http://localhost:1313/poems/frogs/",
             "content_html": "\u003cp\u003eFind me\non the forest floor\nlingering\nwith the song\nof frogs\nleaping\nfrom one stone\nto the next\npreaching words\nof wonder\nunder shadows\nand\nsunlit beams\nof self-forgetting.\u003c/p\u003e\n"
         },
         {
             "title": "Footsteps",
             "date_published": "2020-06-14T00:00:00Z",
             "date_modified": "2020-06-14T00:00:00Z",
-            "id": "https://philintheblank.me/poems/footsteps/",
-            "url": "https://philintheblank.me/poems/footsteps/",
+            "id": "http://localhost:1313/poems/footsteps/",
+            "url": "http://localhost:1313/poems/footsteps/",
             "content_html": "\u003cp\u003eMy feet\nfollow\nthe sound\nof\na heartbeat\nskipping\nalong\na foreign\nroad\nleading me\ntoward\na horizon\nwhere stillness finds\nitself\nin the rhythm\nof quiet\nfootsteps\non amber\nlandscapes\npraising the sun.\u003c/p\u003e\n"
         },
         {
             "title": "Just kids",
             "date_published": "2020-06-13T00:00:00Z",
             "date_modified": "2020-06-13T00:00:00Z",
-            "id": "https://philintheblank.me/poems/just_kids/",
-            "url": "https://philintheblank.me/poems/just_kids/",
+            "id": "http://localhost:1313/poems/just_kids/",
+            "url": "http://localhost:1313/poems/just_kids/",
             "content_html": "\u003cp\u003eI’m sailing,\nI’m drifting on\na rusty boat\nin open sea\nheading nowhere\nand everywhere\nlike birch seeds floating\non the warm breath\nof a Vermont summer,\nsearching for a place\nto land and settle,\nan identity to inhabit\nand call my own.\u003c/p\u003e\n\u003cp\u003eIt’s a story I can’t get over, mine,\nthis collection of half-finished poems\nfull of half-hearted lines\nthat sketch the color of my thoughts.\nAnswers are supposed to help\nbut the questions\nare quicker to rise.\u003c/p\u003e\n\u003cp\u003eStill, beneath the sail\nlies the redeeming oar.\nGrab it and propel yourself forward\ninto the winds of opportunity,\nand when the storm inevitably comes\nas it always does\nride the waves\nand soar above\nthe tempests that seek\nto cloud the light\nbursting from your heart.\u003c/p\u003e\n"
         },
         {
             "title": "Lady in Red",
             "date_published": "2020-06-11T00:00:00Z",
             "date_modified": "2020-06-11T00:00:00Z",
-            "id": "https://philintheblank.me/poems/lady_red/",
-            "url": "https://philintheblank.me/poems/lady_red/",
+            "id": "http://localhost:1313/poems/lady_red/",
+            "url": "http://localhost:1313/poems/lady_red/",
             "content_html": "\u003cp\u003eWhile the yellow-jackets mingle with\nthe Azaleas and the sunflowers\nand the people with only each other,\nYou were there in the sky\non a young branch navigating\nthe heights of which\nfar too few have seen,\ncrawling toward the sun.\nYou weaved through the leaves\nand fought against the voice of Mother,\nand finally, finally,\nyou reached the peak.\nThen, just like the robins,\njust like the timid sparrows\nsinging without the need for recognition,\nyou opened the crimson shell\nhousing your weightless wings\nand flew to the only place you knew\nwas home.\u003c/p\u003e\n"
         },
         {
             "title": "Remembering",
             "date_published": "2020-06-10T00:00:00Z",
             "date_modified": "2020-06-10T00:00:00Z",
-            "id": "https://philintheblank.me/poems/remembering/",
-            "url": "https://philintheblank.me/poems/remembering/",
+            "id": "http://localhost:1313/poems/remembering/",
+            "url": "http://localhost:1313/poems/remembering/",
             "content_html": "\u003cp\u003eA Black birder\nsubjected to\nattempted murder\nby words\nso calculated\nthat even\nthe birds\ncould no longer\nsing–\u003c/p\u003e\n\u003cp\u003eA Black woman\nshot dead\nin her bed\nholding dreams\nthat will\nnever\nfind their way\nto this harsh\nreality–\u003c/p\u003e\n\u003cp\u003eA Black man\nhis body pinned\nunder\nthe flagpole\nof a white\nKnee–\nA body\nripped\nof breath–\nA life stripped\nof color–\nKilled–\nby and with\na weapon\ndeadlier than History–\u003c/p\u003e\n"
         },
         {
             "title": "Probability",
             "date_published": "2020-05-21T00:00:00Z",
             "date_modified": "2020-05-21T00:00:00Z",
-            "id": "https://philintheblank.me/poems/probability/",
-            "url": "https://philintheblank.me/poems/probability/",
+            "id": "http://localhost:1313/poems/probability/",
+            "url": "http://localhost:1313/poems/probability/",
             "content_html": "\u003cp\u003eHello Chance–\nhaven\u0026rsquo;t you had enough?\nJust grant me this once\na wish from above.\nI\u0026rsquo;m asking for reassurance, perhaps,\nand maybe possibility too.\nCertainly\ncertainties will do–\nBut if that\u0026rsquo;s too much to ask for\njust leave me flowers at my door\nso I may count my blessings\non petals once more.\u003c/p\u003e\n"
         },
         {
             "title": "Yearning",
             "date_published": "2020-05-20T00:00:00Z",
             "date_modified": "2020-05-20T00:00:00Z",
-            "id": "https://philintheblank.me/poems/yearning/",
-            "url": "https://philintheblank.me/poems/yearning/",
+            "id": "http://localhost:1313/poems/yearning/",
+            "url": "http://localhost:1313/poems/yearning/",
             "content_html": "\u003cp\u003ethe child inside me yearns\nfor something more–\na clue, perhaps, a sign,\nanother open door–\u003c/p\u003e\n\u003cp\u003ethe white walls surrounding me\nare falling like wavering petals–\nthe world says keep them up,\nWhy can\u0026rsquo;t you just Settle?\u003c/p\u003e\n\u003cp\u003eMy restless mind looks through\nthe windowsill and begs\nfor the world outside–\nGo, now, it whispers,\nthere is nothing here\nleft to hide.\u003c/p\u003e\n\u003cp\u003eBe bold. Be brave.\nPut on a straight face\nand take the leap –\nwhat opportunities missed\nwhen fear runs deep.\u003c/p\u003e\n"
         },
         {
             "title": "Lovers",
             "date_published": "2020-05-15T00:00:00Z",
             "date_modified": "2020-05-15T00:00:00Z",
-            "id": "https://philintheblank.me/poems/lovers-trees/",
-            "url": "https://philintheblank.me/poems/lovers-trees/",
+            "id": "http://localhost:1313/poems/lovers-trees/",
+            "url": "http://localhost:1313/poems/lovers-trees/",
             "content_html": "\u003cp\u003eWinter stripped you of your Colors\nand left you standing – Naked –\nwithout so much as a kiss\u003c/p\u003e\n\u003cp\u003ewhile the two lovers climbed your branches\nand celebrated together\nall that they would miss.\u003c/p\u003e\n\u003cp\u003eThey declared their Love\nwith their crooked names\non your soft bark–\u003c/p\u003e\n\u003cp\u003e\u0026ldquo;For you,\u0026rdquo; they whispered,\nas you smiled above, no longer lonely\nin the afternoon dark.\u003c/p\u003e\n"
         },
         {
             "title": "Refuge",
             "date_published": "2020-05-12T00:00:00Z",
             "date_modified": "2020-05-12T00:00:00Z",
-            "id": "https://philintheblank.me/poems/refuge/",
-            "url": "https://philintheblank.me/poems/refuge/",
+            "id": "http://localhost:1313/poems/refuge/",
+            "url": "http://localhost:1313/poems/refuge/",
             "content_html": "\u003cp\u003eFind refuge in my Harbor\nthe water Here is clear,\nThe Storm is over now\nRest easy now, my Dear.\u003c/p\u003e\n\u003cp\u003eLet your Anchor reach\nthe depths of my Sea,\nLet it Sink with Time\nwhile you set yourself Free.\u003c/p\u003e\n\u003cp\u003eStrip the worn Sails\nand cast them to new Hands,\nLet them taste again\nthe Salt of warm Sands.\u003c/p\u003e\n\u003cp\u003eTurn the Whites into Doves\nthat soar the open sky,\nTurn the Kites into Loves\nwho Fly you through Night.\u003c/p\u003e\n"
         },
         {
             "title": "To the Sky",
             "date_published": "2020-05-11T00:00:00Z",
             "date_modified": "2020-05-11T00:00:00Z",
-            "id": "https://philintheblank.me/poems/to-sky/",
-            "url": "https://philintheblank.me/poems/to-sky/",
+            "id": "http://localhost:1313/poems/to-sky/",
+            "url": "http://localhost:1313/poems/to-sky/",
             "content_html": "\u003cp\u003eThere I threw my sorrows\nin hopes that they would stay.\nInstead you returned tomorrow\nwith the weight of yesterday.\u003c/p\u003e\n\u003cp\u003eForgive me for asking twice,\nI\u0026rsquo;ve already begged in prayer–\nHe returned a palm full of ice,\na reminder that life isn\u0026rsquo;t fair.\u003c/p\u003e\n\u003cp\u003eThe crows made their sighs\nand the sunflowers bowed,\nI screamed shouted and cried\nwhile you stood indifferent and proud.\u003c/p\u003e\n\u003cp\u003eThe grass gleamed with dew\nas I endured the cold pain,\nwhile the earth smiled, renewed,\nand thanked me for the rain.\u003c/p\u003e\n"
         },
         {
             "title": "Blue",
             "date_published": "2020-05-10T00:00:00Z",
             "date_modified": "2020-05-10T00:00:00Z",
-            "id": "https://philintheblank.me/poems/blue/",
-            "url": "https://philintheblank.me/poems/blue/",
+            "id": "http://localhost:1313/poems/blue/",
+            "url": "http://localhost:1313/poems/blue/",
             "content_html": "\u003cp\u003eI walked to the lake\n  to skip\n   stones\n    the way people do\u003c/p\u003e\n\u003cp\u003ewith their thoughts\n  when they at last notice\n   that their pockets\n    are full.\u003c/p\u003e\n\u003cp\u003eThen you honked at me\n  in your hurried voice\n   Good morning - Good morning!\n    and invited me to linger\u003c/p\u003e\n\u003cp\u003eas your webbed feet waltzed\n  toe by toe\n   across the sand\n    into the wild open blue\u003c/p\u003e\n\u003cp\u003ewhile loneliness waited\n  by the rocks\n    and I,\n      I drowned in delight.\u003c/p\u003e\n"
         },
         {
             "title": "Our Dream",
             "date_published": "2020-05-08T00:00:00Z",
             "date_modified": "2020-05-08T00:00:00Z",
-            "id": "https://philintheblank.me/poems/our-dream/",
-            "url": "https://philintheblank.me/poems/our-dream/",
+            "id": "http://localhost:1313/poems/our-dream/",
+            "url": "http://localhost:1313/poems/our-dream/",
             "content_html": "\u003cp\u003eThe rainbow is our dream\nour sky sketched from creation,\nour soul canvas colored by\ndancing constellations.\nA place open to all\n(if you\u0026rsquo;re not\nafraid of heights)\nA home for two who\ncraft dreams\nby candlelight.\u003c/p\u003e\n"
         },
         {
             "title": "Our Room",
             "date_published": "2020-05-07T00:00:00Z",
             "date_modified": "2020-05-07T00:00:00Z",
-            "id": "https://philintheblank.me/poems/our-room/",
-            "url": "https://philintheblank.me/poems/our-room/",
+            "id": "http://localhost:1313/poems/our-room/",
+            "url": "http://localhost:1313/poems/our-room/",
             "content_html": "\u003cp\u003ePens and paintbrushes\nscattered on the bathroom floor.\nHalf-finished poems\nand crooked photos\nline the chipping walls.\nIn the dark corners our two desks rest.\nThe candles are beyond extinguished,\nour eyesight isn\u0026rsquo;t the best.\nLoved ones tell us they\u0026rsquo;re concerned,\nthey say we need something different,\nbut we can still see\nthat we already have\nAll we can dream of\nand more.\u003c/p\u003e\n"
         },
         {
             "title": "Knowledge",
             "date_published": "2020-05-06T00:00:00Z",
             "date_modified": "2020-05-06T00:00:00Z",
-            "id": "https://philintheblank.me/poems/knowledge/",
-            "url": "https://philintheblank.me/poems/knowledge/",
+            "id": "http://localhost:1313/poems/knowledge/",
+            "url": "http://localhost:1313/poems/knowledge/",
             "content_html": "\u003cp\u003eShe sits in her lab\nwith a handful of instruments\nand a head full of clues.\nSurrounding her are guesses,\nand things she already knew.\nIf only she could see it,\nif only she could understand\nhow it all fits together\nin the grand master plan.\nThe past always resolves the future,\nso she\u0026rsquo;s learned,\nin the present of her time,\nbut still, she feels,\nThere is so much left to find,\nthere is still so much to know.\u003c/p\u003e\n"
         },
         {
             "title": "Improvise",
             "date_published": "2020-05-05T00:00:00Z",
             "date_modified": "2020-05-05T00:00:00Z",
-            "id": "https://philintheblank.me/poems/improvise/",
-            "url": "https://philintheblank.me/poems/improvise/",
+            "id": "http://localhost:1313/poems/improvise/",
+            "url": "http://localhost:1313/poems/improvise/",
             "content_html": "\u003cp\u003eI am a living shadow of the life I dream–\nThe Golden days are so far it seems–\nOne step forward and two skips back–\nTime is ticking away–tick–tick–clack–\nI’m supposed to have This figured out–\nBut still I don’t know what this Play is all About?–\nRead the script now the Mind pouts–\nNo–write more Reason shouts–\nThe curtain will soon fall–\nAlready on stage–it\u0026rsquo;s last call!–\nHide your face and be disguised–\nShow the emotions we improvised–\nOutside–applause in the dark unseen–\nInside–thoughts clouding the movie screen–\u003c/p\u003e\n"
         },
         {
             "title": "Again",
             "date_published": "2020-04-13T00:00:00Z",
             "date_modified": "2020-04-13T00:00:00Z",
-            "id": "https://philintheblank.me/poems/again/",
-            "url": "https://philintheblank.me/poems/again/",
+            "id": "http://localhost:1313/poems/again/",
+            "url": "http://localhost:1313/poems/again/",
             "content_html": "\u003cp\u003eGod’s knocking at the bedroom door\nagain. You redress yourself in reason\nbut the devilish grin isn’t coming off\nas easily as before.\nYou tell me we’re pushing it,\nyou say we asked for forgiveness\nlast time. But I remind you\nthat he’s a professional,\nthat we keep him in business\nby asking over and over\nand over again.\u003c/p\u003e\n"
         },
         {
             "title": "Love",
             "date_published": "2020-03-31T00:00:00Z",
             "date_modified": "2020-03-31T00:00:00Z",
-            "id": "https://philintheblank.me/poems/love/",
-            "url": "https://philintheblank.me/poems/love/",
+            "id": "http://localhost:1313/poems/love/",
+            "url": "http://localhost:1313/poems/love/",
             "content_html": "\u003cp\u003eLove is a distance\nthat wants to be closed\nlike a door by those\nwho forget it breathes\nin the space between\nwhat was forgotten\nand the suddenly\nremembered.\u003c/p\u003e\n\u003cp\u003eI forgot. And then\nI remembered.\u003c/p\u003e\n"
         },
         {
             "title": "Dwell",
             "date_published": "2020-02-10T00:00:00Z",
             "date_modified": "2020-02-10T00:00:00Z",
-            "id": "https://philintheblank.me/poems/dwell/",
-            "url": "https://philintheblank.me/poems/dwell/",
+            "id": "http://localhost:1313/poems/dwell/",
+            "url": "http://localhost:1313/poems/dwell/",
             "content_html": "\u003cp\u003eWhat rooms of the soul\nhave we left unchecked\nForgotten and locked away\nWith the key nowhere to be found?\nDon\u0026rsquo;t worry.\nThe door is still open.\nClimb the creaking stairs\nOpen the dust-covered drawers and look in\nRun your fingers along the wooden shelves\nnow draped in darkness,\nsomewhere in the attic of your mind.\nOnce there you may rediscover\nthe very thing\nYou have been searching for\nYour entire life.\nPrepare yourself:\nThe ghosts will cry and beckon.\nBut don\u0026rsquo;t run.\nSit and stay awhile.\nGet to know yourself.\nOffer light\nand accept the forgiveness\nthat soon follows.\u003c/p\u003e\n"
         },
         {
             "title": "Exhalation",
             "date_published": "2020-02-05T00:00:00Z",
             "date_modified": "2020-02-05T00:00:00Z",
-            "id": "https://philintheblank.me/poems/exhalation/",
-            "url": "https://philintheblank.me/poems/exhalation/",
+            "id": "http://localhost:1313/poems/exhalation/",
+            "url": "http://localhost:1313/poems/exhalation/",
             "content_html": "\u003cp\u003eBefore there was you\nBefore there was you and your billowing laugh\nYour callused hands and crooked smile\nwaiting for me at the end of the night\nlike temptation drunk on cherry wine\u003c/p\u003e\n\u003cp\u003eBefore there was the oak that introduced us\nBefore there were the stars we claimed as ours\nBefore love and wonder were forces we would never tame\nBefore time had entered the fray\nBefore there was the story of everything, waiting to unfold,\nNothing was the only thing\nAnd that was enough for a universe.\u003c/p\u003e\n"
         },
         {
             "title": "Trapeze",
             "date_published": "2020-02-02T00:00:00Z",
             "date_modified": "2020-02-02T00:00:00Z",
-            "id": "https://philintheblank.me/poems/trapeze/",
-            "url": "https://philintheblank.me/poems/trapeze/",
+            "id": "http://localhost:1313/poems/trapeze/",
+            "url": "http://localhost:1313/poems/trapeze/",
             "content_html": "\u003cp\u003eThe only way this works\nis if we catch each other.\nWe’re experienced, yes, but the connection\nis never guaranteed, even after all these years.\nThe nets below don’t carry\nthe weight of our selfish love,\nnor does the crowd.\nThey wonder how we do what we do,\nwhy we take the risks we take,\nbut we’re just doing our job,\nputting on a performance\nfor an audience of one.\nSometimes we fall\nbut that’s a part of the deal –\nWe’re acrobats of the dark she said,\ntwo loose cannons\nshooting for the stars,\ntwo trapeze artists vaulting\nover loneliness,\ntwo unhinged orbits\nready to collide.\u003c/p\u003e\n"
         },
         {
             "title": "Enough",
             "date_published": "2019-05-05T00:00:00Z",
             "date_modified": "2019-05-05T00:00:00Z",
-            "id": "https://philintheblank.me/poems/enough/",
-            "url": "https://philintheblank.me/poems/enough/",
+            "id": "http://localhost:1313/poems/enough/",
+            "url": "http://localhost:1313/poems/enough/",
             "content_html": "\u003cp\u003eCowbells in the distance\nDissonance afar.\nPossibility and yearning\nUnder a sky full of stars.\nSomewhere the mountains call\nFor a fleet-footed boy\nTo cross them all.\nAnother day, he said, with bright reassurance\nBut little did he know\nThere would be no other occurrence.\nLater is a long time to wait\nand life took its swing\nAlong with life he went and gone were his dreams.\nKept hidden and out of sight\nHe lost them all in a single night.\nThey returned to the stars above\nWaiting for another day\nFor someone new to look up and say\nThis is enough.\u003c/p\u003e\n"
         },
         {
             "title": "Seagulls",
             "date_published": "2019-05-05T00:00:00Z",
             "date_modified": "2019-05-05T00:00:00Z",
-            "id": "https://philintheblank.me/poems/seagulls/",
-            "url": "https://philintheblank.me/poems/seagulls/",
+            "id": "http://localhost:1313/poems/seagulls/",
+            "url": "http://localhost:1313/poems/seagulls/",
             "content_html": "\u003cp\u003eTwo birds in unison along a grayed shore walking\nand squawking like inseparable twins\u003c/p\u003e\n\u003cp\u003eTalking and squealing in that terrifying tongue\nonly they can understand,\u003c/p\u003e\n\u003cp\u003eMocking our efforts to tame the unknown, laughing\nbecause we can’t in the face of uncertainty.\u003c/p\u003e\n\u003cp\u003eBut for all our differences, I was reassured to find\nthat they shit\u003c/p\u003e\n\u003cp\u003eIn much the same way\nwe do.\u003c/p\u003e\n"
         },
         {
             "title": "Winter",
             "date_published": "2018-01-01T00:00:00Z",
             "date_modified": "2018-01-01T00:00:00Z",
-            "id": "https://philintheblank.me/poems/winter/",
-            "url": "https://philintheblank.me/poems/winter/",
+            "id": "http://localhost:1313/poems/winter/",
+            "url": "http://localhost:1313/poems/winter/",
             "content_html": "\u003cp\u003eA season between seasons\na bridge crossed by the plentiful few,\nAdults seek it endlessly\nthough already the children knew.\u003c/p\u003e\n\u003cp\u003eDon’t bother with asking ––\nwe’re sworn to secrecy.\nI myself have nothing to say\nthough clues are not certainties:\u003c/p\u003e\n\u003cp\u003eBetween one breath of Winter\nand one sigh of Spring,\ngo to where the avians\ndare to fly and sing.\u003c/p\u003e\n"
         }
         ]

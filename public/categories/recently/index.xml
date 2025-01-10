@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recently on Phil in the Blank</title>
-    <link>https://philintheblank.me/categories/recently/</link>
+    <link>http://localhost:1313/categories/recently/</link>
     <description>Recent content in Recently on Phil in the Blank</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate>
-      <atom:link href="https://philintheblank.me/categories/recently/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="http://localhost:1313/categories/recently/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Things</title>
-      <link>https://philintheblank.me/posts/10-30-22-things-1/</link>
+      <link>http://localhost:1313/posts/10-30-22-things-1/</link>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://philintheblank.me/posts/10-30-22-things-1/</guid>
+      <guid>http://localhost:1313/posts/10-30-22-things-1/</guid>
       <description>&lt;p&gt;I don&amp;rsquo;t always remember the nuances and interesting bits of my day. &lt;em&gt;Things&lt;/em&gt; is thus a weekly post containing poems, articles, and other forms of media I&amp;rsquo;ve consumed over the week. There may also be brief and miscellaneous reflections too, mostly reminders to myself.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://nahhhlina.tumblr.com/post/631910184201142272/ode-to-emptiness-sally-wen-mao&#34;&gt;Ode to Emptiness&lt;/a&gt;, by Sally Wen Mao. What a beautiful poem. I&amp;rsquo;m in love with the underlying sentiment that there is the possibility of finding something sweet and special in the ordinary. To try and look for this sweetness is sometimes an act of necessity and survival. It can be hard to do, especially when you&amp;rsquo;re constantly mired in the depths of some struggle, but it may be the steady lifeline that pulls you to shore.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.newyorker.com/magazine/2022/10/10/are-you-the-same-person-you-used-to-be-life-is-hard-the-origins-of-you&#34;&gt;Are you the same person you used to be?&lt;/a&gt; I find this question to be endlessly fascinating. I feel like I&amp;rsquo;m the same person as I was years ago, but I&amp;rsquo;ve also matured and am more aware of my patterns. Does that make me a different person though? The boring and short answer is it depends.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bostonreview.net/articles/mental-illness-is-not-in-your-head/&#34;&gt;Mental Illness is Not in Your Head&lt;/a&gt;. The author explores and validates a lot of the impressions I&amp;rsquo;ve had regarding academic research on mental health. We are still contending with what mental health really is, which clearly affects the way we study and treat it. It seems silly to me to assume that mental health is something that is confined to some region or piece of the brain, without considering that the brain is embedded within a system of systems that constantly interact with each other. Also, as the piece highlights, the evidence just isn&amp;rsquo;t there.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</description>
     </item>
   </channel>

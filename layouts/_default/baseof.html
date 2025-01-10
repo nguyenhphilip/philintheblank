@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class="nojs" lang="{{ .Site.Language.Lang | default "en" }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    {{ hugo.Generator }}
+    <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.5;
+            font-size: 0.95rem;
+            color: #333;
+        }
+
+        .page-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            gap: 4rem;
+        }
+
+        .sidebar {
+            width: 200px;
+            flex-shrink: 0;
+            position: fixed;
+        }
+
+        .site-title {
+            font-size: 1.1rem;
+            line-height: 1;
+            margin: 0 0 1rem 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        .site-title a {
+            color: #78797b;
+            text-decoration: none;
+        }
+
+        .site-title a:hover {
+            text-decoration: underline;
+        }
+
+        .layout__page {
+        width: 100%;  /* Take full width of container */
+        max-width: 650px;  /* Consistent max width */
+        margin: 0;  /* Remove auto margins */
+        float: none;
+        padding: 0;
+        }
+
+        .main {
+            width: 100%;  /* Ensure main content takes full width */
+        }
+
+        @media screen and (max-width: 768px) {
+            .layout__page {
+                width: 100%;
+            }
+        }
+        .main-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .main-nav li {
+            margin-bottom: 0.25rem;
+        }
+
+        .main-nav a {
+            color: #4271ae;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .main-nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            margin-left: 250px;
+            max-width: 650px;
+        }
+
+        .layout__page {
+            max-width: 60%;
+            margin: 0 auto;
+            float: none;
+            padding: 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            .layout__page {
+                max-width: 90%;
+            }
+            
+            .sidebar {
+                position: relative;
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+            
+            .page-container {
+                flex-direction: column;
+            }
+        }
+
+        .main-nav li {
+            margin-bottom: 0.25rem;
+            position: relative;
+        }
+
+        .nav-arrow {
+            display: inline-block;
+            margin-right: 0.5rem; /* Changed from margin-left to margin-right */
+            font-size: 0.8rem;
+            line-height: 1;
+            color: #78797b;
+        }
+
+        /* Optional: Keep the transition effect */
+        .nav-arrow {
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .active .nav-arrow {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="sidebar">
+            <h2 class="site-title"><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h2>
+            <nav class="main-nav">
+                <ul>
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                    <li class="{{ if or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) (eq $currentPage.Section .Identifier) }}active{{ end }}">
+                        <a href="{{ .URL }}">{{ if or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) (eq $currentPage.Section .Identifier) }}{{ end }}{{ .Name }}</a> <span class="nav-arrow">←</span>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+
+        <div class="layout__page">
+            <main class="main layout__main">
+                {{ block "main" . }}{{ end }}
+            </main>
+        </div>
+    </div>
+</body>
+</html>
