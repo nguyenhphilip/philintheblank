@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shiny on Phil in the Blank</title>
-    <link>//localhost:1313/categories/shiny/</link>
+    <link>/categories/shiny/</link>
     <description>Recent content in Shiny on Phil in the Blank</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
-      <atom:link href="//localhost:1313/categories/shiny/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="/categories/shiny/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Life After: A #NET-COVID Survey of Beliefs</title>
-      <link>//localhost:1313/projects/life-after/</link>
+      <link>/projects/life-after/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/life-after/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;https://sites.google.com/view/life-after-covid19/english&#34;&gt;Life After&lt;/a&gt; project is a survey of beliefs about what people believe the world will look like after the COVID-19 pandemic ends. I created &lt;a href=&#34;https://phil-nguyen.shinyapps.io/life-after/&#34;&gt;an interactive website&lt;/a&gt; to show the results of our analyses using R and Shiny.&lt;/p&gt;&#xA;&lt;p&gt;The motivation:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;COVID-19 is one of the largest pandemics of the century. It will have lasting effects on society around the globe. There has been a great deal of speculation about what those effects may be. But, there has yet to be an assessment of what individuals believe the effects will be. This study aims to create a picture of the world after the pandemic, from the perspectives of individuals across the globe. The survey collects anonymous information about socio-demographic and individual characteristics, and asks questions regarding your beliefs about the future behaviors of yourself and others.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This project was created as part of the &lt;a href=&#34;http://www.combine.umd.edu/network-epidemiology/&#34;&gt;Network Epidemiology workshop&lt;/a&gt; presented by the University of Maryland COMBINE program in collaboration with the University of Vermont Complex Systems Center. We had two weeks to design the study, collect responses, and analyze the data.&lt;/p&gt;&#xA;&lt;p&gt;All in all, it was a fun project and I learned a lot about Shiny app development, making GIFs, and survey research in general. I am most grateful for the friendships I have developed out of this. Thanks Sam, José, and Rory!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/projects/life-after.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
+      <guid>/projects/life-after/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://sites.google.com/view/life-after-covid19/english&#34;&gt;Life After&lt;/a&gt; project is a survey of beliefs about what people believe the world will look like after the COVID-19 pandemic ends. I created &lt;a href=&#34;https://phil-nguyen.shinyapps.io/life-after/&#34;&gt;an interactive website&lt;/a&gt; to show the results of our analyses using R and Shiny.&lt;/p&gt;&#xA;&lt;p&gt;The motivation:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;COVID-19 is one of the largest pandemics of the century. It will have lasting effects on society around the globe. There has been a great deal of speculation about what those effects may be. But, there has yet to be an assessment of what individuals believe the effects will be. This study aims to create a picture of the world after the pandemic, from the perspectives of individuals across the globe. The survey collects anonymous information about socio-demographic and individual characteristics, and asks questions regarding your beliefs about the future behaviors of yourself and others.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This project was created as part of the &lt;a href=&#34;http://www.combine.umd.edu/network-epidemiology/&#34;&gt;Network Epidemiology workshop&lt;/a&gt; presented by the University of Maryland COMBINE program in collaboration with the University of Vermont Complex Systems Center. We had two weeks to design the study, collect responses, and analyze the data.&lt;/p&gt;&#xA;&lt;p&gt;All in all, it was a fun project and I learned a lot about Shiny app development, making GIFs, and survey research in general. I am most grateful for the friendships I have developed out of this. Thanks Sam, José, and Rory!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/projects/life-after.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
     </item>
     <item>
       <title>ABCD Data Dictionary</title>
-      <link>//localhost:1313/projects/abcd-dd/</link>
+      <link>/projects/abcd-dd/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/abcd-dd/</guid>
-      <description>&lt;p&gt;I built a searchable data dictionary and ABCD release notes all in one place, which addresses some of the navigational issues I had with NDA&amp;rsquo;s data dictionary.&lt;/p&gt;&#xA;&lt;p&gt;Unfortunately I can&amp;rsquo;t show the app&amp;rsquo;s source code due to confidentiality, but this is a GIF demonstrating what it does.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/projects/data-dict.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Built using R and Shiny. Data pulled from &lt;a href=&#34;https://nda.nih.gov/&#34;&gt;NDA website&lt;/a&gt;.&lt;/p&gt;&#xA;</description>
+      <guid>/projects/abcd-dd/</guid>
+      <description>&lt;p&gt;I built a searchable data dictionary and ABCD release notes all in one place, which addresses some of the navigational issues I had with NDA&amp;rsquo;s data dictionary.&lt;/p&gt;&#xA;&lt;p&gt;Unfortunately I can&amp;rsquo;t show the app&amp;rsquo;s source code due to confidentiality, but this is a GIF demonstrating what it does.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/projects/data-dict.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Built using R and Shiny. Data pulled from &lt;a href=&#34;https://nda.nih.gov/&#34;&gt;NDA website&lt;/a&gt;.&lt;/p&gt;&#xA;</description>
     </item>
     <item>
       <title>ABCD Database Builder</title>
-      <link>//localhost:1313/projects/abcd-db-builder/</link>
+      <link>/projects/abcd-db-builder/</link>
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/abcd-db-builder/</guid>
-      <description>&lt;p&gt;This is an app I built in Shiny to help ABCD Researchers download ABCD datasets (Unfortunately I can&amp;rsquo;t show the app due to confidentiality, but the source code is &lt;a href=&#34;https://github.com/nguyenhphilip/ABCD_Database_Builder&#34;&gt;here.&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Here is a GIF demonstrating some of the app&amp;rsquo;s functionality.&lt;/p&gt;&#xA;&lt;p&gt;You can select which spreadsheet(s) you want to download, specific variables from the spreadsheets, which visits to include, and what to name your file.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/projects/abcd-db-build.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Developed with R and Shiny.&lt;/p&gt;&#xA;</description>
+      <guid>/projects/abcd-db-builder/</guid>
+      <description>&lt;p&gt;This is an app I built in Shiny to help ABCD Researchers download ABCD datasets (Unfortunately I can&amp;rsquo;t show the app due to confidentiality, but the source code is &lt;a href=&#34;https://github.com/nguyenhphilip/ABCD_Database_Builder&#34;&gt;here.&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Here is a GIF demonstrating some of the app&amp;rsquo;s functionality.&lt;/p&gt;&#xA;&lt;p&gt;You can select which spreadsheet(s) you want to download, specific variables from the spreadsheets, which visits to include, and what to name your file.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/projects/abcd-db-build.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Developed with R and Shiny.&lt;/p&gt;&#xA;</description>
     </item>
   </channel>
 </rss>
