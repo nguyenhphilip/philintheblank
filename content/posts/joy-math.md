@@ -24,19 +24,19 @@ If they don’t the work is to develop this feel. It’s to create a clearer sen
 
 I wrote earlier that I learned a lot of “tricks” in school, and that this is how many people are taught math. For young Bill Thurston’s problem, you might be told that you can get the answer by following this trick:
 
-Write out the sum of the sequence on one line (e.g. 1 + 2 + 3 + … + 98 + 99 + 100)
+- Write out the sum of the sequence on one line (e.g. 1 + 2 + 3 + … + 98 + 99 + 100)
 
-Write out the sum of the same sequence but in reverse (e.g. 100 + 99 + 98 + … + 3 + 2 + 1) on the line under the first sequence
+- Write out the sum of the same sequence but in reverse (e.g. 100 + 99 + 98 + … + 3 + 2 + 1) on the line under the first sequence
 
-Line up the numbers in each sequence so that you end up with 100 “columns” (1 with 100, 2 with 99, and so on. See image below)
+- Line up the numbers in each sequence so that you end up with 100 “columns” (1 with 100, 2 with 99, and so on. See image below)
 
-Notice that every column adds up to 101, and that there are 100 columns
+- Notice that every column adds up to 101, and that there are 100 columns
 
-Adding all of these columns together is the same as multiplying 101 x 100
+- Adding all of these columns together is the same as multiplying 101 x 100
 
-This is double the sum we want because we are adding the same sequence of numbers twice
+- This is double the sum we want because we are adding the same sequence of numbers twice
 
-So divide this sum by two to get the sum we actually want, i.e. (101 x 100)/2 = **5050**
+- So divide this sum by two to get the sum we actually want, i.e. (101 x 100)/2 = **5050**
 
 ![](/post-images/IMG_1661.jpeg)
 
