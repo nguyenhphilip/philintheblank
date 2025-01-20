@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tv Tropes on Phil in the Blank</title>
-    <link>//localhost:1313/categories/tv-tropes/</link>
+    <link>/categories/tv-tropes/</link>
     <description>Recent content in Tv Tropes on Phil in the Blank</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate>
-      <atom:link href="//localhost:1313/categories/tv-tropes/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="/categories/tv-tropes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Character Space &amp; TV Tropes</title>
-      <link>//localhost:1313/projects/character-space/</link>
+      <link>/projects/character-space/</link>
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/character-space/</guid>
-      <description>&lt;p&gt;This is an exploratory project I worked on with another graduate student in Data Science II. We explore the space of personality in fictional characters using data from &lt;a href=&#34;https://openpsychometrics.org/tests/characters/&#34;&gt;OpenPsychometrics&lt;/a&gt;. The bulk of the project was spent on probing and describing the space using dimensionality reduction with SVD. A link to the full work is &lt;a href=&#34;CSYS_387_Final_Paper.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/projects/cspace1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/projects/cspace2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
+      <guid>/projects/character-space/</guid>
+      <description>&lt;p&gt;This is an exploratory project I worked on with another graduate student in Data Science II. We explore the space of personality in fictional characters using data from &lt;a href=&#34;https://openpsychometrics.org/tests/characters/&#34;&gt;OpenPsychometrics&lt;/a&gt;. The bulk of the project was spent on probing and describing the space using dimensionality reduction with SVD. A link to the full work is &lt;a href=&#34;CSYS_387_Final_Paper.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/projects/cspace1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/projects/cspace2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
     </item>
     <item>
       <title>Data Science I Final Project: TV Tropes</title>
-      <link>//localhost:1313/projects/tv-tropes/</link>
+      <link>/projects/tv-tropes/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/tv-tropes/</guid>
-      <description>&lt;p&gt;This is a project I worked on with another graduate student in Data Science I. We open-sourced the code here: &lt;a href=&#34;https://github.com/jwzimmer/tv-tropes&#34;&gt;TV Tropes Data Science I Project&lt;/a&gt;. The project involved web scraping a large chunk of webpages from TV Tropes,  network analysis, and data science!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/projects/top_100nodes_6communities.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
+      <guid>/projects/tv-tropes/</guid>
+      <description>&lt;p&gt;This is a project I worked on with another graduate student in Data Science I. We open-sourced the code here: &lt;a href=&#34;https://github.com/jwzimmer/tv-tropes&#34;&gt;TV Tropes Data Science I Project&lt;/a&gt;. The project involved web scraping a large chunk of webpages from TV Tropes,  network analysis, and data science!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/projects/top_100nodes_6communities.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
     </item>
   </channel>
 </rss>
