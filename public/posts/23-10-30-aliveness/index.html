@@ -11,28 +11,49 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            font-family: 'Times', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.5;
-            font-size: 0.95rem;
+            font-size: 1.0rem;
             color: #333;
+        }
+
+        h2 {
+            margin: 0; 
+            padding: 0; 
+            line-height: 1; 
+            font-weight: normal;
         }
 
         .page-container {
             display: flex;
-            max-width: 1200px;
+            max-width: 1050px;
             margin: 0 auto;
             padding: 2rem;
             gap: 4rem;
         }
 
         .sidebar {
-            width: 200px;
+            width: 160px;
+            font-size: 1.0rem;
             flex-shrink: 0;
             position: fixed;
         }
 
+        .post-date {
+            margin-bottom: 0.5rem; 
+            color: #666; 
+            font-size: 0.9rem;
+        }
+
+        .poem-date {
+            font-size: 0.9rem;
+        }
+
+        .posts-list {
+            width: 100%;
+        }
         .site-title {
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             line-height: 1;
             margin: 0 0 1rem 0;
             padding: 0;
@@ -48,19 +69,11 @@
             text-decoration: underline;
         }
 
-        .layout__page {
-        width: 100%;   
-        max-width: 650px;   
-        margin: 0;   
-        float: none;
-        padding: 0;
-        }
-
         .main {
             width: 100%;   
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1020px) {
             .layout__page {
                 width: 100%;
             }
@@ -78,23 +91,19 @@
         .main-nav a {
             color: #4271ae;
             text-decoration: none;
-            font-size: 0.95rem;
+            font-size: 1.0rem;
         }
 
         .main-nav a:hover {
             text-decoration: underline;
         }
-
-        .content {
-            margin-left: 250px;
-            max-width: 650px;
-        }
-
+        
         .layout__page {
-            max-width: 60%;
-            margin: 0 auto;
-            float: none;
-            padding: 0;
+        width: 100%;   
+        max-width: 600px;   
+        margin: 0 auto;   
+        float: none;
+        padding: 0;
         }
 
         @media screen and (max-width: 768px) {
@@ -177,8 +186,8 @@
             <main class="main layout__main">
                 
 <div class="post">
-    <h2 style="margin: 0; padding: 0; line-height: 1; font-size: 1.4rem; font-weight: normal; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">The need for aliveness</h2>
-    <div class="post-date" style="margin-top: 0.5rem; margin-bottom: 2rem; color: #666; font-size: 0.85rem;">October 30, 2023</div>
+    <h2>The need for aliveness</h2>
+    <div class="post-date">October 30, 2023</div>
     <div class="post-content">
         <p><img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6268f231-8037-4929-9dd6-4c348fae966d_4032x3024.jpeg" alt=""></p>
 <p>I was talking to a friend about ADHD recently, and it reminded me of an <a href="https://www.hunterinafarmersworld.com/p/what-maslow-overlooked-the-need-to?twclid=21iwzg7u0vxercg7ilbb47odax">article</a> on the basic need to feel alive. The core idea is that each of us has different set-points, thresholds beyond which life begins to feel colorful, vivid, satisfying. These thresholds are a function of our biological makeup, namely the thalamus and Reticular Activating System (RAS) in our brains. Together they mediate the sensory inputs we receive from the environment—much like how an equalizer controls different features of a song we’re listening to—ultimately shaping how we experience our lives.</p>
@@ -196,7 +205,7 @@
     
     .post-content {
         line-height: 1.5;
-        font-size: 0.95rem;
+         
     }
 
     .post-content img {

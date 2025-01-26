@@ -11,28 +11,49 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            font-family: 'Times', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.5;
-            font-size: 0.95rem;
+            font-size: 1.0rem;
             color: #333;
+        }
+
+        h2 {
+            margin: 0; 
+            padding: 0; 
+            line-height: 1; 
+            font-weight: normal;
         }
 
         .page-container {
             display: flex;
-            max-width: 1200px;
+            max-width: 1050px;
             margin: 0 auto;
             padding: 2rem;
             gap: 4rem;
         }
 
         .sidebar {
-            width: 200px;
+            width: 160px;
+            font-size: 1.0rem;
             flex-shrink: 0;
             position: fixed;
         }
 
+        .post-date {
+            margin-bottom: 0.5rem; 
+            color: #666; 
+            font-size: 0.9rem;
+        }
+
+        .poem-date {
+            font-size: 0.9rem;
+        }
+
+        .posts-list {
+            width: 100%;
+        }
         .site-title {
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             line-height: 1;
             margin: 0 0 1rem 0;
             padding: 0;
@@ -48,19 +69,11 @@
             text-decoration: underline;
         }
 
-        .layout__page {
-        width: 100%;   
-        max-width: 650px;   
-        margin: 0;   
-        float: none;
-        padding: 0;
-        }
-
         .main {
             width: 100%;   
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1020px) {
             .layout__page {
                 width: 100%;
             }
@@ -78,23 +91,19 @@
         .main-nav a {
             color: #4271ae;
             text-decoration: none;
-            font-size: 0.95rem;
+            font-size: 1.0rem;
         }
 
         .main-nav a:hover {
             text-decoration: underline;
         }
-
-        .content {
-            margin-left: 250px;
-            max-width: 650px;
-        }
-
+        
         .layout__page {
-            max-width: 60%;
-            margin: 0 auto;
-            float: none;
-            padding: 0;
+        width: 100%;   
+        max-width: 600px;   
+        margin: 0 auto;   
+        float: none;
+        padding: 0;
         }
 
         @media screen and (max-width: 768px) {
@@ -177,8 +186,8 @@
             <main class="main layout__main">
                 
 <div class="post">
-    <h2 style="margin: 0; padding: 0; line-height: 1; font-size: 1.4rem; font-weight: normal; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">Q and A</h2>
-    <div class="post-date" style="margin-top: 0.5rem; margin-bottom: 2rem; color: #666; font-size: 0.85rem;">September 12, 2021</div>
+    <h2>Q and A</h2>
+    <div class="post-date">September 12, 2021</div>
     <div class="post-content">
         <p>I recently met with one of the researchers in my lab to discuss a project I got involved with two years ago. There were some issues with the analyses I ran, but no one had brought them to my attention until now. Why had it taken so long, I wondered, to point these errors out? And why didn’t I receive more mentorship and feedback when the analyses were being conducted, especially considering that I was (and still am) a research rookie? Back then I didn’t know what I didn’t know, but everyone else around me did, presumably. Why didn’t they train and guide me if the project was at all important? They were the veterans, yet I was given full responsibility over the bulk of the statistical and technical work required for scientific publication. I wasn’t clueless and consented to helping with the project, but not to this.</p>
 <p>I was annoyed at my naivety, but also the lack of communication all throughout. Maybe this why many graduate students feel <a href="https://blogs.scientificamerican.com/observations/the-emotional-toll-of-graduate-school/">exploited</a> and <a href="http://ga.berkeley.edu/wp-content/uploads/2015/04/wellbeingreport_2014.pdf">overworked</a>. Maybe this is why the researcher I met with mentioned that I deserved more credit and higher authorship on the paper. He’s more familiar with the lay of the land and suggested that I step away from the project after fixing the few errors so that the others could do their share. I knew the people I worked with didn’t mean to put me in this position and to leave me hanging when I asked for help and clarity. But it happens more frequently than one may expect, in a nearly invisible, subconscious way. You have to advocate for yourself in academia.</p>
@@ -191,7 +200,7 @@
     
     .post-content {
         line-height: 1.5;
-        font-size: 0.95rem;
+         
     }
 
     .post-content img {

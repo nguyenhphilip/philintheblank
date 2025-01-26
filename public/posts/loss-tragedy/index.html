@@ -11,28 +11,49 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            font-family: 'Times', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.5;
-            font-size: 0.95rem;
+            font-size: 1.0rem;
             color: #333;
+        }
+
+        h2 {
+            margin: 0; 
+            padding: 0; 
+            line-height: 1; 
+            font-weight: normal;
         }
 
         .page-container {
             display: flex;
-            max-width: 1200px;
+            max-width: 1050px;
             margin: 0 auto;
             padding: 2rem;
             gap: 4rem;
         }
 
         .sidebar {
-            width: 200px;
+            width: 160px;
+            font-size: 1.0rem;
             flex-shrink: 0;
             position: fixed;
         }
 
+        .post-date {
+            margin-bottom: 0.5rem; 
+            color: #666; 
+            font-size: 0.9rem;
+        }
+
+        .poem-date {
+            font-size: 0.9rem;
+        }
+
+        .posts-list {
+            width: 100%;
+        }
         .site-title {
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             line-height: 1;
             margin: 0 0 1rem 0;
             padding: 0;
@@ -48,19 +69,11 @@
             text-decoration: underline;
         }
 
-        .layout__page {
-        width: 100%;   
-        max-width: 650px;   
-        margin: 0;   
-        float: none;
-        padding: 0;
-        }
-
         .main {
             width: 100%;   
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1020px) {
             .layout__page {
                 width: 100%;
             }
@@ -78,23 +91,19 @@
         .main-nav a {
             color: #4271ae;
             text-decoration: none;
-            font-size: 0.95rem;
+            font-size: 1.0rem;
         }
 
         .main-nav a:hover {
             text-decoration: underline;
         }
-
-        .content {
-            margin-left: 250px;
-            max-width: 650px;
-        }
-
+        
         .layout__page {
-            max-width: 60%;
-            margin: 0 auto;
-            float: none;
-            padding: 0;
+        width: 100%;   
+        max-width: 600px;   
+        margin: 0 auto;   
+        float: none;
+        padding: 0;
         }
 
         @media screen and (max-width: 768px) {
@@ -177,8 +186,8 @@
             <main class="main layout__main">
                 
 <div class="post">
-    <h2 style="margin: 0; padding: 0; line-height: 1; font-size: 1.4rem; font-weight: normal; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">Loss, Tragedy, and Retaining our Humanity</h2>
-    <div class="post-date" style="margin-top: 0.5rem; margin-bottom: 2rem; color: #666; font-size: 0.85rem;">September 10, 2021</div>
+    <h2>Loss, Tragedy, and Retaining our Humanity</h2>
+    <div class="post-date">September 10, 2021</div>
     <div class="post-content">
         <p>A close friend of mine, S, was in a severe car accident recently. She was with her housemate, E, who was driving in a hurry to meet someone. On the way there they struck three other cars that were stopped at a red light. The four people in the vehicle they directly crashed into died, and a few others were injured. A blood test later found that he was under the influence of alcohol and other illicit substances.</p>
 <p>I was relieved to hear that she was safe and alive, but also angry and sad and in search of someone to blame. She knew this would be the case and patiently held the weight of my grievances. When I finished she calmly stated that she understood my frustration, then reminded me that there are many sides to a story. E was an outstanding person she said, a wild beast contained in a small body, a free spirit who burned like a flame fueled by inexhaustible embers.</p>
@@ -193,7 +202,7 @@
     
     .post-content {
         line-height: 1.5;
-        font-size: 0.95rem;
+         
     }
 
     .post-content img {

@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="posts-list">
-    <h2 style="margin: 0; padding: 0; line-height: 1; font-size: 1.4rem; font-weight: normal; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">{{ .Title }}</h2>
+    <h2>{{ .Title }}</h2>
     <div class="posts-content" style="margin-top: 2rem;">
         {{ range .Pages.ByDate.Reverse }}
         <div class="post-entry">
@@ -25,17 +25,12 @@
         text-decoration: none;
         flex-grow: 1;
         padding-right: 1rem;
-        font-size: 0.95rem;
+        /* font-size: 0.95rem; */
     }
     
     .post-title:hover {
         text-decoration: underline;
     }
     
-    .post-date {
-        color: #666;
-        font-size: 0.8rem;
-        flex-shrink: 0;
-    }
 </style>
 {{ end }}

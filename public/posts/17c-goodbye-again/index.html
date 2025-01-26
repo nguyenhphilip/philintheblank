@@ -11,28 +11,49 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            font-family: 'Times', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.5;
-            font-size: 0.95rem;
+            font-size: 1.0rem;
             color: #333;
+        }
+
+        h2 {
+            margin: 0; 
+            padding: 0; 
+            line-height: 1; 
+            font-weight: normal;
         }
 
         .page-container {
             display: flex;
-            max-width: 1200px;
+            max-width: 1050px;
             margin: 0 auto;
             padding: 2rem;
             gap: 4rem;
         }
 
         .sidebar {
-            width: 200px;
+            width: 160px;
+            font-size: 1.0rem;
             flex-shrink: 0;
             position: fixed;
         }
 
+        .post-date {
+            margin-bottom: 0.5rem; 
+            color: #666; 
+            font-size: 0.9rem;
+        }
+
+        .poem-date {
+            font-size: 0.9rem;
+        }
+
+        .posts-list {
+            width: 100%;
+        }
         .site-title {
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             line-height: 1;
             margin: 0 0 1rem 0;
             padding: 0;
@@ -48,19 +69,11 @@
             text-decoration: underline;
         }
 
-        .layout__page {
-        width: 100%;   
-        max-width: 650px;   
-        margin: 0;   
-        float: none;
-        padding: 0;
-        }
-
         .main {
             width: 100%;   
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1020px) {
             .layout__page {
                 width: 100%;
             }
@@ -78,23 +91,19 @@
         .main-nav a {
             color: #4271ae;
             text-decoration: none;
-            font-size: 0.95rem;
+            font-size: 1.0rem;
         }
 
         .main-nav a:hover {
             text-decoration: underline;
         }
-
-        .content {
-            margin-left: 250px;
-            max-width: 650px;
-        }
-
+        
         .layout__page {
-            max-width: 60%;
-            margin: 0 auto;
-            float: none;
-            padding: 0;
+        width: 100%;   
+        max-width: 600px;   
+        margin: 0 auto;   
+        float: none;
+        padding: 0;
         }
 
         @media screen and (max-width: 768px) {
@@ -177,8 +186,8 @@
             <main class="main layout__main">
                 
 <div class="post">
-    <h2 style="margin: 0; padding: 0; line-height: 1; font-size: 1.4rem; font-weight: normal; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">17: Goodbye, again</h2>
-    <div class="post-date" style="margin-top: 0.5rem; margin-bottom: 2rem; color: #666; font-size: 0.85rem;">December 29, 2017</div>
+    <h2>17: Goodbye, again</h2>
+    <div class="post-date">December 29, 2017</div>
     <div class="post-content">
         <p>I arrive in Belgium late in the afternoon. The weather is exceptional: half-clouded skies with no reservation of sunlight, a perfect balance of cool and warm. I exit from the train station and hoist myself against a tall statue, eagerly looking for my squirrelly Belgium. 15 minutes pass before I spot her standing only 20 meters behind me, clad in a gray hoodie and a black leather jacket, lightly faded jeans and the tall leather boots of an amazon. Upon realizing that it was me looking at her, we sprint toward one another and embrace as if someone had just come home from war. It felt good to be in her arms again. Her radiating eyes still contained the ability to fully arrest my sensibilities.</p>
 <p>We catch up over coffee at a nearby restaurant. She reflects on the difficulties of returning home, the growing tension between her and her parents, and the continued struggle of trying to find balance within her medical studies. I tell her about the rest of my time on the Camino – the magical moments, the people I met, reaching Santiago, the decision not to go further, saying goodbye. It feels surreal, the fact that I was in Belgium, staying with someone I had met on the Camino only weeks prior, the fact that I was there with Marieke.</p>
@@ -252,7 +261,7 @@
     
     .post-content {
         line-height: 1.5;
-        font-size: 0.95rem;
+         
     }
 
     .post-content img {

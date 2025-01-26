@@ -11,28 +11,49 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            font-family: 'Times', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.5;
-            font-size: 0.95rem;
+            font-size: 1.0rem;
             color: #333;
+        }
+
+        h2 {
+            margin: 0; 
+            padding: 0; 
+            line-height: 1; 
+            font-weight: normal;
         }
 
         .page-container {
             display: flex;
-            max-width: 1200px;
+            max-width: 1050px;
             margin: 0 auto;
             padding: 2rem;
             gap: 4rem;
         }
 
         .sidebar {
-            width: 200px;
+            width: 160px;
+            font-size: 1.0rem;
             flex-shrink: 0;
             position: fixed;
         }
 
+        .post-date {
+            margin-bottom: 0.5rem; 
+            color: #666; 
+            font-size: 0.9rem;
+        }
+
+        .poem-date {
+            font-size: 0.9rem;
+        }
+
+        .posts-list {
+            width: 100%;
+        }
         .site-title {
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             line-height: 1;
             margin: 0 0 1rem 0;
             padding: 0;
@@ -48,19 +69,11 @@
             text-decoration: underline;
         }
 
-        .layout__page {
-        width: 100%;   
-        max-width: 650px;   
-        margin: 0;   
-        float: none;
-        padding: 0;
-        }
-
         .main {
             width: 100%;   
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1020px) {
             .layout__page {
                 width: 100%;
             }
@@ -78,23 +91,19 @@
         .main-nav a {
             color: #4271ae;
             text-decoration: none;
-            font-size: 0.95rem;
+            font-size: 1.0rem;
         }
 
         .main-nav a:hover {
             text-decoration: underline;
         }
-
-        .content {
-            margin-left: 250px;
-            max-width: 650px;
-        }
-
+        
         .layout__page {
-            max-width: 60%;
-            margin: 0 auto;
-            float: none;
-            padding: 0;
+        width: 100%;   
+        max-width: 600px;   
+        margin: 0 auto;   
+        float: none;
+        padding: 0;
         }
 
         @media screen and (max-width: 768px) {
@@ -177,8 +186,8 @@
             <main class="main layout__main">
                 
 <div class="post">
-    <h2 style="margin: 0; padding: 0; line-height: 1; font-size: 1.4rem; font-weight: normal; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">The lake</h2>
-    <div class="post-date" style="margin-top: 0.5rem; margin-bottom: 2rem; color: #666; font-size: 0.85rem;">October 18, 2022</div>
+    <h2>The lake</h2>
+    <div class="post-date">October 18, 2022</div>
     <div class="post-content">
         <p><img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc9ad412-5026-4928-8cc9-f34d54242cfe_4032x3024.jpeg" alt=""></p>
 <p>This lake. The lake. My lake. I go to her, often with my solitary self, but she always makes room for this and so much more. Her temperamental mood and shy whispers have a way of stripping off the straitjacket of my loneliness. It’s a concerted effort sometimes, but we both prefer the tango to the waltz, the dancing to the music. We like the struggle and the kind of fire that warms our souls. Our bodies will take care of the rest. Blades of grass and pebbles of rain are our only witnesses. The trees are too proud to watch, and the stars have done it all before. Poor souls: they don’t know what they’re missing out on. Forgive us as we join blood to water. Dead leaves are falling all around us. It’s the most romantic thing in the world.</p>
@@ -194,7 +203,7 @@
     
     .post-content {
         line-height: 1.5;
-        font-size: 0.95rem;
+         
     }
 
     .post-content img {
