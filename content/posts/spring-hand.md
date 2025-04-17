@@ -28,6 +28,10 @@ For instance: one day you may wake up with lower back pain and an irritable mood
 >
 > 
 >
+> _
+>
+> 
+>
 > 
 > I circle around God, around the primordial tower.
 >
@@ -89,7 +93,7 @@ Back in your small apartment you open the curtains and lie down. Cloudless skies
 > 
 >
 >
-> 
+> _
 > 
 >
 >
@@ -98,7 +102,7 @@ Back in your small apartment you open the curtains and lie down. Cloudless skies
 > 
 >
 >
-> 
+> _
 > 
 >
 >
