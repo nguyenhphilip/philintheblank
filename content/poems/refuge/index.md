@@ -22,4 +22,4 @@ the Salt of warm Sands.
 Turn the Whites into Doves
 that soar the open sky,
 Turn the Kites into Loves
-who Fly you through Night.
+who Fly you through the Night.

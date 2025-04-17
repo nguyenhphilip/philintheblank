@@ -48,4 +48,5 @@ with one another instead.
 This time it felt like
 the right time to fire
  
-and listen
+and listen to the sound
+you'd make.

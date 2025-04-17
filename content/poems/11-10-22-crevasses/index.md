@@ -18,9 +18,3 @@ of emptiness and longing
 to distant shorelines
 where at last they may find
 a witness to their journey.
-*Rest and stay awhile*, he says,
-*the sand is warm, the sun a friend.*
-*Tell me the story of how you found*
-*your way through the cracks. Show me*
-*how you pieced yourself together*
-*and dared the great escape.*

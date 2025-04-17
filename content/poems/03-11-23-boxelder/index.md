@@ -30,4 +30,4 @@ in the vents, hiding in the windowsill,
 always available like morning light
 to spring me from my longing, to wake me
 into something just beyond the outline
-of my well-known interiorities.
+of my well-traced but unknown interiorities.

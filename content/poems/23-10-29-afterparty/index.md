@@ -33,6 +33,4 @@ It’s all hypothetical, dear.
 When does love enter
 the picture? 
 Don’t get so sentimental.
-It always finds
-a way, dear, 
-it always does.
+It always finds a way.

@@ -17,9 +17,10 @@ inside your wife’s head.
 Even war has its starts, its survivors.
 All you got was a thud and a body
 choking on itself. That was when
-sister and I became refugees, too.
+we became refugees, too.
 
 One day we told you we saw her,
 going elsewhere. At last, when you
-looked, you found her picking fruit
-in familiar fields, welcoming you home.
+finally looked, you found her picking
+fruit in familiar fields, urging you
+to come back home.

@@ -16,5 +16,5 @@ because we can’t in the face of uncertainty.
 But for all our differences, I was reassured to find
 that they shit
 
-In much the same way
-we do.
+the same
+as we do.

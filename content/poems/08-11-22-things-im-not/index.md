@@ -8,8 +8,8 @@ You miss her. You want to tell her you miss her.
 You want to say you feel lost and alone,
 that you feel like you're the world's biggest dunce
 every morning when you wake up empty-handed
-and every empty-handed minute before nightfall.
-But she is not what you need right now.
+every empty-handed minute before nightfall.
+But she's not what you need right now.
 You need to confront, with compassion,
 whatever it is that led you here.
 You need to let go of the dreams and fantasies
