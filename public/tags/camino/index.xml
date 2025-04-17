@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Camino on Phil in the Blank</title>
-    <link>//localhost:1313/tags/camino/</link>
+    <link>/tags/camino/</link>
     <description>Recent content in Camino on Phil in the Blank</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
-      <atom:link href="//localhost:1313/tags/camino/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="/tags/camino/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>9: An Ode to the Road</title>
-      <link>//localhost:1313/posts/9c-ode/</link>
+      <link>/posts/9c-ode/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/9c-ode/</guid>
-      <description>&lt;div class = &#34;poem&#34;&gt;&#xA;* Each and every day I wake and walk with the sun.&#xA;* It starts low, climbing over hillsides, rising slowly.&#xA;* At last it finds its place in the sky&#xA;* and begins to color the Meseta.&#xA;* &amp;nbsp;&#xA;* Front and center a shadow grows.&#xA;* It looks at me with indifference – a mirror of my darker side.&#xA;* Fear, insecurity, doubt,&#xA;* The manifestation of my inner demons.&#xA;* &amp;nbsp;&#xA;* Each and every day, I wake and walk and confront them.&#xA;* If I fight and struggle, I hurt and suffer.&#xA;* If I push them away, I push myself away.&#xA;* I cannot hide, I cannot run,&#xA;* I can only bear witness.&#xA;* &amp;nbsp;&#xA;* Salvation lies within absence. &#xA;* But do I do it? Do I dare eclipse the sun?&#xA;* To turn from the shadows is to turn from truth.&#xA;* I would be swallowed whole.&#xA;* &amp;nbsp;&#xA;* My shadow is here,&#xA;* my shadow is me.&#xA;* So long as I walk the Way,&#xA;* it will keep me company.&#xA;* &amp;nbsp;&#xA;* I can&#39;t be scared&#xA;* I mustn&#39;t be afraid.&#xA;* I must continue on and on and on,&#xA;* moving toward the falling sun.&#xA;* &amp;nbsp;&#xA;* Each and every day, I wake and walk towards Santiago.&#xA;* The closer I get, the lighter I feel.&#xA;* The sun hangs low, peering over hillsides, descending slowly.&#xA;* Color fades from the Meseta, and my shadow is behind me.&#xA;* &amp;nbsp;&#xA;* Westward lies Santiago, and I look.&#xA;* The sun has set, the dark has settled.&#xA;* A fire begins to grow deep inside.&#xA;* It lights the valley and shows me the Way.&#xA;* I wake and walk toward the Light,&#xA;* closer and closer to Santiago.&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/gallery/ode.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
+      <guid>/posts/9c-ode/</guid>
+      <description>&lt;div class = &#34;poem&#34;&gt;&#xA;* Each and every day I wake and walk with the sun.&#xA;* It starts low, climbing over hillsides, rising slowly.&#xA;* At last it finds its place in the sky&#xA;* and begins to color the Meseta.&#xA;* &amp;nbsp;&#xA;* Front and center a shadow grows.&#xA;* It looks at me with indifference – a mirror of my darker side.&#xA;* Fear, insecurity, doubt,&#xA;* The manifestation of my inner demons.&#xA;* &amp;nbsp;&#xA;* Each and every day, I wake and walk and confront them.&#xA;* If I fight and struggle, I hurt and suffer.&#xA;* If I push them away, I push myself away.&#xA;* I cannot hide, I cannot run,&#xA;* I can only bear witness.&#xA;* &amp;nbsp;&#xA;* Salvation lies within absence. &#xA;* But do I do it? Do I dare eclipse the sun?&#xA;* To turn from the shadows is to turn from truth.&#xA;* I would be swallowed whole.&#xA;* &amp;nbsp;&#xA;* My shadow is here,&#xA;* my shadow is me.&#xA;* So long as I walk the Way,&#xA;* it will keep me company.&#xA;* &amp;nbsp;&#xA;* I can&#39;t be scared&#xA;* I mustn&#39;t be afraid.&#xA;* I must continue on and on and on,&#xA;* moving toward the falling sun.&#xA;* &amp;nbsp;&#xA;* Each and every day, I wake and walk towards Santiago.&#xA;* The closer I get, the lighter I feel.&#xA;* The sun hangs low, peering over hillsides, descending slowly.&#xA;* Color fades from the Meseta, and my shadow is behind me.&#xA;* &amp;nbsp;&#xA;* Westward lies Santiago, and I look.&#xA;* The sun has set, the dark has settled.&#xA;* A fire begins to grow deep inside.&#xA;* It lights the valley and shows me the Way.&#xA;* I wake and walk toward the Light,&#xA;* closer and closer to Santiago.&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/gallery/ode.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
     </item>
   </channel>
 </rss>

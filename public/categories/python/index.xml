@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Phil in the Blank</title>
-    <link>//localhost:1313/categories/python/</link>
+    <link>/categories/python/</link>
     <description>Recent content in Python on Phil in the Blank</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate>
-      <atom:link href="//localhost:1313/categories/python/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bayesian PCA</title>
-      <link>//localhost:1313/projects/bayesian-pca/</link>
+      <link>/projects/bayesian-pca/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/bayesian-pca/</guid>
-      <description>&lt;p&gt;This is a project I worked on for my Bayesian Statistics course. My partner and I explored Bayesian Principal Component Analysis (BPCA) as an extension of PCA and PPCA on MNIST and an ecological dataset. I learned quite a bit about PCA in the process! The final report can be found &lt;a href=&#34;https://github.com/nguyenhphilip/stat330project/blob/main/STAT_330_Preprint_draft.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/projects/bpca1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/projects/bpca2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
+      <guid>/projects/bayesian-pca/</guid>
+      <description>&lt;p&gt;This is a project I worked on for my Bayesian Statistics course. My partner and I explored Bayesian Principal Component Analysis (BPCA) as an extension of PCA and PPCA on MNIST and an ecological dataset. I learned quite a bit about PCA in the process! The final report can be found &lt;a href=&#34;https://github.com/nguyenhphilip/stat330project/blob/main/STAT_330_Preprint_draft.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/projects/bpca1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/projects/bpca2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
     </item>
   </channel>
 </rss>

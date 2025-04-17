@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poem on Phil in the Blank</title>
-    <link>//localhost:1313/categories/poem/</link>
+    <link>/categories/poem/</link>
     <description>Recent content in Poem on Phil in the Blank</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Aug 2023 00:00:00 +0000</lastBuildDate>
-      <atom:link href="//localhost:1313/categories/poem/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="/categories/poem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Running</title>
-      <link>//localhost:1313/poems/23-08-05-running/</link>
+      <link>/poems/23-08-05-running/</link>
       <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/poems/23-08-05-running/</guid>
+      <guid>/poems/23-08-05-running/</guid>
       <description>&lt;p&gt;They asked for his time,&#xA;not how he got here.&#xA;Let me wonder then:&lt;/p&gt;&#xA;&lt;p&gt;Did he stumble?&#xA;Did his body crumble&#xA;at all like&#xA;a soggy crepe&#xA;held up by sticks&#xA;on his way&#xA;to some&#xA;pre-determined&#xA;somewhere?&lt;/p&gt;&#xA;&lt;p&gt;Or did he bumble&#xA;like a bee, all grace&#xA;&amp;amp; no trace of&#xA;a single step,&#xA;every toe kissing&#xA;the asphalt&#xA;as if it were&#xA;dirt?&lt;/p&gt;&#xA;&lt;p&gt;The numbers reveal&#xA;one thing while hiding&#xA;everything else.&lt;/p&gt;&#xA;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poetry on Phil in the Blank</title>
-    <link>//localhost:1313/categories/poetry/</link>
+    <link>/categories/poetry/</link>
     <description>Recent content in Poetry on Phil in the Blank</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate>
-      <atom:link href="//localhost:1313/categories/poetry/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="/categories/poetry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Refugee</title>
-      <link>//localhost:1313/poems/24-07-05-refugee/</link>
+      <link>/poems/24-07-05-refugee/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/poems/24-07-05-refugee/</guid>
+      <guid>/poems/24-07-05-refugee/</guid>
       <description>&lt;p&gt;Like a berry hanging from a vine&#xA;that’s the first sign, according to&#xA;the experts. But you didn’t know it&#xA;then: back in Vietnam fruit grew&#xA;on trees and bushes. It didn’t hide&#xA;and rupture like cherries too ripe&#xA;inside your wife’s head.&lt;/p&gt;&#xA;&lt;p&gt;Even war has its starts, its survivors.&#xA;All you got was a thud and a body&#xA;choking on itself. That was when&#xA;sister and I became refugees, too.&lt;/p&gt;&#xA;&lt;p&gt;One day we told you we saw her,&#xA;going elsewhere. At last, when you&#xA;looked, you found her picking fruit&#xA;in familiar fields, welcoming you home.&lt;/p&gt;&#xA;</description>
     </item>
   </channel>
