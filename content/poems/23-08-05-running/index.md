@@ -6,6 +6,7 @@ categories:
   - "poem"
   - "delights"
 title-block-banner: false
+draft: true
 ---
 
 They asked for his time,
@@ -14,8 +15,7 @@ Let me wonder then:
 
 Did he stumble?
 Did his body crumble
-at all like
-a soggy crepe
+like a soggy crepe
 held up by sticks
 on his way
 to some
@@ -30,7 +30,3 @@ every toe kissing
 the asphalt
 as if it were
 dirt?
-
-The numbers reveal
-one thing while hiding
-everything else.
