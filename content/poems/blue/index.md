@@ -2,6 +2,7 @@
 title: "Blue"
 date: 2020-05-10
 categories: [poems]
+draft: true
 title-block-banner: false
 ---
 I walked to the lake
@@ -10,11 +11,11 @@ I walked to the lake
 &emsp;&emsp;&emsp; the way people do
 
 with their thoughts
-&emsp; when they at last notice
-&emsp;&emsp; that their pockets
+&emsp; when they notice
+&emsp;&emsp; their pockets
 &emsp;&emsp;&emsp; are full.
 
-Then you honked at me
+Then you wonked at me
 &emsp; in your hurried voice
 &emsp;&emsp; Good morning - Good morning!
 &emsp;&emsp;&emsp; and invited me to linger
@@ -26,5 +27,5 @@ as your webbed feet waltzed
 
 while loneliness waited
 &emsp; by the rocks
-&emsp; &emsp; and I,
-&emsp; &emsp; &emsp; I drowned in delight.
+&emsp; &emsp; and I
+&emsp; &emsp; &emsp; 

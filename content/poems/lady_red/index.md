@@ -21,5 +21,4 @@ just like the timid sparrows
 singing without the need for recognition,
 you opened the crimson shell
 housing your weightless wings
-and flew to the only place you knew
-was home.
+and flew to the only place you knew.

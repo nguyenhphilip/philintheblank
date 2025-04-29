@@ -3,6 +3,7 @@ title: "Pause"
 date: 2020-10-16
 categories: [poems]
 title-block-banner: false
+drafT: true
 ---
 Find a place to rest now. Sit.
 Close your eyes – yes, things will be fine.

@@ -3,7 +3,9 @@ title: "Forgive Me Szymborska"
 date: 2020-10-16
 categories: [poems]
 title-block-banner: false
+draft: true
 ---
+
 I prefer chocolate.
 I prefer music.
 I prefer facts dancing with feelings.

@@ -23,4 +23,5 @@ of quiet
 footsteps
 on amber
 landscapes
-praising the sun.
+praising 
+the sun.

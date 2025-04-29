@@ -4,9 +4,9 @@ date: 2020-04-13
 categories: [poems]
 title-block-banner: false
 ---
-God’s knocking at the bedroom door
-again. You redress yourself in reason
-but the devilish grin isn’t coming off
+God’s knocking at the door again. 
+You redress yourself in reason
+but the grin isn’t coming off
 as easily as before.
 You tell me we’re pushing it,
 you say we asked for forgiveness

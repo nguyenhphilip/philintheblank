@@ -8,5 +8,5 @@ Hope killed me today.
 
 It promised me
 I could be anything
-when all I wanted
+when all I needed
 was to be me.

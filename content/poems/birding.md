@@ -1,8 +1,9 @@
 ---
 title: "Instructions for birding"
 date: 2024-07-07
-draft: false
+draft: true
 ---
+
 It’s not all that different
 from living well. Go slow.
 Leave your labels at home.
@@ -20,9 +21,8 @@ You have all day which is
 to say a lifetime.
  
 Listen. Look. Look
-again until you see
-nothing is everything,
-everything in nothing.
+again until you can
+see sound.
  
 Let everything find you.
 Let every thing sing its song.
