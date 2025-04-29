@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/by-water/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/by-water/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/microposts/2025-03/</loc>
@@ -38,11 +38,8 @@
     <loc>/posts/hearthead/</loc>
     <lastmod>2024-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/poems/birding/</loc>
-    <lastmod>2024-07-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/poems/</loc>
-    <lastmod>2024-07-07T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
     <lastmod>2024-07-05T00:00:00+00:00</lastmod>
@@ -302,9 +299,6 @@
     <loc>/poems/08-16-22-let-go-not/</loc>
     <lastmod>2022-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/poems/08-14-22-vietnamese/</loc>
-    <lastmod>2022-08-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/poems/08-12-22-petty/</loc>
     <lastmod>2022-08-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -389,9 +383,6 @@
     <loc>/posts/on-writing/</loc>
     <lastmod>2021-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/poems/waiting/</loc>
-    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/posts/eyes/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -446,20 +437,8 @@
     <loc>/poems/waiting-for/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/poems/prayer/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/poems/fam/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/poems/ingredients/</loc>
-    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/poems/possibilities/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/poems/pause/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/poems/vulnerability/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
@@ -479,9 +458,6 @@
     <loc>/poems/27/</loc>
     <lastmod>2020-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/poems/calluses/</loc>
-    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/posts/to-be-american/</loc>
     <lastmod>2020-07-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -496,9 +472,6 @@
   </url><url>
     <loc>/poems/footsteps/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/poems/just_kids/</loc>
-    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/poems/lady_red/</loc>
     <lastmod>2020-06-11T00:00:00+00:00</lastmod>
@@ -518,26 +491,8 @@
     <loc>/poems/lovers-trees/</loc>
     <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/poems/refuge/</loc>
-    <lastmod>2020-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/poems/to-sky/</loc>
-    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/poems/blue/</loc>
-    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/poems/our-dream/</loc>
     <lastmod>2020-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/poems/our-room/</loc>
-    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/poems/knowledge/</loc>
-    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/poems/improvise/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/covid/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
@@ -554,14 +509,8 @@
     <loc>/posts/ears/</loc>
     <lastmod>2020-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/poems/love/</loc>
-    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/posts/paths/</loc>
     <lastmod>2020-02-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/poems/dwell/</loc>
-    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/superpower/</loc>
     <lastmod>2020-02-08T00:00:00+00:00</lastmod>
@@ -626,9 +575,6 @@
     <loc>/categories/matlab/</loc>
     <lastmod>2019-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/poems/enough/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/poems/seagulls/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -652,9 +598,6 @@
   </url><url>
     <loc>/posts/feelings/</loc>
     <lastmod>2018-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/poems/winter/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/18c-home/</loc>
     <lastmod>2017-12-30T00:00:00+00:00</lastmod>
