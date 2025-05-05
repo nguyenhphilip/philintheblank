@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/by-water/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+    <loc>/posts/middle/</loc>
+    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
+    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/by-water/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/microposts/2025-03/</loc>
@@ -160,6 +163,12 @@
   </url><url>
     <loc>/posts/23-08-10-thirty/</loc>
     <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/poem/</loc>
+    <lastmod>2023-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/poems/23-08-05-running/</loc>
+    <lastmod>2023-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/23-07-31-dog-days/</loc>
     <lastmod>2023-07-31T00:00:00+00:00</lastmod>

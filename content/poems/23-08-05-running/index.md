@@ -6,27 +6,22 @@ categories:
   - "poem"
   - "delights"
 title-block-banner: false
-draft: true
+draft: false
 ---
 
-They asked for his time,
-not how he got here.
-Let me wonder then:
-
-Did he stumble?
-Did his body crumble
+They asked for his time
+but not how he got there.
+Did he stumble? Did 
+his body crumble
 like a soggy crepe
-held up by sticks
-on his way
-to some
-pre-determined
-somewhere?
-
-Or did he bumble
-like a bee, all grace
-& no trace of
-a single step,
-every toe kissing
-the asphalt
-as if it were
-dirt?
+held up by the sticks
+of his legs on his way
+to a determined mark
+on a map? Or did he
+bumble like a bee
+all grace no trace
+of a single step
+with every toe
+tasting loving 
+the scent
+of asphalt?
