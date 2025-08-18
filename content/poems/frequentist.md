@@ -5,8 +5,6 @@ draft: false
 categories: [poems]
 ---
 
-A FREQUENTIST ON THE REBOUND
-
 There’s a chance this works:
 Meaning the odds are in our favor:
 Meaning I’ll do better next time.

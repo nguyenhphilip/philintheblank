@@ -5,8 +5,6 @@ categories: [poems]
 draft: false
 ---
 
-SONNET WRITTEN REALIZING MY THERAPIST IS A FAMOUS POET
-
 He starts with with his height: six foot something 
 (as if he didn’t know) which is in fact bigger than mine.
 We’ve talked about this (my tendency to self-compare) 
