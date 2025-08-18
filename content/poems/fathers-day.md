@@ -5,8 +5,6 @@ draft: false
 categories: [poems]
 ---
 
-FATHER’S DAY
-
 You got a new car: a 20 25 Tacoma. It’s practical you said: 
 look at the 6 by 7 truck bed! Sure 23 miles to the gallon
 isn’t great but who’s counting? You are I guess when you

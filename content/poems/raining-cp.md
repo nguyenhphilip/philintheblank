@@ -4,8 +4,6 @@ date: 2025-08-05
 draft: false
 ---
 
-IT’S RAINING IN CENTRAL PARK
-
 We’re standing on the mound
 of a baseball field. Our lips
 

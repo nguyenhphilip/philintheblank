@@ -5,4 +5,4 @@ draft: false
 categories: [poems]
 ---
 
-![](/static/post-images/fireflies.png)
+![](/post-images/fireflies.png)

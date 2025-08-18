@@ -4,6 +4,7 @@ date: 2022-10-03
 categories: [poems]
 title-block-banner: false
 ---
+
 is to sit in coffee shops
 with strangers who feel
 like home, every one of us

@@ -4,8 +4,6 @@ date: 2025-08-06
 draft: false
 ---
 
-VOLCANOES
-
 All around the world, forgotten volcanoes lie
 in wait. Some smoke hourly over the top,
 unburdened. Others watch the waves,
