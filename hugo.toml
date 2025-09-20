@@ -44,11 +44,6 @@ defaultContentLanguage = "en"
         url = "/projects/"
         weight = 30
     [[menu.main]]
-        identifier = "microposts"
-        name = "Microposts"
-        url = "/microposts/"
-        weight = 40
-    [[menu.main]]
         identifier = "gallery"
         name = "Gallery"
         url = "/gallery/"
