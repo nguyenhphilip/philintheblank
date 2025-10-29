@@ -791,6 +791,12 @@
         
         
             {
+                "url": "/images/gallery/american.jpg",
+                "name": "american.jpg",
+                "date": "2025-10-06"
+            },
+        
+            {
                 "url": "/images/gallery/IMG_1775.jpg",
                 "name": "IMG_1775.jpg",
                 "date": "2025-02-03"
@@ -1303,12 +1309,6 @@
             {
                 "url": "/images/gallery/alyona4.png",
                 "name": "alyona4.png",
-                "date": "2022-03-24"
-            },
-        
-            {
-                "url": "/images/gallery/american.jpg",
-                "name": "american.jpg",
                 "date": "2022-03-24"
             },
         
