@@ -5,9 +5,6 @@ categories: [poems]
 draft: false
 ---
 
-WORK MEETING IN THE DEPARTMENT OF PSYCHIATRY
-
-
 The problems are multi-factorial: mislabeled data, unstandardized input streams, 
 the constant search for certainty in categories: aggressive behavior, generalized
 anxiety disorder, risk of harm to self
@@ -31,7 +28,8 @@ the kind of people who smoke cigarettes
 
 
 without smoking cigarettes because mothers
-think they’re happier this way while men
+think they’re happier this way
+while the men
 are addicted to transcendence
 and the notion that their neuroses are patterns
 of self-organization rather than problems
@@ -46,31 +44,32 @@ who can’t become their lover
 
 in an office filled with dead
 plants and hardcover books telling them
-to love themselves
+to love themselves more
 
 
 more since depression is their father
-sending them video clips of guitar
-heroes from his facebook feed
-according to the eighth edition of the Diagnostic and Statistical
+sending them video clips of guitar heroes 
+from his facebook feed according to 
+the eighth edition of the Diagnostic and Statistical
 Manual of Standard Deviations
 from the Norm it’s true
+
+
 
 
 he does care but the words don’t come
 out naturally since he grew up
 believing music would overcome
 the limitations of his immigrant tongue
-
-
 even if what is sung is transmitted
 across an underwater tangle of cable
 wires that run thicker and farther than
 any network of tree roots he’d ever seen
-as an island boy “everything is connected” 
+as an island boy
+
+
+“everything is connected” 
 is the last word before insurance is billed
-
-
 meaning we are all at severe risk
 of more than moderate harm to self
 from self and others regardless
@@ -82,12 +81,16 @@ for thinking
 it could be otherwise 
 but not without forgetting
 the problem of the self first
-meaning your personality
-and don’t forget to realize
+meaning your personality,
+
+
+not without realizing
 the fundamental nature
 of things which may take
 a lifetime to discover
 if karma has decided
 you are one
 of the unlucky ones
-who can’t see what was always here
+who can’t see
+what was always here
+
