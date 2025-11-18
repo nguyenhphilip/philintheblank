@@ -45,5 +45,5 @@ counting the number of speedbumps
 we’ve crossed to reach
 each other on the lifelong road
 of being siblings. What we say this time
-is there are redlights to be counted
+is there are license plates to be counted
 on our way back home.
