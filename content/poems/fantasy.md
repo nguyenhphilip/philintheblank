@@ -2,10 +2,8 @@
 title: "A Fantasy"
 date: 2025-10-17
 categories: [poems]
-draft: false
+draft: true
 ---
-
-A Fantasy
 
 ("It is a joy to be hidden and a disaster not to be found." –Donald Winnicott)
 
