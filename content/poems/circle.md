@@ -16,7 +16,7 @@ still. How to hold you without stuttering.
 How to send my laughter without
 obstruction. The past accompanies me
 everyday, renders every message with
-a punch to my chest. I fumble again,
+a punch to my chest. I fumble again
 and that's when you step through 
 with a rock in your grip, as if to say this
 is harder. The Greeks merely pondered
