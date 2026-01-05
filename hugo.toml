@@ -53,11 +53,6 @@ defaultContentLanguage = "en"
         name = "About"
         url = "/about/"
         weight = 60
-    [[menu.main]]
-        identifier = "resume"
-        name = "Resume"
-        url = "/resume/"
-        weight = 70
 
 [markup]
     [markup.goldmark]
