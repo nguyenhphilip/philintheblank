@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html class="nojs" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="generator" content="Hugo 0.140.2">
+    <title>Central Limit Theorem | Phil in the Blank</title>
+    <link rel="icon" type="image/x-icon" href="/images/gallery/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.5;
+            font-size: 1.0rem;
+            color: #333;
+        }
+
+        h2 {
+            margin: 0; 
+            padding: 0; 
+            line-height: 1; 
+            font-weight: normal;
+        }
+
+        .page-container {
+            display: flex;
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 2rem;
+            gap: 4rem;
+        }
+
+        .sidebar {
+            width: 160px;
+            font-size: 1.0rem;
+            flex-shrink: 0;
+            position: fixed;
+        }
+
+        .post-date {
+            margin-bottom: 0.5rem; 
+            color: #666; 
+            font-size: 0.9rem;
+        }
+
+        .poem-date {
+            font-size: 0.9rem;
+        }
+
+        .posts-list {
+            width: 100%;
+        }
+        .site-title {
+            font-size: 1.3rem;
+            line-height: 1;
+            margin: 0 0 1rem 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        .site-title a {
+            color: #78797b;
+            text-decoration: none;
+        }
+
+        .site-title a:hover {
+            text-decoration: underline;
+        }
+
+        .main {
+            width: 100%;   
+        }
+
+        @media screen and (max-width: 1020px) {
+            .layout__page {
+                width: 100%;
+            }
+        }
+        .main-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .main-nav li {
+            margin-bottom: 0.25rem;
+        }
+
+        .main-nav a {
+            color: #4271ae;
+            text-decoration: none;
+            font-size: 1.0rem;
+        }
+
+        .main-nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .layout__page {
+        width: 100%;   
+        max-width: 600px;   
+        margin: 0 auto;   
+        float: none;
+        padding: 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            .layout__page {
+                max-width: 90%;
+            }
+            
+            .sidebar {
+                position: relative;
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+            
+            .page-container {
+                flex-direction: column;
+            }
+        }
+
+        .main-nav li {
+            margin-bottom: 0.25rem;
+            position: relative;
+        }
+
+        .nav-arrow {
+            display: inline-block;
+            margin-right: 0.5rem;  
+            font-size: 0.8rem;
+            line-height: 1;
+            color: #78797b;
+        }
+
+         
+        .nav-arrow {
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .active .nav-arrow {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="sidebar">
+            <h2 class="site-title"><a href="/">Phil in the Blank</a></h2>
+            <nav class="main-nav">
+                <ul>
+                    
+                    
+                    <li class="active">
+                        <a href="/posts/">Posts</a> <span class="nav-arrow">←</span>
+                    </li>
+                    
+                    <li class="">
+                        <a href="/poems/">Poems</a> <span class="nav-arrow">←</span>
+                    </li>
+                    
+                    <li class="">
+                        <a href="/projects/">Projects</a> <span class="nav-arrow">←</span>
+                    </li>
+                    
+                    <li class="">
+                        <a href="/gallery/">Gallery</a> <span class="nav-arrow">←</span>
+                    </li>
+                    
+                    <li class="">
+                        <a href="/about/">About</a> <span class="nav-arrow">←</span>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+
+        <div class="layout__page">
+            <main class="main layout__main">
+                
+<div class="post">
+    <h2>Central Limit Theorem</h2>
+    <div class="post-date">December 12, 2025</div>
+    <div class="post-content">
+        <p><em>A silly story (and a poem) involving a wild statistical concept</em></p>
+<p>Here’s a quote that gives me pause:</p>
+<blockquote>
+<p>I am often asked why people tend to find probability a difficult and unintuitive idea, and I reply that, after forty years researching and teaching in this area, I have finally concluded that it is because probability really is a difficult and unintuitive idea. I have sympathy for anyone who finds probability tricky. Even after my decades as a statistician, when asked a basic school question using probability, I have to go away, sit in silence with a pen and paper, try it a few different ways, and finally announce what I <strong>hope</strong> is the correct answer. (bolded mine)</p>
+</blockquote>
+<p>The author of this quote, David Spiegelhalter (see: <a href="https://www.amazon.com/Art-Statistics-Learning-Pelican-Books/dp/0241398630">The Art of Statistics</a>), is referring specifically to probability theory when he says he finds probability a difficult and unintuitive idea to understand. I’ll extend his sentiment to the study of statistics as a whole, which is undergirded by probability theory, but not synonymous with it.</p>
+<p>I struggled a lot with the most basic statistical concepts when I was a graduate student. Things like p-values, confidence intervals and the like never felt intuitive to me despite my constant use of and struggle to understand them. I knew I wasn’t the only one who didn’t quite understand statistics, but people seemed not to think this was a big deal despite the deep dependence of scientific research—of what we know (believe?)—on statistics.</p>
+<p>I can’t explain why, but the urge to understand statistics more deeply never left me, even long after I left my PhD program. Which leads me to the <a href="https://tidystat.com/central-limit-theorem-examples-plots-and-explanations/">Central Limit Theorem</a>.</p>
+<p>The CLT is one of those results that is simply baffling upon first encountering it. Dare I say it is even beautiful. I read about it again recently and still do not fully grasp it, but I will attempt to demonstrate what it is via a silly story. In a potential follow-up post, I will try to be more concrete by including explanations and code.</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!LASz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa887958f-0394-4169-a971-eaff691a89a0_4032x3024.heic" alt="Skyline from Dumbo"></p>
+<h1 id="story-time">Story time</h1>
+<p>Philberto has access to all the poems in the world. Every. Single. One. He loves knowing this fact, sometimes more than reading the poems themselves.</p>
+<p>One day, while writing a poem of his own, he gets bored and wants to know the average number of words used per poem across every single poem in existence.</p>
+<p>Since he has all of them, he simply has to add the number of words in each one (which may range from 37 to <a href="https://www.readinglength.com/book/B84QNws">100,000</a>+, depending on how you define a poem) and divide by the total number of poems. This average is the “true” average, the ultimate truth of poetic word count, which Philberto discovers is 321 words. He goes on to name this truth “the population mean.”</p>
+<p>Satisfied with his work, he returns to the dissatisfaction of writing poems.</p>
+<hr>
+<p>Elsewhere, an earthling named Philika does not have access to every poem in the world. In fact, Philika has access to only a handful of collections of poems. She is a poet, after all, and poets do not make much—if any—money. She needs money, though, to support herself so she can continue writing poems. This puts her in a bind, because she does not know how to make money. She only knows how to write poems about money and not having it.</p>
+<p>One day, while walking through the city in search of inspiration, a ghostly poster announces itself to her attention. On it is what seems to be a puzzle with a prize:</p>
+<blockquote>
+<p>$10000 in cash to the person who can find the true average word count of every poem ever written. ;)
+—Anonymous</p>
+</blockquote>
+<p>The task strikes her as impossible since she does not have access to every poem, nor will she ever. This sends her heart into a pit of depression. She walks on, regretting her life choices, cursing the universe for instilling in her a love of words.</p>
+<p>Adding insult to injury, she is hit in the face by a loose sheet of paper on her way back home. “Just my luck,” she says.</p>
+<p>She pulls it from her face and, strangely enough, finds a poem scratched onto it. The ink, if it is ink, is a color she hasn’t seen before. Every word seems to be engraved, which is also surprising. “Just my luck!” she says.</p>
+<p>It’s hardly legible and the wind has found her bones, but she begins to read it anyway outside on her doorstep:</p>
+<blockquote>
+<p>CENTRAL LIMIT THEOREM</p>
+<p>If you take
+several measurements
+of quite literally anything (height, weight,
+the number of words or lines in a poem),
+calculate the average of those measurements</p>
+<p>and do this over and over again, you will find
+that the average of these averages
+is the same as the true average
+of what you are measuring if you had access
+to every possible observation of that thing</p>
+<p>(all the heights, weights, the number of words
+or lines in a poem). What I am saying is:
+The truth of a thing is revealed in the long run</p>
+<p>of ongoing participation. And: the extraordinary
+contributes in ordinary ways, just as equally
+as the ordinary and the less than
+when subject to random selection</p>
+<p>and the desire for
+randomness
+to add up
+to something.</p>
+</blockquote>
+<p>It’s not Rilke, Gilbert, or Stevens. But something about it charms her, feels sacred even. She has no clue what it means, but the grip of inspiration is starting to take hold of her. She must follow it, no matter where it leads her; this is her life motto.</p>
+<p>It brings her into her bedroom, where she is beckoned to count and record the number of words in every poem she has access to. When she is done she is to compute the average, a voice says. By morning she has one, but the voice tells her she has forgotten to include some poems.</p>
+<p>“No way,” she responds, exhausted. “I know the ins and outs of every collection, every poem I have.”</p>
+<p>But when she goes to check her bookshelf, she sees that all the poetry she owns is gone. In its place is a new set of poems and anthologies, many of which she hasn’t heard of before. One collection is authorless.</p>
+<p>“What the f—”</p>
+<p>Before she finishes her thought, she is seized by inspiration again. It compels her to repeat the task: <em>count the number of words in each new poem that has appeared, then calculate the average again.</em> These poems are more sparse than the ones she owned, are less wordy and more visually sprawled, making the task of counting words somewhat more annoying.</p>
+<p>By the time she finishes, is in possession of two averages, it happens again: the poems in her home are replaced by new ones, and she is pushed to calculate more averages.</p>
+<p>Some of them are larger than others, dramatically so. And yet, a kind of order is emerging. She is too immersed in the task to notice it, which goes on for a week until she has a thousand word count averages listed in her notebook.</p>
+<p>She wants to drop to the floor and curl up like a ball, but one final bout of inspiration overtakes her. She cannot resist hearing its voice. The tone is gentler than before, a quiet reprieve which she feels she can inhabit. She steps into it, listens to its final message:</p>
+<p><em>Calculate the average of the averages, and then submit. Your task will be done then, I promise.</em></p>
+<p>The average of her thousand averages is <strong>320.98 words</strong>. She does not know where to submit, only that she must. Once it is written, she is lulled into a deep sleep, upright in her chair. She dreams of words flying above a sea of familiar numbers.</p>
+<p>A knock on her door wakes her up. She stumbles over and opens it, finding no one there. There is merely an oversized manila envelope on the ground. She opens it cautiously—then suddenly when she realizes what’s inside. Something in the air forms into a single, incomprehensible word, a word she cannot write down but feels as if it is already known.</p>
+<hr>
+<p>Philberto received the submission at what would have been two o’clock in the morning if he tracked his days according to human time. The rest of them had been random guesses—garbage, in other words, a lack of desire for seeking the truth. This one, on the other hand, was wildly close to the population mean. How could a mere human being achieve such a feat, he wondered? Something about the number was charged with divinity. In fact it reminded him of himself.</p>
+<p>He smiled, formed a set of fingers to snap, granted the woman rest, and delivered her reward.</p>
+
+    </div>
+</div>
+
+<style>
+    
+    .post-content {
+        line-height: 1.5;
+         
+    }
+
+    .post-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 0.5rem auto;  
+        display: block;  
+    }
+
+    .post-content blockquote {
+        margin: 1.5rem 0;
+        padding: 0.5rem 0 0.5rem 1.5rem;
+        border-left: 4px solid #e5e5e5;
+        color: #555;
+    }
+
+    .post-content blockquote p {
+        margin: 0;
+    }
+</style>
+
+            </main>
+        </div>
+    </div>
+</body>
+</html>
